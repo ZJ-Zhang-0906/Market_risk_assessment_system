@@ -62,4 +62,4 @@ def fetch_data_and_insert_to_py_moea_input():
     print("資料已成功插入到資料庫，並為 web_input 表添加了索引。")
 
 
-update_database()
+# fetch_data_and_insert_to_py_moea_input()
