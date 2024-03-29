@@ -1,0 +1,99 @@
+#testr {
+    border-radius: 15px;
+}
+
+#testt {
+    background-color: #3e9fc0;
+}
+
+#testt:hover {
+    background-color: #2abbbb;
+
+}
+
+.menu-item {
+    position: relative;
+    list-style: none;
+}
+
+.menu-item::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    /* 调整下划线的高度 */
+    background-color: #3737a7;
+    /* 设置下划线颜色，可以根据需要进行调整 */
+}
+
+.in {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+}
+
+.in:hover {
+    color: rgb(0, 89, 255);
+}
+
+.containers {
+    opacity: 1;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.but {
+    background-color: #44c5d7;
+    color: black;
+    border-radius: 15%;
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.but:hover {
+    background-color: #44c5d7;
+    color: rgb(126, 63, 63);
+    border-radius: 15%;
+    width: auto;
+    box-shadow: #000000;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#navigation {
+    background: #49a2bce6;
+}
+
+footer {
+    width: 100%;
+    background: #161617e6;
+    color: #fff;
+}
+
+.getTOp {
+    border: #161617e6;
+}
+
+.count {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+#END {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

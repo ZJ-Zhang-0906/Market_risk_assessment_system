@@ -1,0 +1,56 @@
+.quencard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: #000 solid 1px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.cloum {
+    column-count: 2;
+    column-gap: 20px;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    /* font-weight: bold; */
+    
+    
+    /* 將寬度設為100%，以便填充父元素的寬度 */
+}
+
+.snap {
+    flex: 2;
+    margin: 10px;
+    max-width: calc(50% - 20px);
+}
+
+.hh1 {
+    text-align: center;
+}
+.A2{
+	padding: 5px 0 0 0;
+}
+
+/* 桌面和大屏幕設備 */
+@media (min-width: 992px) {
+    .quencard {
+        width: 1100px;
+        
+        /* 只在大於等於992px時設定為1000px */
+    }
+}
+
+/* 手機和小屏幕設備 */
+@media (min-width: 768px) and (max-width: 991px) {
+    .quencard {
+        width: 600px; /* 你可以根据需要调整宽度 */
+    }
+}
+@media (max-width: 767px) {
+    .quencard {
+        width: 370px;
+        /* 只在小於等於991px時設定為390px */
+    }
+}

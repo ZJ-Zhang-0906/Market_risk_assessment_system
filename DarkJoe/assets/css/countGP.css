@@ -1,0 +1,71 @@
+h2 {
+    text-align: center;
+    color: #3737a7;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin: 10px 5px 20px 5px;
+}
+
+#setrange {
+    font-size: 60px;
+}
+
+.KP{
+    font-size: x-large;
+
+}
+.portfolio-area{
+    height: auto;
+    margin: 0 0 60px 0;
+}
+.card{
+    width: 250px;
+    height: 160px;
+    background-color: darkcyan;
+    border-radius:2vh ;
+    margin: 2vh;
+    border-radius: 12px;
+    color: #000000;
+    cursor: pointer;
+    transition: all 1s ease;
+    display: block;
+}
+
+.one{
+    background-color: #c5c1d1;
+    background-image: linear-gradient(135deg, #ffffff,#3aa2de);
+    box-shadow: 20px 20px 60px rgba(34, 50, 84, 0.5),1px 1px 0px 1px #8063e1;
+    z-index: 5;
+    opacity: 0.9;
+}
+.services {
+    text-align: center; /* 對齊文本 */
+    margin: 0 auto; /* 對齊區塊 */
+    display: block; /* 確保元素是塊級元素 */
+}
+.setcen {
+    text-align: center;
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+
+}
+
+.mar-bottom{
+   
+    margin-bottom: 5px;
+}
+.mar-top{
+    margin: 5px 0 0 0;
+}
+
+#Systemseting{
+    width: 140px;
+    margin: 15px 0 0 0 ;
+}
+
+
+
