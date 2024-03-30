@@ -10,6 +10,7 @@ def fetch_data_and_insert_to_py_moea_input():
     # 建立資料庫連接
     conn, driver = connect()
     cursor = conn.cursor()
+
     
     try:
         # 索引最新的資料表記錄

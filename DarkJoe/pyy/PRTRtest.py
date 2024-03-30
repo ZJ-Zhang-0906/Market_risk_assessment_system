@@ -9,7 +9,6 @@ from dotenv import load_dotenv
 from fetch import fetch_data_and_insert_to_twincn
 from connet_db import connect
 
-
 # 连接数据库
 
 def fetch_and_clean_data():
@@ -36,6 +35,7 @@ def fetch_and_clean_data():
         return json.dumps(all_data, ensure_ascii=False, indent=4)
     finally:
         conn.close()
+       
 def fetch_data_and_insert_to_py_prtr_input():
     conn, driver = connect()
     cursor = conn.cursor()
