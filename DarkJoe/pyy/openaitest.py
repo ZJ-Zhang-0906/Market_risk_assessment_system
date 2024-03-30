@@ -1,5 +1,5 @@
 import openai
-
+#==========================================openai 問答==================================
 def fetch_openai_response(api_key, question):
     """
     使用OpenAI API发送聊天消息并获取回复。
@@ -23,3 +23,4 @@ def fetch_openai_response(api_key, question):
 
     # 提取并返回assistant的消息内容
     return response.choices[0].message['content']
+#=============================================================================

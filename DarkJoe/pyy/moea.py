@@ -5,7 +5,7 @@ import pymysql.cursors
 from connet_db import connect
 
 
-
+#=============================抓公司登記的資料============================================
 def fetch_data_and_insert_to_py_moea_input():
     # 建立資料庫連接
     conn, driver = connect()
@@ -63,4 +63,4 @@ def fetch_data_and_insert_to_py_moea_input():
     print("資料已成功插入到資料庫，並為 web_input 表添加了索引。")
 
 
-# fetch_data_and_insert_to_py_moea_input()
+#===============================================================================================

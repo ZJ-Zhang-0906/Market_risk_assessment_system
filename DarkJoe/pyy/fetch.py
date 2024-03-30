@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 import time
 from connet_db import connect
-
+#==================================台灣公司網爬訴訟=================================================
 def fetch_data_and_insert_to_twincn():
     # 使用 connect 函数获取数据库连接和WebDriver对象
     conn, driver = connect()
@@ -50,3 +50,4 @@ def fetch_data_and_insert_to_twincn():
 
 # 调用函数
 # fetch_data_and_insert_to_db()
+#====================================================================================================

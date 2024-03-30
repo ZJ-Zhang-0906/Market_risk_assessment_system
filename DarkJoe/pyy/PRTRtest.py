@@ -10,7 +10,7 @@ from fetch import fetch_data_and_insert_to_twincn
 from connet_db import connect
 
 # 连接数据库
-
+#===========================================抓所有table資料並轉成json並過濾autono=================================
 def fetch_and_clean_data():
     conn, driver = connect()
     cursor = conn.cursor()
@@ -35,7 +35,9 @@ def fetch_and_clean_data():
         return json.dumps(all_data, ensure_ascii=False, indent=4)
     finally:
         conn.close()
-       
+#============================================================================================
+
+#==========================================環境部爬汙染======================================== 
 def fetch_data_and_insert_to_py_prtr_input():
     conn, driver = connect()
     cursor = conn.cursor()
@@ -104,17 +106,6 @@ def fetch_data_and_insert_to_py_prtr_input():
 
     driver.quit()
 
-# def test(teset):
-#     return teset
-
-# 调用函数并打印结果
-fetch_data_and_insert_to_twincn()
-# fetch_data_and_insert_to_database()
-# print(test(fetch_and_clean_data()))
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-api_key = OPENAI_API_KEY  # 替换为您的OpenAI API密钥
-question = """丟問題"""  # 用户提出的问题
-# response_content = fetch_openai_response(api_key, question)
-# print(response_content)
+#=========================================================================================
 
 

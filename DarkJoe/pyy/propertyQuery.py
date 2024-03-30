@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.service import Service
 import time
 from connet_db import connect
 
+#======================================抓動產資料=====================================
 def fetch_data_and_insert_to_py_ppstrq_input():
     # 使用 connect 函数获取数据库连接和WebDriver对象
     conn, driver = connect()
@@ -67,5 +68,4 @@ def fetch_data_and_insert_to_py_ppstrq_input():
         cursor.close()
         conn.close()
 
-# 使用这个函数
-# fetch_data_and_insert_to_py_ppstrq_input()
+#===================================================================================

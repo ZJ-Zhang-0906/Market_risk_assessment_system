@@ -4,6 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 
+#======================================連線db、設置chromedriver位址===========================
 def connect():
     # 设置 Chrome 驱动器路径
     driver_path = r'C:\xampp\htdocs\python\chromedriver-win64\chromedriver.exe'
@@ -19,3 +20,5 @@ def connect():
     
     # 返回数据库连接和WebDriver对象
     return conn, driver
+
+#=======================================================================================================
