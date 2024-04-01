@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/nav.css">
+    <!-- <link rel="stylesheet" href="assets/css/loading.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- google fonts -->
@@ -116,6 +117,7 @@
     <section id="services" class="service-area">
         <div class="container">
             <h2 class="block_title">風險評估系統</h2>
+
             <form id="form">
                 <div class="row">
                     <div class="col-12 input-group mb-3 ">
@@ -187,15 +189,7 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/js/modernizr.js"></script>
     <script src="assets/js/TransferPython.js"></script>
-    <script>
-         function crawler() {
-            let Company_Name_Value = document.querySelector('#Company_Name').value;
-            let Uniform_numbers_Value = document.querySelector('#Uniform_numbers').value;
-            console.log(Company_Name_Value);
-            console.log(Uniform_numbers_Value);
-        }
-    </script>
-
+ 
 </body>
 
 </html>

@@ -41,7 +41,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     //         "message" => "Insert false",
     //     );
     // };
-    if($stmt->execute()){
+    if ($stmt->execute()) {
         $response["success"] = true;
         $response["message"] = "Insert success";
     } else {
@@ -54,22 +54,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // echo json_encode($data);
 
     // 脚本路径，相对于当前PHP脚本的位置
-    $scriptPaths = [
-        'C:/xampp/htdocs/ProjectNew/DarkJoe/pyy/moea.py',
-        'C:/xampp/htdocs/ProjectNew/DarkJoe/pyy/MOL_SQL.py',
-        'C:/xampp/htdocs/ProjectNew/DarkJoe/pyy/propertyQuery.py',
-        'C:/xampp/htdocs/ProjectNew/DarkJoe/pyy/PRTRtest.py',
-    ];
+    $scriptPath = 'C:/xampp/htdocs/ProjectNew/DarkJoe/pyy/main.py';
 
     $pythonPath = 'C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe'; // 或根据您的环境配置适当修改
 
-    foreach ($scriptPaths as $scriptPath) {
-        $command = escapeshellcmd("$pythonPath $scriptPath");
-        // 执行Python脚本并捕获输出
-        $output = shell_exec($command);
-        // 将输出添加到响应数组
-        $response["pythonOutput"][] = $output;
-    }
+    $command = escapeshellcmd("$pythonPath $scriptPath");
+    // 执行Python脚本并捕获输出
+    $output = shell_exec($command);
+    // 将输出添加到响应数组
+    $response["pythonOutput"] = $output;
 
     // 发送JSON响应
     header('Content-Type: application/json');

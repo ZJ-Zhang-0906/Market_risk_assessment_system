@@ -1415,21 +1415,21 @@ document.getElementById('form').addEventListener('submit', async function(e){
               return false;
             }
 
-            if (CompanyName === "玉山商業銀行" && UniformNumbers === "86517510") {
-              window.location.href="loading.php"; 
-            } else if (CompanyName === "聯發科技" && UniformNumbers === "84149961"){
-              window.location.href="loading2.php"; 
-            }  else if (CompanyName === "寬利電機" && UniformNumbers === "81020420"){
-              window.location.href="loading3.php"; 
-            }  else if (CompanyName === "雅鈊工程" && UniformNumbers === "83291953"){
-              window.location.href="loading4.php"; 
-            }  else if (CompanyName === "中國信託商業銀行" && UniformNumbers === "03077208"){
-              window.location.href="loading5.php"; 
-            }
-          }else{
-            alert(data.message);
-          }
-        })
+            // if (CompanyName === "玉山商業銀行" && UniformNumbers === "86517510") {
+            //   window.location.href="loading.php"; 
+            // } else if (CompanyName === "聯發科技" && UniformNumbers === "84149961"){
+            //   window.location.href="loading2.php"; 
+            // }  else if (CompanyName === "寬利電機" && UniformNumbers === "81020420"){
+            //   window.location.href="loading3.php"; 
+            // }  else if (CompanyName === "雅鈊工程" && UniformNumbers === "83291953"){
+            //   window.location.href="loading4.php"; 
+            // }  else if (CompanyName === "中國信託商業銀行" && UniformNumbers === "03077208"){
+            //   window.location.href="loading5.php"; 
+            // }
+          // }else{
+          //   alert(data.message);
+          // }
+        }})
 });
 
 
