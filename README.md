@@ -13,7 +13,7 @@ It's so bad project
 
 
 Topic Thinker
-Kang Ji Jun
+KANG,JIA-CHUN
 Contributor
-Lin Chihsu、Wang Jiemin 、zj Zheng
+LIN,CHI-HSU、Wang Jiemin 、zj Zheng
 
