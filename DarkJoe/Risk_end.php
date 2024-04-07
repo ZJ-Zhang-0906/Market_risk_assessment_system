@@ -170,7 +170,6 @@ if (file_exists($jsonFilePath)) {
     <!-- Necessery scripts -->
     <script src="assets/js/jquery-2.1.3.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <script src="assets/js/jquery.actual.min.js"></script>
     <script src="assets/js/smooth-scroll.js"></script>
     <script src="assets/js/owl.carousel.js"></script>

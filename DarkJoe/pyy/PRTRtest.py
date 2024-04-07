@@ -20,7 +20,7 @@ def fetch_and_clean_data():
 
         with conn.cursor(pymysql.cursors.DictCursor) as cursor:
             for table in tables:
-                cursor.execute(f"SELECT * FROM {table} ORDER BY id DESC LIMIT 1")
+                cursor.execute(f"SELECT * FROM {table} ORDER BY AutoNo DESC LIMIT 1")
                 result = cursor.fetchall()
 
                 cleaned_result = []
@@ -88,7 +88,7 @@ def fetch_data_and_insert_to_py_prtr_input():
     button = driver.find_element(By.CLASS_NAME, "search_submit")
     # 點擊按鈕
     button.click()
-    time.sleep(5)
+    time.sleep(2)
     try:  # 沒有資料
         no_data_div = driver.find_element(By.CLASS_NAME, 'no_data')
         # 在no_data_div内部查找class为'text'的div
@@ -109,7 +109,7 @@ def fetch_data_and_insert_to_py_prtr_input():
         conn.rollback()
 
     # 等待一些時間，以便查看搜尋結果
-    time.sleep(3)
+    time.sleep(1)
 
     driver.quit()
 

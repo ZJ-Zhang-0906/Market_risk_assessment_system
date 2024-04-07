@@ -1,6 +1,5 @@
 <?php
 
-// 更正變量名稱
 $host = 'localhost';
 $dbuser = 'root';
 $dbpassword = '';
@@ -9,52 +8,68 @@ $dbname = 'fmras_sql';
 $response = [
     "success" => false,
     "message" => "",
-    "pythonOutput" => [] // 明确初始化为一个空数组
+    "redirect" => []
 ];
-// 檢查表單是否已提交
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // 建立連接
+    header('Content-Type: application/json'); // 确保在输出之前设置
+
     $conn = new mysqli($host, $dbuser, $dbpassword, $dbname);
 
-    // 檢查連接
     if ($conn->connect_error) {
-        die("連接失敗: " . $conn->connect_error);
+        $response["message"] = "连接失败: " . $conn->connect_error;
+        echo json_encode($response);
+        exit; // 确保在连接失败时终止脚本
     }
 
     $json_data = file_get_contents('php://input');
     $requestData = json_decode($json_data, true);
 
+    if (!$requestData) {
+        $response["message"] = "无效的JSON数据";
+        echo json_encode($response);
+        exit; // 处理无效JSON
+    }
+
     $CompanyName = $requestData['CompanyName'];
     $UniformNumbers = $requestData['UniformNumbers'];
 
-    // 預備和綁定
     $stmt = $conn->prepare("INSERT INTO web_input (CompanyName, BusinessAccountingNO) VALUES (?, ?)");
     $stmt->bind_param("ss", $CompanyName, $UniformNumbers);
-   
+
     if ($stmt->execute()) {
         $response["success"] = true;
         $response["message"] = "Insert success";
     } else {
-        $response["success"] = false;
         $response["message"] = "Insert failure";
     }
     $stmt->close();
     $conn->close();
 
-    // echo json_encode($data);
+    // 删除旧的 JSON 文件（如果存在）
+    $jsonFilePath = 'C:/xampp/htdocs/ProjectNew/DarkJoe/data.json';
+    if (file_exists($jsonFilePath)) {
+        unlink($jsonFilePath); // 删除文件
+    }
 
-    // 脚本路径，相对于当前PHP脚本的位置
+
+    // 执行 Python 脚本
     $scriptPath = 'C:/xampp/htdocs/ProjectNew/DarkJoe/pyy/main.py';
-
-    $pythonPath = 'C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe'; // 或根据您的环境配置适当修改
+    $pythonPath = 'C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe';
 
     $command = escapeshellcmd("$pythonPath $scriptPath");
-    // 执行Python脚本并捕获输出
     $output = shell_exec($command);
-    // 将输出添加到响应数组
-    $response["pythonOutput"] = $output;
 
-    // 发送JSON响应
-    header('Content-Type: application/json');
-    echo json_encode($response);
+
+    // 检查 Python 脚本生成的新 JSON 文件
+    if (file_exists($jsonFilePath)) {
+        $jsonContent = file_get_contents($jsonFilePath);
+        $response["data"] = json_decode($jsonContent, true);
+        $response["redirect"] = "Risk_end.php"; // 设置重定向目标
+    } else {
+        $response["message"] = "Python 脚本未生成预期的输出文件";
+        $response["redirect"] = "Risk_Assessment-search.php?error=" . urlencode($response["message"]);
+    }
+    
+    echo json_encode($response); // 发送 JSON 响应
 }
