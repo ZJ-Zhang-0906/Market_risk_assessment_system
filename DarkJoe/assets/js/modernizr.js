@@ -1385,52 +1385,52 @@ window.Modernizr = (function( window, document, undefined ) {
 
 
 //測試
-document.getElementById('form').addEventListener('submit', async function(e){
-        e.preventDefault();
-        const CompanyName=document.getElementById('Company_Name').value;
-        const UniformNumbers= document.getElementById('Uniform_numbers').value;
+// document.getElementById('form').addEventListener('submit', async function(e){
+//         e.preventDefault();
+//         const CompanyName=document.getElementById('Company_Name').value;
+//         const UniformNumbers= document.getElementById('Uniform_numbers').value;
 
-        const data = {
-          CompanyName: CompanyName,
-          UniformNumbers: UniformNumbers,
-        };
+//         const data = {
+//           CompanyName: CompanyName,
+//           UniformNumbers: UniformNumbers,
+//         };
 
-        await fetch('InsertData.php', {
-          method: 'POST',
-          body: JSON.stringify(data),
-          headers: {
-            "Content-Type": 'application/json',
-          },
-        })
-        .then((response) => {
-          if(!response.ok){
-            throw new Error(response.status);
-          }
-          return response.json();
-        })
-        .then((data) => {
-          if(data.success){
-            if(CompanyName === '' && UniformNumbers === '') {
-              alert("查無資料，請確認後重新輸入。");
-              return false;
-            }
+//         await fetch('InsertData.php', {
+//           method: 'POST',
+//           body: JSON.stringify(data),
+//           headers: {
+//             "Content-Type": 'application/json',
+//           },
+//         })
+//         .then((response) => {
+//           if(!response.ok){
+//             throw new Error(response.status);
+//           }
+//           return response.json();
+//         })
+//         .then((data) => {
+//           if(data.success){
+//             if(CompanyName === '' && UniformNumbers === '') {
+//               alert("查無資料，請確認後重新輸入。");
+//               return false;
+//             }
 
-            // if (CompanyName === "玉山商業銀行" && UniformNumbers === "86517510") {
-            //   window.location.href="loading.php"; 
-            // } else if (CompanyName === "聯發科技" && UniformNumbers === "84149961"){
-            //   window.location.href="loading2.php"; 
-            // }  else if (CompanyName === "寬利電機" && UniformNumbers === "81020420"){
-            //   window.location.href="loading3.php"; 
-            // }  else if (CompanyName === "雅鈊工程" && UniformNumbers === "83291953"){
-            //   window.location.href="loading4.php"; 
-            // }  else if (CompanyName === "中國信託商業銀行" && UniformNumbers === "03077208"){
-            //   window.location.href="loading5.php"; 
-            // }
-          // }else{
-          //   alert(data.message);
-          // }
-        }})
-});
+//             // if (CompanyName === "玉山商業銀行" && UniformNumbers === "86517510") {
+//             //   window.location.href="loading.php"; 
+//             // } else if (CompanyName === "聯發科技" && UniformNumbers === "84149961"){
+//             //   window.location.href="loading2.php"; 
+//             // }  else if (CompanyName === "寬利電機" && UniformNumbers === "81020420"){
+//             //   window.location.href="loading3.php"; 
+//             // }  else if (CompanyName === "雅鈊工程" && UniformNumbers === "83291953"){
+//             //   window.location.href="loading4.php"; 
+//             // }  else if (CompanyName === "中國信託商業銀行" && UniformNumbers === "03077208"){
+//             //   window.location.href="loading5.php"; 
+//             // }
+//           // }else{
+//           //   alert(data.message);
+//           // }
+//         }})
+// });
 
 
 
