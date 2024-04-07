@@ -189,7 +189,25 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/js/modernizr.js"></script>
     <script src="assets/js/TransferPython.js"></script>
- 
+    <script>
+        document.getElementById('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const CompanyName = document.getElementById('Company_Name').value;
+            const UniformNumbers = document.getElementById('Uniform_numbers').value;
+
+            const data = {
+                CompanyName: CompanyName,
+                UniformNumbers: UniformNumbers,
+            };
+
+            // 將數據保存到 localStorage
+            localStorage.setItem("formData", JSON.stringify(data));
+
+            // 跳轉到 loading.php
+            window.location.href = "loading.php";
+        });
+    </script>
+
 </body>
 
 </html>

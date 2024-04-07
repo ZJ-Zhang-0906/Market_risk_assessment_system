@@ -16,11 +16,11 @@ def fetch_and_clean_data():
     cursor = conn.cursor()
     try:
         all_data = {}
-        tables = ['py_prtr_input', 'py_moea_input', 'py_mol_input', 'py_ppstrq_input']
+        tables = ['py_prtr_input', 'py_moea_input', 'py_mol_input', 'py_ppstrq_input','twincn']
 
         with conn.cursor(pymysql.cursors.DictCursor) as cursor:
             for table in tables:
-                cursor.execute(f"SELECT * FROM {table}")
+                cursor.execute(f"SELECT * FROM {table} ORDER BY id DESC LIMIT 1")
                 result = cursor.fetchall()
 
                 cleaned_result = []
@@ -32,7 +32,14 @@ def fetch_and_clean_data():
                 all_data[table] = cleaned_result
 
         # 将所有数据转换为JSON格式
-        return json.dumps(all_data, ensure_ascii=False, indent=4)
+        json_data = json.dumps(all_data, ensure_ascii=False, indent=4)
+
+        # 写入JSON文件
+        file_path = r'C:\xampp\htdocs\ProjectNew\DarkJoe\data.json'  # 替换为你想要保存的路径
+        with open(file_path, 'w', encoding='utf-8') as file:
+            file.write(json_data)
+
+        return json_data  # 返回文件路径
     finally:
         conn.close()
 #============================================================================================

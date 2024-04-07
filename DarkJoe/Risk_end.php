@@ -1,10 +1,15 @@
 <?php
-require 'fetch_data.php'; // 引入含有fetchAndCleanData函数的文件
+$jsonFilePath = 'C:/xampp/htdocs/ProjectNew/DarkJoe/data.json';
 
-$json_data = fetchAndCleanData(); // 调用函数并获取JSON数据
-
-
-
+// 檢查文件是否存在
+if (file_exists($jsonFilePath)) {
+    $jsonData = file_get_contents($jsonFilePath);
+    $dataArray = json_decode($jsonData, true);
+} else {
+    $dataArray = [];
+    // 處理文件不存在的情況，例如通過錯誤訊息
+    echo "<p>找不到數據文件。</p>";
+}
 ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -59,7 +64,7 @@ $json_data = fetchAndCleanData(); // 调用函数并获取JSON数据
                     </a>
                 </div>
                 <div class="col-xs-8">
-                <div class="content"><a data-scroll href="#body" class="logo-text" style="font-family:sans-serif; font-size: 30px;text-align: center; display: flex; flex-direction: initial;align-items: baseline; justify-content: center;">市場風險<br>評估系統</a>
+                    <div class="content"><a data-scroll href="#body" class="logo-text" style="font-family:sans-serif; font-size: 30px;text-align: center; display: flex; flex-direction: initial;align-items: baseline; justify-content: center;">市場風險<br>評估系統</a>
                     </div>
                 </div>
                 <div class="col-xs-2">
@@ -115,47 +120,16 @@ $json_data = fetchAndCleanData(); // 调用函数并获取JSON数据
     <section id="services" class="service-area">
         <div class="container">
             <div class="row" id="END">
-                <!-- <img src="./imagge/Claude.png" alt=""> -->
-
-                公司基本資料:
-                <br>
-                名稱:玉山商業銀行股份有限公司
-                <br>
-                統一編號:86517510
-                <br>
-                地址:臺北市松山區民生東路3段115號及117號
-                <br>
-                負責人:黃男州
-                <br>
-                資本額:117,072,000,000元
-                <br>
-                <br>
-                玉山商業銀行股份有限公司評分:
-                <br>
-                <br>
-                資本額:最近1年有增加(1分)
-                <br>
-                地址:無變更(0分)
-                <br>
-                負責人:無變更(0分)
-                <br>
-                發票:有開立(1分)
-                <br>
-                營業中:是(1分)
-                <br>
-                訴訟:無資料,視為無(1分)
-                <br>
-                勞基法:無資料,視為無罰款(1分)
-                <br>
-                環保:無資料,視為無裁罰(1分)
-                <br>
-                動產設定:無資料,視為無(1分)
-                <br>
-                <br>
-                從0分開始計算
-                <br>
-                <br>
-                總分:7分,評定為低風險
+                <?php foreach ($dataArray as $key => $valueArray) : ?>
+                    <h2><?php echo htmlspecialchars($key); ?></h2>
+                    <?php foreach ($valueArray as $value) : ?>
+                        <div>
+                            <?php foreach ($value as $subKey => $subValue) : ?>
+                                <p><?php echo htmlspecialchars($subKey) . ': ' . htmlspecialchars(is_array($subValue) ? implode(", ", $subValue) : $subValue); ?></p>
+                            <?php endforeach; ?>
+                        </div>
+                    <?php endforeach; ?>
+                <?php endforeach; ?>
 
             </div>
         </div>

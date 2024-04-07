@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<div id="page">
+    <div id="page">
         <div id="container">
             <div id="ring"></div>
             <div id="ring"></div>
@@ -17,17 +17,38 @@
             <div id="ring"></div>
             <div id="h3">loading...</div>
         </div>
-</div>
+    </div>
 
     <br>
 
 
     <script>
-       
-        setTimeout(function () {
+        document.addEventListener('DOMContentLoaded', function() {
+            // 從 localStorage 獲取數據
+            const data = localStorage.getItem("formData");
+            localStorage.removeItem("formData"); // 清除數據
 
-            window.location.href = "Risk_end.php";
-        }, 2000); // 5秒后跳转
+            fetch('InsertData.php', {
+                    method: 'POST',
+                    body: data,
+                    headers: {
+                        "Content-Type": 'application/json',
+                    },
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success && data.redirect) {
+                        // 根據 InsertData.php 的響應進行跳轉
+                        window.location.href = data.redirect;
+                    } else {
+                        // 處理錯誤情況
+                        console.log("錯誤或未提供跳轉地址");
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
     </script>
 </body>
 

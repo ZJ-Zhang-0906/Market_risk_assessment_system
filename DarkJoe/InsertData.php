@@ -30,17 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // 預備和綁定
     $stmt = $conn->prepare("INSERT INTO web_input (CompanyName, BusinessAccountingNO) VALUES (?, ?)");
     $stmt->bind_param("ss", $CompanyName, $UniformNumbers);
-    // if ($stmt->execute()) {
-    //     $data = array(
-    //         "success" => true,
-    //         "message" => "Insert success",
-    //     );
-    // } else {
-    //     $data = array(
-    //         "success" => false,
-    //         "message" => "Insert false",
-    //     );
-    // };
+   
     if ($stmt->execute()) {
         $response["success"] = true;
         $response["message"] = "Insert success";
