@@ -1,0 +1,10 @@
+      <?php foreach ($dataArray as $key => $valueArray) : ?>
+                    <h2><?php echo htmlspecialchars($key); ?></h2>
+                    <?php foreach ($valueArray as $value) : ?>
+                        <div>
+                            <?php foreach ($value as $subKey => $subValue) : ?>
+                                <p><?php echo htmlspecialchars($subKey) . ': ' . htmlspecialchars(is_array($subValue) ? implode(", ", $subValue) : $subValue); ?></p>
+                            <?php endforeach; ?>
+                        </div>
+                    <?php endforeach; ?>
+                <?php endforeach; ?>

@@ -120,17 +120,8 @@ if (file_exists($jsonFilePath)) {
     <section id="services" class="service-area">
         <div class="container">
             <div class="row" id="END">
-                <?php foreach ($dataArray as $key => $valueArray) : ?>
-                    <h2><?php echo htmlspecialchars($key); ?></h2>
-                    <?php foreach ($valueArray as $value) : ?>
-                        <div>
-                            <?php foreach ($value as $subKey => $subValue) : ?>
-                                <p><?php echo htmlspecialchars($subKey) . ': ' . htmlspecialchars(is_array($subValue) ? implode(", ", $subValue) : $subValue); ?></p>
-                            <?php endforeach; ?>
-                        </div>
-                    <?php endforeach; ?>
-                <?php endforeach; ?>
 
+                <div id="companyInfo"></div>
             </div>
         </div>
         </div>
@@ -184,6 +175,47 @@ if (file_exists($jsonFilePath)) {
                 });
             }
         };
+
+        fetch('data.json')
+            .then(response => response.json()) // 解析 JSON
+            .then(data => {
+                // 從 JSON 數據中提取各部分的第一條記錄
+                const pyMoeaInput = data.py_moea_input[0];
+                const prtrData = data.py_prtr_input[0];
+                const molInput = data.py_mol_input.find(item => item.SerialNumber === "1");
+                const ppstrqInput = data.py_ppstrq_input.find(item => item.SerialNumber === 1);
+                const twincnData=data.twincn[0];
+                // 建立一個變量來儲存將要顯示在網頁上的資訊
+                let content =
+                    '統編號碼: ' + pyMoeaInput.BusinessAccountingNO + '<br>' +
+                    '<span style="display: block; margin-bottom: 10px;"> 公司名稱: ' + pyMoeaInput.CompanyName + '</span><br>' +
+                    '<span style="display: block; margin-bottom: 10px;"> 資本額: ' + pyMoeaInput.CapitalStockAmount + '</span><br>' +
+                    '<span style="display: block; margin-bottom: 10px;"> 實收資本額: ' + pyMoeaInput.PaidInCapitalAmount + '</span><br>' +
+                    '<span style="display: block; margin-bottom: 10px;"> 負責人姓名: ' + pyMoeaInput.ResponsibleName + '</span><br>' +
+                    '<span style="display: block; margin-bottom: 10px;"> 公司位置: ' + pyMoeaInput.CompanyLocation + '</span><br>' +
+                    '<span style="display: block; margin-bottom: 10px;"> 環保是否有裁罰: ' + prtrData.NumberOfData + '</span><br>'+
+                    '<span style="display: block; margin-bottom: 10px;"> 司法是否有裁罰: ' + twincnData.Lawsuit + '</span><br>';
+                // 檢查勞動違規裁罰信息
+                if (molInput) {
+                    content += '勞動違規裁罰: 有，罰鍰字號為 ' + molInput.PenaltyFontSize + '<br>';
+                } else {
+                    content += '無勞動違規裁罰<br>';
+                }
+
+                // 檢查動產抵押信息
+                if (ppstrqInput) {
+                    content += '動產抵押: 有，狀態為 ' + ppstrqInput.CaseStatus + '<br>';
+                } else {
+                    content += '無動產抵押<br>';
+                }
+
+                // 將結果顯示在網頁上
+                document.getElementById('companyInfo').innerHTML = content;
+            })
+            .catch(error => {
+                // 處理錯誤情況
+                console.error('錯誤獲取或解析 JSON 檔案', error);
+            });
     </script>
 </body>
 
