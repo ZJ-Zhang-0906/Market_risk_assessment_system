@@ -23,8 +23,6 @@ $terms = [
     "銷貨成長率" => "請幫我計算出銷貨成長率，他的公式是:(本期銷貨/上期銷貨-1)*100",
 ];
 
-
-
 ?>
 
 <!DOCTYPE html>
@@ -40,8 +38,7 @@ $terms = [
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- stylesheets -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/font_icon/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="assets/font_icon/css/helper.css">
@@ -66,49 +63,42 @@ $terms = [
                     </a>
                 </div>
                 <div class="col-xs-8">
-                    <div class="content"><a data-scroll href="#body" class="logo-text"
-                            style="font-family:sans-serif; font-size: 30px;text-align: center; display: flex; flex-direction: initial;align-items: baseline; justify-content: center;">市場風險<br>評估系統</a>
+                    <div class="content"><a data-scroll href="#body" class="logo-text" style="font-family:sans-serif; font-size: 30px;text-align: center; display: flex; flex-direction: initial;align-items: baseline; justify-content: center;">市場風險<br>評估系統</a>
                     </div>
                 </div>
                 <div class="col-xs-2">
                     <div class="nav">
-                        <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i
-                                class="pe-7s-menu"></i></a>
+                        <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i class="pe-7s-menu"></i></a>
                         <a href="#"></a>
                         <div class="dropdown-menu" style="background: #ffffff;">
                             <div class="arrow-up"></div>
                             <ul>
                                 <a href="index.php">
-                                    <li class="menu-item"><i data-scroll>相關服務</i><span class="menu-effect pe-7s-search"
-                                            style="padding-left :85px;;font-size: 27px;"></span>
+                                    <li class="menu-item"><i data-scroll>相關服務</i><span class="menu-effect pe-7s-search" style="padding-left :85px;;font-size: 27px;"></span>
                                     </li>
                                 </a>
                                 <a href="index.php">
-                                    <li class="menu-item"><i data-scroll>相關網站連結</i><span class="menu-effect pe-7s-link"
-                                            style="font-size: 27px; padding-left: 48.5px;"></span>
+                                    <li class="menu-item"><i data-scroll>相關網站連結</i><span class="menu-effect pe-7s-link" style="font-size: 27px; padding-left: 48.5px;"></span>
                                     </li>
                                 </a>
                                 <a href="Risk_Assessment-search.php">
-                                    <li class="menu-item"><i data-scroll>風險評估</i><span class="menu-effect pe-7s-search"
-                                            style="font-size: 27px; padding-left: 85px;"></span>
+                                    <li class="menu-item"><i data-scroll>風險評估</i><span class="menu-effect pe-7s-search" style="font-size: 27px; padding-left: 85px;"></span>
                                     </li>
                                 </a>
                                 <a href="Financial.php">
-                                    <li class="menu-item"><i data-scroll>財務分析</i><span
-                                            class="menu-effect pe-7s-news-paper"
-                                            style="font-size: 27px; padding-left: 85px;"></span>
+                                    <li class="menu-item"><i data-scroll>財務分析</i><span class="menu-effect pe-7s-news-paper" style="font-size: 27px; padding-left: 85px;"></span>
                                     </li>
                                 </a>
                                 <a href="Contact_Us.php">
-                                    <li class="menu-item"><i data-scroll>與我們聯繫</i><span
-                                            class="menu-effect pe-7s-call pe-dj pe-va"
-                                            style="font-size: 27px; padding-left: 67px;"></span>
+                                    <li class="menu-item"><i data-scroll>與我們聯繫</i><span class="menu-effect pe-7s-call pe-dj pe-va" style="font-size: 27px; padding-left: 67px;"></span>
                                     </li>
                                 </a>
                                 <a href="carbon_rights.php">
-                                    <li class="menu-item"><i data-scroll>碳權是什麼</i><span
-                                            class="menu-effect fa fa-leaf pe-dj pe-va"
-                                            style="font-size: 27px; padding-left: 64px;"></span>
+                                    <li class="menu-item"><i data-scroll>碳權是什麼</i><span class="menu-effect fa fa-leaf pe-dj pe-va" style="font-size: 27px; padding-left: 64px;"></span>
+                                    </li>
+                                </a>
+                                <a href="GP125.php">
+                                    <li class="menu-item"><i data-scroll>綠能是什麼</i><span class="menu-effect  pe-7s-light pe-dj pe-va" style="font-size: 27px; padding-left: 64px;"></span>
                                     </li>
                                 </a>
                             </ul>
@@ -122,71 +112,40 @@ $terms = [
     <!-- Content Area -->
 
     <!-- services section -->
-        <section id="services" class="service-area">
-            <div class="container" style=" display: flex; justify-content: center; align-items: start;flex-wrap: wrap;">
-            <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">
-                    <div class="row">
-                        <h2 class="block_title">請上傳PDF檔</h2>
-                        <h3>請上傳財務報表或資產負債表</h3>
+    <section id="services" class="service-area">
+        <div class="container" style=" display: flex; justify-content: center; align-items: start;flex-wrap: wrap;">
+            <form id="form">
+                <div class="row">
+                    <h2 class="block_title">請上傳PDF檔</h2>
+                    <h3>請上傳財務報表</h3>
+                    <h5>請注意若是檔案內為掃描檔會讓AI無法判讀，在使用人工智慧技術時，應謹慎考慮其潛在的錯誤判斷風險。請細心使用，並對產生的結果進行審慎評估。</h5>
 
-                        <input type="file" class="form-control" name="pdf" id="pdf" style="margin: 9px 0px 0px 0px;">
-                        <div id="upload-status" style="display: none;"></div>
+                    <input type="file" class="form-control" name="pdf" id="pdf" style="margin: 9px 0px 0px 0px;">
+                    <div id="upload-status" style="display: none;"></div>
 
-                        <button class="btn btn-outline-secondary" type="submit" onclick="uploadFile()"
-                            style="margin: 20px 0px 5px 0px; border: 3px solid #000;border-radius: 20px; color: #000;">送出</button>
-                            <?php
-                            if (isset($_POST['submit'])) {
-                                if (isset($_FILES['pdf']) && $_FILES['pdf']['error'] == UPLOAD_ERR_OK) {
-                                    // 构建完整的文件路径，包括文件名
-                                    $filePath = 'D:\\TESTCODE\\中小\\TESTT\\' . $_FILES['pdf']['name'];
-                            
-                                    // 尝试移动上传的文件
-                                    if (move_uploaded_file($_FILES['pdf']['tmp_name'], $filePath)) {
-                                        // 构建并执行 Python 脚本的命令
-                                        $command = "python D:\\TESTCODE\\TRYfreeGPT\\KeyWordSearch.py '$filePath'";
-                                        exec($command, $output, $return_var);
-                            
-                                        // 处理输出和错误
-                                        if ($return_var == 0) {
-                                            echo "Python script executed successfully.";
-                                        } else {
-                                            echo "Python script execution failed.";
-                                        }
-                                    } else {
-                                        echo "File could not be moved to target directory.";
-                                    }
-                                } else {
-                                    echo "Upload failed with error code: " . $_FILES['pdf']['error'];
+                    <button class="btn btn-outline-secondary" type="button" onclick="uploadFile()" style="margin: 20px 0px 5px 0px; border: 3px solid #000;border-radius: 20px; color: #000;">送出</button>
+                    <input type="text" class="form-control" name="message" id="message">
+                    <button class="btn btn-outline-secondary" type="button" onclick="chat()" style="margin: 20px 0px 5px 0px;border: 3px solid #000;border-radius: 20px;color: #000;">發送消息</button>
+                    <br>
+                    <div id="chat-zone"></div>
+                    <br>
+                    <div class="snap">
+                        <div class="quencard">
+                            <h1 class="hh1">或許你想問</h1>
+                            <div class="cloum">
+                                <?php
+                                foreach ($terms as $term => $formula) {
+                                    echo '<p onclick="fillInput(this)" class="Press" data-formula="' . htmlspecialchars($formula) . '">' . htmlspecialchars($term) . '</p>';
                                 }
-                            } else {
-                                echo "No submission detected.";
-                            }
-                            
-                            
-                            ?>
-                        
-                        <input type="text" class="form-control" name="message" id="message">
-                        <button class="btn btn-outline-secondary" type="button" onclick="chat()"
-                            style="margin: 20px 0px 5px 0px;border: 3px solid #000;border-radius: 20px;color: #000;">發送消息</button>
-                        <br>
-                        <div id="chat-zone"></div>
-                        <br>
-                        <div class="snap">
-                            <div class="quencard">
-                                <h1 class="hh1">或許你想問</h1>
-                                <div class="cloum">
-                                    <?php
-                                    foreach ($terms as $term => $formula) {
-                                        echo '<p onclick="fillInput(this)" data-formula="' . htmlspecialchars($formula) . '">' . htmlspecialchars($term) . '</p>';
-                                    }
-                                    ?>
-                                </div>
+                                ?>
+                                <p>&nbsp;</p>
                             </div>
-
                         </div>
-                </form>
-            </div>
-        </section>
+
+                    </div>
+            </form>
+        </div>
+    </section>
 
     <section id="portfolio" class="portfolio-area">
         <div class="container" style="display: flex;text-align: center;">
@@ -224,10 +183,11 @@ $terms = [
 
     <script>
         let sourceId;
+        var gptCount = 1;
         const chatZone = document.querySelector('#chat-zone');
         let messages = [];
         const messageDom = document.querySelector("#message");
-        messageDom.addEventListener("keyup", function (event) {
+        messageDom.addEventListener("keyup", function(event) {
             if (event.key === "Enter") {
                 chat();
             }
@@ -241,13 +201,12 @@ $terms = [
             statusElement.style.display = 'block'; // Make sure the element is visible
         }
 
-
-
         function uploadFile() {
+
             const pdf = document.querySelector('#pdf').files[0];
             const formData = new FormData();
             formData.append("file", pdf);
-
+            console.log("test:" + formData);
             fetch('https://api.chatpdf.com/v1/sources/add-file', {
                 method: 'POST',
                 body: formData,
@@ -257,9 +216,11 @@ $terms = [
             }).then(async res => {
                 const response = await res.json();
                 if (res.ok) {
+                    alert("成功");
                     sourceId = response.sourceId;
                     displayStatus('PDF上传成功', true); // Display success message
                 } else {
+                    alert("失敗");
                     throw new Error(`上传失败: ${res.status} ${res.statusText}`);
                 }
             }).catch(error => {
@@ -269,6 +230,14 @@ $terms = [
         }
 
         function chat() {
+            console.log(gptCount);
+            gptCount++;
+            if (gptCount == 5) {
+                gptCount = 1;
+                uploadFile();
+
+            }
+
             let message = messageDom.value;
             messages.push({
                 "role": "user",
@@ -283,11 +252,11 @@ $terms = [
 
             messageDom.value = "";
             axios.post("https://api.chatpdf.com/v1/chats/message", data, {
-                headers: {
-                    "x-api-key": "sec_XqI9fuUZe3NZctUAdQeLKVtvt2A8bbjg",
-                    "Content-Type": "application/json",
-                },
-            })
+                    headers: {
+                        "x-api-key": "sec_XqI9fuUZe3NZctUAdQeLKVtvt2A8bbjg",
+                        "Content-Type": "application/json",
+                    },
+                })
                 .then((response) => {
                     messages.push({
                         "role": "assistant",
