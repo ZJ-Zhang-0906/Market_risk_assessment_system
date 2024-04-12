@@ -64,3 +64,5 @@ def fetch_data_and_insert_to_py_moea_input():
 
 
 #===============================================================================================
+
+# fetch_data_and_insert_to_py_moea_input()

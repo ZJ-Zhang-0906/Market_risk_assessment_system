@@ -6,43 +6,43 @@
     ],
     "py_moea_input": [
         {
-            "BusinessAccountingNO": "81020420",
+            "BusinessAccountingNO": "83291953",
             "CompanyStatusDesc": "核准設立",
-            "CompanyName": "寬利電機有限公司",
-            "CapitalStockAmount": "10000000",
+            "CompanyName": "雅鈊工程有限公司",
+            "CapitalStockAmount": "7000000",
             "PaidInCapitalAmount": "0",
-            "ResponsibleName": "林文泉",
-            "CompanyLocation": "高雄市大寮區內坑里內坑路9之3號1樓"
+            "ResponsibleName": "王新發",
+            "CompanyLocation": "高雄市大寮區勝利街37號2樓"
         }
     ],
     "py_mol_input": [
         {
             "SerialNumber": "1",
-            "CompetentAuthority": "台北市",
-            "AnnouncementDate": "112/01/05",
-            "DisposalDate": "111/11/23",
-            "PenaltyFontSize": "北市勞動字第11160291001號",
-            "BusinessUnitName": "中國信託商業銀行股份有限公司/利明献",
-            "IllegalLawsAndRegulations": "勞動基準法第24條第1項",
-            "ViolationOfLawsAndRegulations": "延長工作時間未依規定加給工資"
+            "CompetentAuthority": "加工出口區管理處",
+            "AnnouncementDate": "112/09/05",
+            "DisposalDate": "112/08/23",
+            "PenaltyFontSize": "經加高四字第1120101475號",
+            "BusinessUnitName": "華東科技股份有限公司(焦佑衡)",
+            "IllegalLawsAndRegulations": "勞動基準法第38條第2項",
+            "ViolationOfLawsAndRegulations": "勞工之特別休假期日未由勞工自行排定"
         }
     ],
     "py_ppstrq_input": [
         {
-            "SerialNumber": 1,
-            "RegistrationAuthority": "新北市政府經濟發展局",
-            "CaseCategory": "動產抵押",
-            "DebtorName": "吉聖工業股份有限公司",
-            "NameOfMortgagee": "中國信託商業銀行股份有限公司城中",
+            "SerialNumber": 0,
+            "RegistrationAuthority": "0",
+            "CaseCategory": "0",
+            "DebtorName": "0",
+            "NameOfMortgagee": "0",
             "RegistrationNumber": 0,
-            "CaseStatus": "已過效期未註銷"
+            "CaseStatus": "0"
         }
     ],
     "twincn": [
         {
-            "BusinessAccountingNO": 20231231,
-            "CompanyName": "聲請更生程序",
-            "Lawsuit": "法院案號 臺灣嘉義地方法院\n112年度消債更字186號 案件類別 民事"
+            "BusinessAccountingNO": 0,
+            "CompanyName": "No Data",
+            "Lawsuit": "No Data"
         }
     ]
 }
