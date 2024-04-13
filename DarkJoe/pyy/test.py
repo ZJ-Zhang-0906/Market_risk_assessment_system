@@ -1,75 +1,80 @@
-import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+import pymysql
+import time
+from datetime import datetime, timedelta
+from connet_db import connect  # 請确保connect函數正确导入
 
-from connet_db import connect
-
-
-
-def is_within_last_3_years(date_text):
-    # 此处替换为检查日期是否在过去三年内的逻辑
-    from datetime import datetime, timedelta
-    current_date = datetime.now()
-    date_obj = datetime.strptime(date_text, "%Y%m%d")  # 假设日期文本是 YYYY-MM-DD 格式
-    three_years_ago = current_date - timedelta(days=3*365)
-    return date_obj > three_years_ago
-
-def fetch_data_and_insert_to_twincn():
-    conn, driver = connect()
-    cursor = conn.cursor()
-
+def fetch_data_and_insert_to_py_mol_input():
+    conn, driver = connect()  # 使用connect函数来获取连接和驱动器
     try:
-        sql = "SELECT BusinessAccountingNO FROM web_input ORDER BY AutoNO DESC LIMIT 1"
+        cursor = conn.cursor()
+
+        # 获取最新的公司名称
+        sql = "SELECT CompanyName FROM web_input ORDER BY AutoNO DESC LIMIT 1"
         cursor.execute(sql)
         result = cursor.fetchone()
         if result:
-            business_accounting_no = result[0]
-            url = f"https://www.twincn.com/item.aspx?no={business_accounting_no}"
-            driver.get(url)
-            time.sleep(3)
-
-            rows = driver.find_elements(By.CSS_SELECTOR, "#page4 .table-responsive tbody tr")
-            if rows:
-                found = False
-                for row in rows:
-                    cells = row.find_elements(By.TAG_NAME, "td")
-                    if cells and len(cells) > 1:
-                        date_text = cells[0].text.strip()
-                        if is_within_last_3_years(date_text):
-                            company_name = cells[1].find_element(By.CSS_SELECTOR, "a").text.strip()
-                            lawsuit_info = " ".join([div.text for div in cells[1].find_elements(By.CSS_SELECTOR, "div.col-sm-auto")])
-
-                            insert_sql = """
-                                INSERT INTO twincn (BusinessAccountingNO, CompanyName, Lawsuit)
-                                VALUES (%s, %s, %s);
-                            """
-                            cursor.execute(insert_sql, (business_accounting_no, company_name, lawsuit_info))
-                            conn.commit()
-                            print(f"Data inserted for {company_name}")
-                            found = True
-                            break
-                        else:
-                            print(f"Date {date_text} is not within the last 3 years. Skipping.")
-                if not found:
-                    print("No valid data found to insert.")
-                    insert_sql = "INSERT INTO twincn (BusinessAccountingNO, CompanyName, Lawsuit) VALUES (0, 'No Data', 'No Data');"
-                    cursor.execute(insert_sql)
-                    conn.commit()
-                    print("Inserted 0 into database for no valid data.")
-            else:
-                print("No rows found on the page.")
+            company_name = '中國信託'
+            # company_name = result[0]
         else:
-            print("No BusinessAccountingNO found.")
+            print("No company name found.")
+            return
+
+        # 计算民国日期
+        today = datetime.now()
+        last_year = today - timedelta(days=365)
+        today_tw = f"{today.year - 1911}{today.month:02}{today.day:02}"
+        last_year_tw = f"{last_year.year -1911}{last_year.month:02}{last_year.day:02}"
+
+        driver.get("https://announcement.mol.gov.tw/")
+
+        # 设置日期
+        driver.find_element(By.NAME, "DOCstartDate").send_keys(last_year_tw)
+        driver.find_element(By.NAME, "DOCEndDate").send_keys(today_tw)
+
+        search_box = driver.find_element(By.NAME, "UNITNAME")
+        search_box.send_keys(company_name)
+        search_button = driver.find_element(By.ID, "search")
+        search_button.click()
+
+        wait = WebDriverWait(driver, 5)
+        table = wait.until(EC.presence_of_element_located((By.ID, "table3")))
+        rows = table.find_elements(By.XPATH, "./tbody/tr")
+
+        # 检查是否有数据
+        if rows and '查無資料' not in rows[0].text:
+            for row in rows:
+                columns = row.find_elements(By.XPATH, "./td")[:8]
+                record = [column.text.strip() for column in columns]
+
+                if len(record) == 8:
+                    insert_sql = """
+                        INSERT INTO py_mol_input
+                        (SerialNumber, CompetentAuthority, AnnouncementDate, DisposalDate, PenaltyFontSize, BusinessUnitName, IllegalLawsAndRegulations, ViolationOfLawsAndRegulations)
+                        VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+                    """
+                    cursor.execute(insert_sql, record)
+                    conn.commit()
+        else:
+            print("No data found, inserting 0 into database.")
+            insert_sql = """
+                INSERT INTO py_mol_input
+                (SerialNumber, CompetentAuthority, AnnouncementDate, DisposalDate, PenaltyFontSize, BusinessUnitName, IllegalLawsAndRegulations, ViolationOfLawsAndRegulations)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
+            """
+            # 使用占位符0插入資料
+            cursor.execute(insert_sql, (0, 0, 0, 0, 0, 0, 0, 0))
+            conn.commit()
 
     except Exception as e:
         print(f"An error occurred: {e}")
-        conn.rollback()
     finally:
+        time.sleep(3)
         driver.quit()
         cursor.close()
         conn.close()
 
-# 在這裡呼叫你的函數以運行程序
-# fetch_data_and_insert_to_twincn()
-# https://www.twincn.com/item.aspx?no={business_accounting_no}
+# fetch_data_and_insert_to_py_mol_input()
