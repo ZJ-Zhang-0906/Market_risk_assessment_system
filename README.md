@@ -16,6 +16,7 @@ loading.php:
 展示加載動畫。
 從 localStorage 獲取數據並發送到 InsertData.php。
 根據 InsertData.php 的響應重定向到相應頁面。
+
 Risk_Assessment-search.php:
 
 功能: 提供一個用戶界面，允許用戶輸入查詢條件。
@@ -23,8 +24,8 @@ Risk_Assessment-search.php:
 顯示一個表單，用戶輸入查詢條件。
 在表單提交時，阻止默認提交行為，將數據保存到 localStorage。
 將頁面重定向到 loading.php。
-Risk_end.php:
 
+Risk_end.php:
 功能: 展示市場風險評估的結果。
 流程:
 嘗試讀取一個 JSON 文件，該文件包含了處理結果。
