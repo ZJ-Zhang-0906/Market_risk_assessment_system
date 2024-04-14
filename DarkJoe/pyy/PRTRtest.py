@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 import time
 import pymysql
 from selenium.webdriver.chrome.service import Service
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from fetch import fetch_data_and_insert_to_twincn
 from connet_db import connect
 
@@ -116,4 +116,4 @@ def fetch_data_and_insert_to_py_prtr_input():
 #=========================================================================================
 
 
-fetch_and_clean_data()
+# fetch_and_clean_data()

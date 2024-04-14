@@ -6,13 +6,13 @@ from PRTRtest import fetch_data_and_insert_to_py_prtr_input , fetch_and_clean_da
 from openaitest import fetch_openai_response
 from moea import fetch_data_and_insert_to_py_moea_input
 import os
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 # import datetime
 import time
 
 
-load_dotenv()
-OPENAI_API_KEY=os.getenv('OPENAI_API_KEY')
+# load_dotenv()
+# OPENAI_API_KEY=os.getenv('OPENAI_API_KEY')
 
 
 def main():
