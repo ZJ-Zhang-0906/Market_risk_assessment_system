@@ -1,41 +1,41 @@
 {
     "py_prtr_input": [
         {
-            "NumberOfData": "找不到符合搜尋條件的裁處資訊"
+            "NumberOfData": "1"
         }
     ],
     "py_moea_input": [
         {
-            "BusinessAccountingNO": "83291953",
+            "BusinessAccountingNO": "81020420",
             "CompanyStatusDesc": "核准設立",
-            "CompanyName": "雅鈊工程有限公司",
-            "CapitalStockAmount": "7000000",
+            "CompanyName": "寬利電機有限公司",
+            "CapitalStockAmount": "10000000",
             "PaidInCapitalAmount": "0",
-            "ResponsibleName": "王新發",
-            "CompanyLocation": "高雄市大寮區勝利街37號2樓"
+            "ResponsibleName": "林文泉",
+            "CompanyLocation": "高雄市大寮區內坑里內坑路9之3號1樓"
         }
     ],
     "py_mol_input": [
         {
-            "SerialNumber": "1",
-            "CompetentAuthority": "加工出口區管理處",
-            "AnnouncementDate": "112/09/05",
-            "DisposalDate": "112/08/23",
-            "PenaltyFontSize": "經加高四字第1120101475號",
-            "BusinessUnitName": "華東科技股份有限公司(焦佑衡)",
-            "IllegalLawsAndRegulations": "勞動基準法第38條第2項",
-            "ViolationOfLawsAndRegulations": "勞工之特別休假期日未由勞工自行排定"
+            "SerialNumber": "0",
+            "CompetentAuthority": "0",
+            "AnnouncementDate": "0",
+            "DisposalDate": "0",
+            "PenaltyFontSize": "0",
+            "BusinessUnitName": "0",
+            "IllegalLawsAndRegulations": "0",
+            "ViolationOfLawsAndRegulations": "0"
         }
     ],
     "py_ppstrq_input": [
         {
-            "SerialNumber": 0,
-            "RegistrationAuthority": "0",
-            "CaseCategory": "0",
-            "DebtorName": "0",
-            "NameOfMortgagee": "0",
-            "RegistrationNumber": 0,
-            "CaseStatus": "0"
+            "SerialNumber": 1,
+            "RegistrationAuthority": "交通部公路局",
+            "CaseCategory": "附條件買賣",
+            "DebtorName": "寬利電機有限公司",
+            "NameOfMortgagee": "和昭實業股份有限公司",
+            "RegistrationNumber": 80,
+            "CaseStatus": "效期內"
         }
     ],
     "twincn": [

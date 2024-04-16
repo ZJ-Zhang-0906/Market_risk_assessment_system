@@ -1,52 +1,53 @@
 # 安裝
 1. 安裝xampp [下載頁面](https://www.apachefriends.org/zh_tw/download.html)
-2. 建立資料庫
-3. 安裝requirements.txt或是npm套件(如果有的話)
+2. 安裝 ChromeDriver 123.0.6312.58 [下載頁面](https://chromedriver.chromium.org/downloads)
+3. 建立資料庫
+4. 安裝requirements.txt或是npm套件(如果有的話)
 ------
 # 建立資料庫
 1. 資料庫名稱 **fmras_sql**
 2. 資料表
    - web_input 表
-     - AutoNO
-     - BusinessAccountingNO
-     - CompanyName
+     - AutoNO(int)
+     - BusinessAccountingNO(int)
+     - CompanyName(text)
      
    - twincn 表
-     - AutoNO
-     - BusinessAccountingNO
-     - CompanyName
-     - Lawsuit
+     - AutoNO(int)
+     - BusinessAccountingNO(int)
+     - CompanyName(text)
+     - Lawsuit(text)
    - py_moea_input 表
-     - AutoNO
-     - BusinessAccountingNO
-     - CompanyStatusDesc
-     - CompanyName
-     - CapitalStockAmount
-     - PaidInCapitalAmount
-     - ResponsibleName
-     - CompanyLocation
+     - AutoNO(int)
+     - BusinessAccountingNO(int)
+     - CompanyStatusDesc(text)
+     - CompanyName(text)
+     - CapitalStockAmount(text)
+     - PaidInCapitalAmount(text)
+     - ResponsibleName(text)
+     - CompanyLocation(text)
    - py_mol_input 表
-     - AutoNO 
-     - SerialNumber
-     - CompetentAuthority
-     - AnnouncementDate
-     - DisposalDate
-     - PenaltyFontSize
-     - BusinessUnitName
-     - IllegalLawsAndRegulations
-     - ViolationOfLawsAndRegulations
+     - AutoNO (int)
+     - SerialNumber(int)
+     - CompetentAuthority(text)
+     - AnnouncementDate(text)
+     - DisposalDate(text)
+     - PenaltyFontSize(text)
+     - BusinessUnitName(text)
+     - IllegalLawsAndRegulations(text)
+     - ViolationOfLawsAndRegulations(text)
    - py_ppstrq_input 表
-     - AutoNO
-     - SerialNumber
-     - RegistrationAuthority
-     - CaseCategory
-     - DebtorName
-     - NameOfMortgagee
-     - RegistrationNumber
-     - CaseStatus
+     - AutoNO(int)
+     - SerialNumber(int)
+     - RegistrationAuthority(text)
+     - CaseCategory(text)
+     - DebtorName(text)
+     - NameOfMortgagee(text)
+     - RegistrationNumber(int)
+     - CaseStatus(text)
    - py_prtr_input 表
-     - AutoNO
-     - NumberOfData
+     - AutoNO(int)
+     - NumberOfData(int)
 ------
 # 啟動
 1. 啟動xampp apache 以及 phpmysql
