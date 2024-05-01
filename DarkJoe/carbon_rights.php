@@ -4,7 +4,7 @@
 <html class="no-js " lang="ZH_TW"> <!--<![endif]-->
 
 <head>
-    <title>結果</title>
+    <title>炭權是什麼</title>
     <link rel="icon" href="assets/font_icon/fonts/ahn4u-wrleu-001.ico" type="image/x-icon">
 
     <!-- meta -->

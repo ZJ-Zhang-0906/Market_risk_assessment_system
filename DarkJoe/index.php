@@ -4,7 +4,7 @@
 <html class="no-js " lang="ZH_TW"> <!--<![endif]-->
 
 <head>
-    <title>中小企業智慧評分系統</title>
+    <title>市場風險評估系統</title>
     <link rel="icon" href="assets/font_icon/fonts/ahn4u-wrleu-001.ico" type="image/x-icon">
 
     <!-- meta -->
