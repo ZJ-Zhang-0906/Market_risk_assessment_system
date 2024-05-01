@@ -75,9 +75,6 @@ def fetch_data_and_insert_to_py_prtr_input():
     VALUES (%s);
     """
 
-    driver_path = r'C:\xampp\htdocs\python\chromedriver-win64\chromedriver.exe'
-    service = Service(executable_path=driver_path)
-    driver = webdriver.Chrome(service=service)
     # 打開Google網頁
     driver.get("https://prtr.moenv.gov.tw/deal.html")
     # 找到搜尋框的元素
@@ -116,4 +113,4 @@ def fetch_data_and_insert_to_py_prtr_input():
 #=========================================================================================
 
 
-# fetch_and_clean_data()
+fetch_data_and_insert_to_py_prtr_input()
