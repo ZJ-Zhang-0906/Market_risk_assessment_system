@@ -54,6 +54,12 @@
 2. [http://localhost/ProjectNew/DarkJoe/](http://localhost/ProjectNew/DarkJoe/) 或是 [http://127.0.0.1/ProjectNew/DarkJoe/](http://127.0.0.1/ProjectNew/DarkJoe/)
 3. 即可使用
 ------
+# 通用專案
+## BADREQUIRE.php 跟 BADREQUIRE.css 是一起的
+
+功能:處理客戶端幹了一些不是人幹的事情所指向的錯誤頁面
+------
+
 # 風險
 ### InsertData.php:
 
