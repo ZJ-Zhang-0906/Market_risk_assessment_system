@@ -1,0 +1,37 @@
+.badrequire {
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    align-items: center;
+    /* width: 1200px; */
+}
+
+img {
+    width: 60em;
+    /* 可以根據需要調整寬度 */
+    height: auto;
+    /* 確保圖片保持原比例 */
+
+}
+
+
+.linkFontColor {
+    color: white;
+   
+}
+
+
+html {
+    height: 100%;
+    align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+.badrequire{
+    display: flex;
+    justify-content: center;
+    height: 470px;
+    align-items: center;
+}
+    
+}

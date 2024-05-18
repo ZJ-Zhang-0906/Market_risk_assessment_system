@@ -83,5 +83,5 @@ def fetch_data_and_insert_to_py_mol_input():
         cursor.close()
         conn.close()
 
-fetch_data_and_insert_to_py_mol_input()
+# fetch_data_and_insert_to_py_mol_input()
 #-----------------------------------------------------------------------------------------------

@@ -195,16 +195,24 @@
             const CompanyName = document.getElementById('Company_Name').value;
             const UniformNumbers = document.getElementById('Uniform_numbers').value;
 
-            const data = {
-                CompanyName: CompanyName,
-                UniformNumbers: UniformNumbers,
-            };
+            if (CompanyName === '' || UniformNumbers === '') {
+                window.location.href = "BADREQUIRE.php";
+                // alert('所有欄位必須填寫');
+                // return; // 阻止表單提交
+            } else {
+                const data = {
+                    CompanyName: CompanyName,
+                    UniformNumbers: UniformNumbers,
+                };
 
-            // 將數據保存到 localStorage
-            localStorage.setItem("formData", JSON.stringify(data));
+                // 將數據保存到 localStorage
+                localStorage.setItem("formData", JSON.stringify(data));
 
-            // 跳轉到 loading.php
-            window.location.href = "loading.php";
+                // 跳轉到 loading.php
+                window.location.href = "loading.php";
+            }
+
+
         });
     </script>
 
