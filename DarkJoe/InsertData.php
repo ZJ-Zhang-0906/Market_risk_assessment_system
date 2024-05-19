@@ -47,15 +47,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $conn->close();
 
     // 删除旧的 JSON 文件（如果存在）
-    $jsonFilePath = 'C:/xampp/htdocs/ProjectNew/DarkJoe/data.json';
+    $jsonFilePath = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/data.json';//替换为你想要保存的路径
     if (file_exists($jsonFilePath)) {
         unlink($jsonFilePath); // 删除文件
     }
 
 
     // 执行 Python 脚本
-    $scriptPath = 'C:/xampp/htdocs/ProjectNew/DarkJoe/pyy/main.py';
-    $pythonPath = 'C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe';
+    $scriptPath = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py';//替换为你想要保存的路径
+    $pythonPath = 'C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe';//替换为你想要保存的路径
 
     $command = escapeshellcmd("$pythonPath $scriptPath");
     $output = shell_exec($command);

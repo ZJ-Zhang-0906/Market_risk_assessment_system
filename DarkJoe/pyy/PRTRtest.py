@@ -35,7 +35,7 @@ def fetch_and_clean_data():
         json_data = json.dumps(all_data, ensure_ascii=False, indent=4)
 
         # 写入JSON文件
-        file_path = r'C:\xampp\htdocs\ProjectNew\DarkJoe\data.json'  # 替换为你想要保存的路径
+        file_path = r'C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\data.json'  # 替换为你想要保存的路径
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(json_data)
 
@@ -43,7 +43,7 @@ def fetch_and_clean_data():
     finally:
         conn.close()
 #============================================================================================
-
+# fetch_and_clean_data()
 #==========================================環境部爬汙染======================================== 
 def fetch_data_and_insert_to_py_prtr_input():
     conn, driver = connect()

@@ -51,8 +51,9 @@
 ------
 # 啟動
 1. 啟動xampp apache 以及 phpmysql
-2. [http://localhost/ProjectNew/DarkJoe/](http://localhost/ProjectNew/DarkJoe/) 或是 [http://127.0.0.1/ProjectNew/DarkJoe/](http://127.0.0.1/ProjectNew/DarkJoe/)
-3. 即可使用
+2. [http://localhost/Market_risk_assessment_system/DarkJoe/](http://localhost/Market_risk_assessment_system/DarkJoe/) 或是 [http://127.0.0.1/Market_risk_assessment_system/DarkJoe/](http://127.0.0.1/Market_risk_assessment_system/DarkJoe/)
+3. 使用vscode 內建搜尋器尋找"替换为你想要保存的路径"把路徑改成你的路徑
+4. 即可使用
 ------
 # 通用專案
 ## BADREQUIRE.php 跟 BADREQUIRE.css 是一起的
