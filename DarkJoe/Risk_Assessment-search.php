@@ -131,6 +131,7 @@
                     </div>
                 </div>
             </form>
+          
             <br>
             <!-- <a class="" href="Financial.html"><img src="assets/images/presentation.png" alt=""></a> -->
             <p class="aa">
@@ -188,7 +189,7 @@
     <script src="assets/js/owl.carousel.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/modernizr.js"></script>
-    <script src="assets/js/TransferPython.js"></script>
+    <script src="assets/js/TransferPython.js"></script> <!-- 沒幹用 -->
     <script>
         document.getElementById('form').addEventListener('submit', function(e) {
             e.preventDefault();
@@ -196,9 +197,12 @@
             const UniformNumbers = document.getElementById('Uniform_numbers').value;
 
             if (CompanyName === '' || UniformNumbers === '') {
-                window.location.href = "BADREQUIRE.php";
-                // alert('所有欄位必須填寫');
-                // return; // 阻止表單提交
+                
+                alert('所有欄位必須填寫');
+                return; // 阻止表單提交
+                // window.location.href = "BADREQUIRE.php";
+                
+                
             } else {
                 const data = {
                     CompanyName: CompanyName,
