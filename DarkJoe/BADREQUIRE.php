@@ -17,10 +17,32 @@
             </button>
         </div>
     </div>
-    <div class="badrequire ">
-        <img src="assets/images/images.jpg" alt="海綿寶包">
+    <div class="badrequire " id="badrequire">
+        <!-- <img src="assets/images/images.jpg" alt="海綿寶包"> -->
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        // 创建包含图片 URL 的对象
+        let person = {
+            1: "./assets/images/images.jpg",
+            2: "./assets/images/pp.jpeg",
+            3: "./assets/images/pp2.jpg"
+        };
+
+        // 生成一个 0 到 2 之间的随机整数
+        let randomInt = Math.floor(Math.random() * 3) + 1;
+
+        // 根据随机整数获取对应的图片 URL
+        let randomImageSrc = person[randomInt];
+
+        // 创建 img 元素并设置 src 属性
+        let imgElement = document.createElement("img");
+        imgElement.src = randomImageSrc;
+
+        // 将 img 元素插入到指定的 div 中
+        let badrequireDiv = document.getElementById("badrequire");
+        badrequireDiv.appendChild(imgElement);
+    </script>
 </body>
 
 </html>
