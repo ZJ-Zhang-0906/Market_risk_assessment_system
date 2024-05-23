@@ -163,7 +163,7 @@
 
                         <img class="mar-bottom" src="assets/images/小水利.jpg" alt="小水利">
                         <a href="https://learnenergy.tw/index.php?inter=knowledge&caid=4&id=650"
-                            class="btn btn-primary setcen" style="font-size: 0.7em;">詳細說明請點我</a><br>
+                            class="btn btn-primary setcen" >詳細說明請點我</a><br>
                     </div>
 
                 </div>
