@@ -1,18 +1,18 @@
 {
     "py_prtr_input": [
         {
-            "NumberOfData": "找不到符合搜尋條件的裁處資訊"
+            "NumberOfData": "1"
         }
     ],
     "py_moea_input": [
         {
-            "BusinessAccountingNO": "27256476",
-            "CompanyStatusDesc": "核准登記",
-            "CompanyName": "美商美國國泰銀行股份有限公司",
-            "CapitalStockAmount": "0",
-            "PaidInCapitalAmount": "0",
-            "ResponsibleName": "劉正寰",
-            "CompanyLocation": "臺北市中山區松江路146號6樓之3"
+            "BusinessAccountingNO": "86517510",
+            "CompanyStatusDesc": "核准設立",
+            "CompanyName": "玉山商業銀行股份有限公司",
+            "CapitalStockAmount": "117072000000",
+            "PaidInCapitalAmount": "117072000000",
+            "ResponsibleName": "黃男州",
+            "CompanyLocation": "臺北市松山區民生東路3段115號及117號"
         }
     ],
     "py_mol_input": [
@@ -40,9 +40,9 @@
     ],
     "twincn": [
         {
-            "BusinessAccountingNO": 0,
-            "CompanyName": "No Data",
-            "Lawsuit": "No Data"
+            "BusinessAccountingNO": 86517510,
+            "CompanyName": "拍賣抵押物",
+            "Lawsuit": "法院案號 臺灣臺南地方法院\n111年度司拍字242號 案件類別 民事"
         }
     ]
 }
