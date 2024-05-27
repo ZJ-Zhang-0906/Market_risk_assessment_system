@@ -37,7 +37,9 @@ if (file_exists($jsonFilePath)) {
     <link rel="stylesheet" href="assets/css/owl.theme.css">
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/risk.css">
     <link rel="stylesheet" href="assets/css/nav.css">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -122,6 +124,7 @@ if (file_exists($jsonFilePath)) {
             <div class="row" id="END">
 
                 <div id="companyInfo"></div>
+                <div id="result"></div>
             </div>
         </div>
         </div>
@@ -185,7 +188,7 @@ if (file_exists($jsonFilePath)) {
                 const molInput = data.py_mol_input.find(item => item.SerialNumber === "1");
                 const ppstrqInput = data.py_ppstrq_input.find(item => item.SerialNumber === 1);
                 const twincnData=data.twincn[0];
-                // 建立一個變量來儲存將要顯示在網頁上的資訊
+                // // 建立一個變量來儲存將要顯示在網頁上的資訊
                 let content =
                     '統編號碼: ' + pyMoeaInput.BusinessAccountingNO + '<br>' +
                     '<span style="display: block; margin-bottom: 10px;"> 公司名稱: ' + pyMoeaInput.CompanyName + '</span><br>' +
@@ -215,6 +218,17 @@ if (file_exists($jsonFilePath)) {
             .catch(error => {
                 // 處理錯誤情況
                 console.error('錯誤獲取或解析 JSON 檔案', error);
+            });
+            fetch('respon.json')
+            .then(response => response.json()) // 解析 JSON
+            .then(data => {
+                // 从 JSON 数据中提取 "response" 的值
+                const result = data.response;
+                // 将提取的值插入到 HTML 中
+                document.getElementById('result').innerHTML = result;
+            })
+            .catch(error => {
+                console.error('Error fetching the JSON file:', error);
             });
     </script>
 </body>
