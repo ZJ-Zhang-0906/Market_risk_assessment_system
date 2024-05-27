@@ -1,0 +1,133 @@
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: ((126, '83291953', '¶®Üc¤uµ{'),)
+83291953
+²Î¤@½s¸¹¡G83291953
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¶®Üc¤uµ{¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G7000000
+¹ê¦¬¸ê¥»ÃB(¤¸):0
+¥Nªí¤H©m¦W¡G¤ı·sµo
+¤½¥q©Ò¦b¦a¡G°ª¶¯¥«¤j¼d°Ï³Ó§Qµó37¸¹2¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+((126, '83291953', '¶®Üc¤uµ{'),)
+83291953
+§ä¤£¨ì²Å¦X·j´M±ø¥óªºµô³B¸ê°T
+No data found, inserting 0 into database.
+BusinessAccountingNO: 83291953
+¬dµL²Å¦X®×¥ó!!
+No valid data found to insert.
+Inserted 0 into database for no valid data.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 51, in <module>
+    main()
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 44, in main
+    fetch_openai_response(OPENAI_API_KEY,question)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\openaitest.py", line 40, in fetch_openai_response
+    json.dump(respon, f, ensure_ascii=False, indent=4)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\json\__init__.py", line 179, in dump
+    for chunk in iterable:
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type ChatCompletionMessage is not JSON serializable
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+Pythonè„šæœ¬æœªç”Ÿæˆé¢„æœŸçš„è¾“å‡ºæ–‡ä»¶
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„JSONæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: ±z¦n¡A¦³¤°»ò¥i¥HÀ°§U±zªº¶Ü¡H
+((127, '83291953', '¶®Üc¤uµ{'),)
+83291953
+²Î¤@½s¸¹¡G83291953
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¶®Üc¤uµ{¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G7000000
+¹ê¦¬¸ê¥»ÃB(¤¸):0
+¥Nªí¤H©m¦W¡G¤ı·sµo
+¤½¥q©Ò¦b¦a¡G°ª¶¯¥«¤j¼d°Ï³Ó§Qµó37¸¹2¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+((127, '83291953', '¶®Üc¤uµ{'),)
+83291953
+§ä¤£¨ì²Å¦X·j´M±ø¥óªºµô³B¸ê°T
+No data found, inserting 0 into database.
+BusinessAccountingNO: 83291953
+¬dµL²Å¦X®×¥ó!!
+No valid data found to insert.
+Inserted 0 into database for no valid data.
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„JSONæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 6, in <module>
+    from openaitest import fetch_openai_response
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\openaitest.py", line 49, in <module>
+    print(fetch_openai_response('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','§A¦n'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\openaitest.py", line 29, in fetch_openai_response
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_utils\_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\resources\chat\completions.py", line 667, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1208, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 897, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 988, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.NotFoundError: Error code: 404 - {'error': {'message': 'The model `gpt-4-32k` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+Pythonè„šæœ¬æœªç”Ÿæˆé¢„æœŸçš„è¾“å‡ºæ–‡ä»¶
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 6, in <module>
+    from openaitest import fetch_openai_response
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\openaitest.py", line 49, in <module>
+    print(fetch_openai_response('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','§A¦n'))
+UnicodeEncodeError: 'cp950' codec can't encode character '\u9840' in position 21: illegal multibyte sequence
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: ((130, '86517510', '¥É¤s°Ó·~»È¦æ'),)
+86517510
+²Î¤@½s¸¹¡G86517510
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¥É¤s°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G117072000000
+¹ê¦¬¸ê¥»ÃB(¤¸):117072000000
+¥Nªí¤H©m¦W¡G¶À¨k¦{
+¤½¥q©Ò¦b¦a¡G»O¥_¥«ªQ¤s°Ï¥Á¥ÍªF¸ô3¬q115¸¹¤Î117¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+((130, '86517510', '¥É¤s°Ó·~»È¦æ'),)
+86517510
+1
+No data found, inserting 0 into database.
+BusinessAccountingNO: 86517510
+¬dµL²Å¦X®×¥ó!!
+Data inserted for ©ç½æ©è©ãª«
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
