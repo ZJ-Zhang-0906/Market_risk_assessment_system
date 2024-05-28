@@ -125,6 +125,7 @@ if (file_exists($jsonFilePath)) {
 
                 <div id="companyInfo"></div>
                 <div id="result"></div>
+                <div id="warning">請注意:風險評估結果可能會出錯。請考慮核對重要資訊。</div>
             </div>
         </div>
         </div>

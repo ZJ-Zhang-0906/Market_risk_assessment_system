@@ -1,30 +1,30 @@
 {
     "py_prtr_input": [
         {
-            "NumberOfData": "1"
+            "NumberOfData": "找不到符合搜尋條件的裁處資訊"
         }
     ],
     "py_moea_input": [
         {
-            "BusinessAccountingNO": "86517510",
+            "BusinessAccountingNO": "27365925",
             "CompanyStatusDesc": "核准設立",
-            "CompanyName": "玉山商業銀行股份有限公司",
-            "CapitalStockAmount": "117072000000",
-            "PaidInCapitalAmount": "117072000000",
-            "ResponsibleName": "黃男州",
-            "CompanyLocation": "臺北市松山區民生東路3段115號及117號"
+            "CompanyName": "富邦媒體科技股份有限公司",
+            "CapitalStockAmount": "3000000000",
+            "PaidInCapitalAmount": "2403403860",
+            "ResponsibleName": "蔡明忠",
+            "CompanyLocation": "臺北市內湖區洲子街96號4樓"
         }
     ],
     "py_mol_input": [
         {
-            "SerialNumber": "0",
-            "CompetentAuthority": "0",
-            "AnnouncementDate": "0",
-            "DisposalDate": "0",
-            "PenaltyFontSize": "0",
-            "BusinessUnitName": "0",
-            "IllegalLawsAndRegulations": "0",
-            "ViolationOfLawsAndRegulations": "0"
+            "SerialNumber": "1",
+            "CompetentAuthority": "新北市",
+            "AnnouncementDate": "112/08/18",
+            "DisposalDate": "112/06/14",
+            "PenaltyFontSize": "新北府勞檢字第1124668063號",
+            "BusinessUnitName": "富邦媒體科技股份有限公司/蔡明忠",
+            "IllegalLawsAndRegulations": "勞動基準法第22條第2項",
+            "ViolationOfLawsAndRegulations": "工資未全額直接給付勞工"
         }
     ],
     "py_ppstrq_input": [
@@ -40,9 +40,11 @@
     ],
     "twincn": [
         {
-            "BusinessAccountingNO": 86517510,
-            "CompanyName": "拍賣抵押物",
-            "Lawsuit": "法院案號 臺灣臺南地方法院\n111年度司拍字242號 案件類別 民事"
+            "BusinessAccountingNO": 27365925,
+            "CompanyName": "富邦媒體科技股份有限公司",
+            "Lawsuit": "法院案號 臺灣基隆地方法院\n112年度基小字2906號 案件類別 民事",
+            "state": "營業中",
+            "Use_unified_invoice": "是"
         }
     ]
 }

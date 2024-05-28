@@ -15,6 +15,7 @@ os.environ["OPENAI_API_KEY"] = "sk-hhtVyHQopBOfIlVptiXVT3BlbkFJ5Opuogxz3VVu0aoA2
 def main():
     
     #=============================抓公司登記資料=====================
+    time.sleep(1)
     fetch_data_and_insert_to_py_moea_input()
     #==============================================================
     
