@@ -39,7 +39,7 @@ if (file_exists($jsonFilePath)) {
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/risk.css">
     <link rel="stylesheet" href="assets/css/nav.css">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -122,9 +122,19 @@ if (file_exists($jsonFilePath)) {
     <section id="services" class="service-area">
         <div class="container">
             <div class="row" id="END">
+                <div id="riskResult">
+                    <div id="companyInfo"></div>
+                    <div class="line"></div>
+                    <div id="result"> <?php
+                                        // 讀取 JSON 檔案
+                                        $json = file_get_contents('C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\respon.json');
+                                        $data = json_decode($json, true);
+                                        // 將內容以 HTML 格式顯示
+                                        $response = nl2br($data['response']); // 將換行符號轉換為 <br>
+                                        echo "<p>{$response}</p>";
+                                        ?></div>
+                </div>
 
-                <div id="companyInfo"></div>
-                <div id="result"></div>
                 <div id="warning">請注意:風險評估結果可能會出錯。請考慮核對重要資訊。</div>
             </div>
         </div>
@@ -188,29 +198,29 @@ if (file_exists($jsonFilePath)) {
                 const prtrData = data.py_prtr_input[0];
                 const molInput = data.py_mol_input.find(item => item.SerialNumber === "1");
                 const ppstrqInput = data.py_ppstrq_input.find(item => item.SerialNumber === 1);
-                const twincnData=data.twincn[0];
+                const twincnData = data.twincn[0];
                 // // 建立一個變量來儲存將要顯示在網頁上的資訊
                 let content =
                     '統編號碼: ' + pyMoeaInput.BusinessAccountingNO + '<br>' +
-                    '<span style="display: block; margin-bottom: 10px;"> 公司名稱: ' + pyMoeaInput.CompanyName + '</span><br>' +
-                    '<span style="display: block; margin-bottom: 10px;"> 資本額: ' + pyMoeaInput.CapitalStockAmount + '</span><br>' +
-                    '<span style="display: block; margin-bottom: 10px;"> 實收資本額: ' + pyMoeaInput.PaidInCapitalAmount + '</span><br>' +
-                    '<span style="display: block; margin-bottom: 10px;"> 負責人姓名: ' + pyMoeaInput.ResponsibleName + '</span><br>' +
-                    '<span style="display: block; margin-bottom: 10px;"> 公司位置: ' + pyMoeaInput.CompanyLocation + '</span><br>' +
-                    '<span style="display: block; margin-bottom: 10px;"> 環保是否有裁罰: ' + prtrData.NumberOfData + '</span><br>'+
-                    '<span style="display: block; margin-bottom: 10px;"> 司法是否有裁罰: ' + twincnData.Lawsuit + '</span><br>';
+                    '<span class="companyInfo"> 公司名稱: ' + pyMoeaInput.CompanyName + '</span>' +
+                    '<span class="companyInfo"> 資本額: ' + pyMoeaInput.CapitalStockAmount + '</span>' +
+                    '<span class="companyInfo"> 實收資本額: ' + pyMoeaInput.PaidInCapitalAmount + '</span>' +
+                    '<span class="companyInfo"> 負責人姓名: ' + pyMoeaInput.ResponsibleName + '</span>' +
+                    '<span class="companyInfo"> 公司位置: ' + pyMoeaInput.CompanyLocation + '</span>' +
+                    '<span class="companyInfo"> 環保是否有裁罰: ' + prtrData.NumberOfData + '</span>' +
+                    '<span class="companyInfo"> 司法是否有裁罰: ' + twincnData.Lawsuit + '</span>';
                 // 檢查勞動違規裁罰信息
                 if (molInput) {
-                    content += '勞動違規裁罰: 有，罰鍰字號為 ' + molInput.PenaltyFontSize + '<br>';
+                    content += '<span class="companyInfo">勞動違規裁罰: 有，罰鍰字號為 ' + molInput.PenaltyFontSize + '</span>';
                 } else {
-                    content += '無勞動違規裁罰<br>';
+                    content += '<span class="companyInfo">無勞動違規裁罰</span>';
                 }
 
                 // 檢查動產抵押信息
                 if (ppstrqInput) {
-                    content += '動產抵押: 有，狀態為 ' + ppstrqInput.CaseStatus + '<br>';
+                    content += '<span class="companyInfo">動產抵押: 有，狀態為 ' + ppstrqInput.CaseStatus + '</span>';
                 } else {
-                    content += '無動產抵押<br>';
+                    content += '<span class="companyInfo">無動產抵押</span>';
                 }
 
                 // 將結果顯示在網頁上
@@ -220,17 +230,17 @@ if (file_exists($jsonFilePath)) {
                 // 處理錯誤情況
                 console.error('錯誤獲取或解析 JSON 檔案', error);
             });
-            fetch('respon.json')
-            .then(response => response.json()) // 解析 JSON
-            .then(data => {
-                // 从 JSON 数据中提取 "response" 的值
-                const result = data.response;
-                // 将提取的值插入到 HTML 中
-                document.getElementById('result').innerHTML = result;
-            })
-            .catch(error => {
-                console.error('Error fetching the JSON file:', error);
-            });
+        // fetch('respon.json')
+        //     .then(response => response.json()) // 解析 JSON
+        //     .then(data => {
+        //         // 从 JSON 数据中提取 "response" 的值
+        //         const result = data.response;
+        //         // 将提取的值插入到 HTML 中
+        //         document.getElementById('result').innerHTML = result;
+        //     })
+        //     .catch(error => {
+        //         console.error('Error fetching the JSON file:', error);
+        //     });
     </script>
 </body>
 

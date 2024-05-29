@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>排版示例</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .left, .right {
+            padding: 20px;
+            width: 50%;
+        }
+        .left {
+            border-right: 1px solid #ddd;
+        }
+        .right {
+            padding-left: 30px;
+        }
+        .right p {
+            margin-bottom: 10px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #ff6347; /* Tomato color for highlights */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <p>統編號碼: 27365925</p>
+            <p>公司名稱: 富邦媒體科技股份有限公司</p>
+            <p>資本額: 3000000000</p>
+            <p>實收資本額: 2403403860</p>
+            <p>負責人姓名: 蔡明忠</p>
+            <p>公司位置: 台北市內湖區洲子街96號4樓</p>
+            <p>環保是否有裁罰: 找不到符合搜尋條件的裁處資訊</p>
+            <p>司法是否有裁罰: 法院案號 臺灣基隆地方法院 112年度基小字2906號 案件類別 民事</p>
+            <p>勞動違規裁罰: 有，罰鍰字號為 新北府勞檢字第1124668063號</p>
+            <p>無動產抵押</p>
+        </div>
+        <div class="right">
+            <p>依據提供的資料，我們對「富邦媒體科技股份有限公司」的風險評估如下：</p>
+            <p><span class="highlight">1. **資本額增加**:</span> - 實收資本額由 2,184,912,600 變更為 2,403,403,860，因此加 1 分</p>
+            <p><span class="highlight">2. **地址變更**:</span> - 地址未變更，因此不加分也不扣分</p>
+            <p><span class="highlight">3. **負責人變更**:</span> - 負責人未變更，因此不加分也不扣分</p>
+            <p><span class="highlight">4. **開發票情況**:</span> - 有開統一發票，加 1 分</p>
+            <p><span class="highlight">5. **營業狀態**:</span> - 營業中，加 1 分</p>
+            <p><span class="highlight">6. **訴訟情況**:</span> - 有訴訟，扣 1 分</p>
+            <p><span class="highlight">7. **勞基法罰鍰**:</span> - 有勞基法罰鍰，扣 1 分</p>
+            <p><span class="highlight">8. **環保裁罰**:</span> - 無裁處資訊或裁罰記錄，加 1 分</p>
+            <p><span class="highlight">9. **動產設定**:</span> - 無動產設定記錄，加 1 分</p>
+            <p>根據加總分數：- 增加資本額 +1 - 開發票 +1 - 營業中 +1 - 環保裁罰 +1 - 無動產設定 +1 - 有訴訟 -1 - 有勞基法罰鍰 -1 總分: 3 分，屬於 <span class="highlight">**中高風險**</span>。</p>
+        </div>
+    </div>
+</body>
+</html>

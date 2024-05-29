@@ -8,6 +8,7 @@ def fetch_openai_response(api_key, questio):
     :param question: 用户的问题字符串。
     :return: 返回OpenAI聊天模型的回复内容。
     """
+    
     regular = """資本額若有增加就加分若減少就扣一分（近一年）
                 地址變更就扣一分若沒變更就不扣分也不加分
                 負責人變更就扣一分若沒變更就不扣分也不加分
@@ -22,7 +23,7 @@ def fetch_openai_response(api_key, questio):
                 2分及3分為中高風險
                 4分及5分為中低風險
                 6分及7分為低風險
-                用繁體中文回答""" #TODO 不知道有沒有淦用
+                用繁體中文回答並簡短回答""" #TODO 不知道有沒有淦用
     
     
     client = OpenAI(api_key=api_key)

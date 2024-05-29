@@ -70,3 +70,51 @@ An error occurred: 'cp950' codec can't encode character '\u5bd7' in position 500
 
 Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
 æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: ((139, '27365925', '´I¨¹´CÅé¬ì§ÞªÑ¥÷¦³­­¤½¥q'),)
+27365925
+²Î¤@½s¸¹¡G27365925
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G´I¨¹´CÅé¬ì§ÞªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G3000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):2403403860
+¥Nªí¤H©m¦W¡G½²©ú©¾
+¤½¥q©Ò¦b¦a¡G»O¥_¥«¤º´ò°Ï¬w¤lµó96¸¹4¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Þ¡C
+((139, '27365925', '´I¨¹´CÅé¬ì§ÞªÑ¥÷¦³­­¤½¥q'),)
+27365925
+§ä¤£¨ì²Å¦X·j´M±ø¥óªºµô³B¸ê°T
+BusinessAccountingNO: 27365925
+¬dµL²Å¦X®×¥ó!!
+An error occurred: 'cp950' codec can't encode character '\u5bd7' in position 500: illegal multibyte sequence
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: ((140, '27365925', '´I¨¹´CÅé¬ì§ÞªÑ¥÷¦³­­¤½¥q'),)
+27365925
+²Î¤@½s¸¹¡G27365925
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G´I¨¹´CÅé¬ì§ÞªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G3000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):2403403860
+¥Nªí¤H©m¦W¡G½²©ú©¾
+¤½¥q©Ò¦b¦a¡G»O¥_¥«¤º´ò°Ï¬w¤lµó96¸¹4¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Þ¡C
+((140, '27365925', '´I¨¹´CÅé¬ì§ÞªÑ¥÷¦³­­¤½¥q'),)
+27365925
+§ä¤£¨ì²Å¦X·j´M±ø¥óªºµô³B¸ê°T
+BusinessAccountingNO: 27365925
+¬dµL²Å¦X®×¥ó!!
+An error occurred: 'cp950' codec can't encode character '\u5bd7' in position 500: illegal multibyte sequence
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
