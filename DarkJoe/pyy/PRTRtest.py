@@ -5,8 +5,6 @@ from selenium.webdriver.common.by import By
 import time
 import pymysql
 from selenium.webdriver.chrome.service import Service
-# from dotenv import load_dotenv
-from fetch import fetch_data_and_insert_to_twincn
 from connet_db import connect
 
 # 连接数据库
@@ -43,7 +41,7 @@ def fetch_and_clean_data():
     finally:
         conn.close()
 #============================================================================================
-# fetch_and_clean_data()
+
 #==========================================環境部爬汙染======================================== 
 def fetch_data_and_insert_to_py_prtr_input():
     conn, driver = connect()
@@ -92,10 +90,14 @@ def fetch_data_and_insert_to_py_prtr_input():
         text_element = no_data_div.find_element(By.CLASS_NAME, 'text')
         # 获取元素中的文本
         text = text_element.text
+        if text=='0':
+            text = '沒有裁罰案件'
         print(text)
     except:  # 有資料
         have_data = driver.find_element(By.CLASS_NAME, 'result_number')
         text = have_data.text
+        if text == '1':
+            text = '有裁罰案件'
         print(text)
 
     try:
@@ -113,4 +115,4 @@ def fetch_data_and_insert_to_py_prtr_input():
 #=========================================================================================
 
 
-fetch_and_clean_data()
+# fetch_and_clean_data()
