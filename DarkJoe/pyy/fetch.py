@@ -36,7 +36,7 @@ def fetch_data_and_insert_to_twincn():
 
             # 初始化變數
             shareholder_info = ""
-            lawsuit_info = None
+            lawsuit_info = "無資料"
             state = None
             use_unified_invoice = None
             company_name = None
@@ -74,6 +74,8 @@ def fetch_data_and_insert_to_twincn():
                             if datetime.now() - date <= timedelta(days=1095):  # 3年內
                                 lawsuit_info = " ".join([div.text for div in cells[1].find_elements(By.CSS_SELECTOR, "div.col-sm-auto")])
                                 break
+                            if lawsuit_info == None:
+                                lawsuit_info="無資料"
                         except ValueError:
                             print(f"Date {date_text} format is incorrect. Skipping.")
 

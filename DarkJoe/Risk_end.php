@@ -73,7 +73,7 @@ if (file_exists($jsonFilePath)) {
                     <div class="nav">
                         <a href="#" data-placement="bottom" title="Menu" class="menu" data-toggle="dropdown"><i class="pe-7s-menu"></i></a>
                         <a href="#"></a>
-                        <div class="dropdown-menu" style="background: #5b5b59;">
+                        <div class="dropdown-menu" style="background: #ffffff;">
                             <div class="arrow-up"></div>
                             <ul>
                                 <a href="index.php">
@@ -122,6 +122,7 @@ if (file_exists($jsonFilePath)) {
     <section id="services" class="service-area">
         <div class="container">
             <div class="row" id="END">
+            <div id="warning">請注意:風險評估結果可能會出錯。請考慮核對重要資訊。</div>
                 <div id="riskResult">
                     <div id="companyInfo"></div>
                     <div class="line"></div>
@@ -135,7 +136,7 @@ if (file_exists($jsonFilePath)) {
                                         ?></div>
                 </div>
 
-                <div id="warning">請注意:風險評估結果可能會出錯。請考慮核對重要資訊。</div>
+                
             </div>
         </div>
         </div>

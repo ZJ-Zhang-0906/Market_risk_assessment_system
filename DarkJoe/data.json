@@ -1,51 +1,51 @@
 {
     "py_prtr_input": [
         {
-            "NumberOfData": "找不到符合搜尋條件的裁處資訊"
+            "NumberOfData": "找不到符合搜尋條件的裁處資訊\n建議您：\n1. 請檢查有無錯別字\n2. 請換用不同的查詢字詞\n3. 請減少查詢字詞"
         }
     ],
     "py_moea_input": [
         {
-            "BusinessAccountingNO": "27365925",
+            "BusinessAccountingNO": "81020420",
             "CompanyStatusDesc": "核准設立",
-            "CompanyName": "富邦媒體科技股份有限公司",
-            "CapitalStockAmount": "3000000000",
-            "PaidInCapitalAmount": "2403403860",
-            "ResponsibleName": "蔡明忠",
-            "CompanyLocation": "臺北市內湖區洲子街96號4樓"
+            "CompanyName": "寬利電機有限公司",
+            "CapitalStockAmount": "10000000",
+            "PaidInCapitalAmount": "0",
+            "ResponsibleName": "林文泉",
+            "CompanyLocation": "高雄市大寮區內坑里內坑路9之3號1樓"
         }
     ],
     "py_mol_input": [
         {
-            "SerialNumber": "1",
-            "CompetentAuthority": "新北市",
-            "AnnouncementDate": "112/08/18",
-            "DisposalDate": "112/06/14",
-            "PenaltyFontSize": "新北府勞檢字第1124668063號",
-            "BusinessUnitName": "富邦媒體科技股份有限公司/蔡明忠",
-            "IllegalLawsAndRegulations": "勞動基準法第22條第2項",
-            "ViolationOfLawsAndRegulations": "工資未全額直接給付勞工"
+            "SerialNumber": "0",
+            "CompetentAuthority": "0",
+            "AnnouncementDate": "0",
+            "DisposalDate": "0",
+            "PenaltyFontSize": "0",
+            "BusinessUnitName": "0",
+            "IllegalLawsAndRegulations": "0",
+            "ViolationOfLawsAndRegulations": "0"
         }
     ],
     "py_ppstrq_input": [
         {
-            "SerialNumber": 0,
-            "RegistrationAuthority": "0",
-            "CaseCategory": "0",
-            "DebtorName": "0",
-            "NameOfMortgagee": "0",
-            "RegistrationNumber": 0,
-            "CaseStatus": "0"
+            "SerialNumber": 1,
+            "RegistrationAuthority": "交通部公路局",
+            "CaseCategory": "附條件買賣",
+            "DebtorName": "寬利電機有限公司",
+            "NameOfMortgagee": "和昭實業股份有限公司",
+            "RegistrationNumber": 80,
+            "CaseStatus": "效期內"
         }
     ],
     "twincn": [
         {
-            "BusinessAccountingNO": "27365925",
-            "CompanyName": "富邦媒體科技股份有限公司",
-            "Lawsuit": "法院案號 臺灣基隆地方法院\n112年度基小字2906號 案件類別 民事",
+            "BusinessAccountingNO": "81020420",
+            "CompanyName": "寬利電機有限公司",
+            "Lawsuit": "無資料",
             "state": "營業中",
             "Use_unified_invoice": "有開統一發票",
-            "Change_money": "變更持股:\n蔡明忠 的持股\n98,353,639 變更 108,189,002\n\n蔡承道 的持股\n98,353,639 變更 108,189,002\n\n林之晨 的持股\n98,353,639 變更 108,189,002\n\n谷元宏 的持股\n98,353,639 變更 108,189,002\n\n張家麒 的持股\n98,353,639 變更 108,189,002\n\n黃茂雄 的持股\n23,008,800 變更 25,309,680; 實收資本額由:\n2,184,912,600\n變更為\n2,403,403,860; 新增董監事:\n董事 蔡承道 (大富媒體科技股份有限公司)\n獨立董事 洪麗寗\n獨立董事 江永祥; 離職董監事:\n董事 蔡承儒 (大富媒體科技股份有限公司)\n獨立董事 陳宏守\n獨立董事 謝易宏; "
+            "Change_money": ""
         }
     ]
 }
