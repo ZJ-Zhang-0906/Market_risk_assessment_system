@@ -14,7 +14,7 @@ $response = [
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header('Content-Type: application/json'); // 确保在输出之前设置
 
-    $logFilePath = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/python_script.log';
+    $logFilePath = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/python_script.log'; //錯誤日誌
 
     // 初始化日志文件
     file_put_contents($logFilePath, "Script started\n", FILE_APPEND);
