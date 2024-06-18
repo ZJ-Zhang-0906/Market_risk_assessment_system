@@ -1,4 +1,5 @@
 from connet_db import connect
+import threading
 from fetch import fetch_data_and_insert_to_twincn
 from propertyQuery import fetch_data_and_insert_to_py_ppstrq_input
 from  MOL_SQL  import fetch_data_and_insert_to_py_mol_input
@@ -13,9 +14,11 @@ os.environ["OPENAI_API_KEY"] = "sk-hhtVyHQopBOfIlVptiXVT3BlbkFJ5Opuogxz3VVu0aoA2
 
 
 def main():
+    threads = []
     
     #=============================抓公司登記資料=====================
     time.sleep(1)
+    threads.append(threading.Thread(target=fetch_data_and_insert_to_py_moea_input))
     fetch_data_and_insert_to_py_moea_input()
     #==============================================================
     
@@ -52,3 +55,21 @@ if __name__ == '__main__':
     main()
     
     
+    # threads = []
+    
+    # # 加入需要執行的線程
+    # threads.append(threading.Thread(target=fetch_data_and_insert_to_py_moea_input))
+    # threads.append(threading.Thread(target=fetch_data_and_insert_to_twincn))
+    # threads.append(threading.Thread(target=fetch_data_and_insert_to_py_ppstrq_input))
+    # threads.append(threading.Thread(target=fetch_data_and_insert_to_py_mol_input))
+    # threads.append(threading.Thread(target=fetch_data_and_insert_to_py_prtr_input))
+    # threads.append(threading.Thread(target=fetch_and_clean_data))
+    # threads.append(threading.Thread(target=fetch_openai_response))
+    
+    # # 啟動所有線程
+    # for thread in threads:
+    #     thread.start()
+    
+    # # 等待所有線程完成
+    # for thread in threads:
+    #     thread.join()
