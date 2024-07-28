@@ -1,6 +1,6 @@
 # 安裝
 1. 安裝xampp [下載頁面](https://www.apachefriends.org/zh_tw/download.html)
-2. 安裝 ChromeDriver 123.0.6312.58 [下載頁面](https://chromedriver.chromium.org/downloads)
+2. 安裝 ChromeDriver 最新版本 [下載頁面](https://googlechromelabs.github.io/chrome-for-testing/)
 3. 建立資料庫
 4. 安裝requirements.txt或是npm套件(如果有的話)
 ------
