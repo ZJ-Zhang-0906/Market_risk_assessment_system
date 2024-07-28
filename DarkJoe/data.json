@@ -1,18 +1,18 @@
 {
     "py_prtr_input": [
         {
-            "NumberOfData": "找不到符合搜尋條件的裁處資訊\n建議您：\n1. 請檢查有無錯別字\n2. 請換用不同的查詢字詞\n3. 請減少查詢字詞"
+            "NumberOfData": "1"
         }
     ],
     "py_moea_input": [
         {
-            "BusinessAccountingNO": "81020420",
+            "BusinessAccountingNO": "04231910",
             "CompanyStatusDesc": "核准設立",
-            "CompanyName": "寬利電機有限公司",
-            "CapitalStockAmount": "10000000",
-            "PaidInCapitalAmount": "0",
-            "ResponsibleName": "林文泉",
-            "CompanyLocation": "高雄市大寮區內坑里內坑路9之3號1樓"
+            "CompanyName": "國泰世華商業銀行股份有限公司",
+            "CapitalStockAmount": "120113138660",
+            "PaidInCapitalAmount": "108598655270",
+            "ResponsibleName": "郭明鑑",
+            "CompanyLocation": "臺北市信義區松仁路7號1樓"
         }
     ],
     "py_mol_input": [
@@ -29,23 +29,23 @@
     ],
     "py_ppstrq_input": [
         {
-            "SerialNumber": 1,
-            "RegistrationAuthority": "交通部公路局",
-            "CaseCategory": "附條件買賣",
-            "DebtorName": "寬利電機有限公司",
-            "NameOfMortgagee": "和昭實業股份有限公司",
-            "RegistrationNumber": 80,
-            "CaseStatus": "效期內"
+            "SerialNumber": 0,
+            "RegistrationAuthority": "0",
+            "CaseCategory": "0",
+            "DebtorName": "0",
+            "NameOfMortgagee": "0",
+            "RegistrationNumber": 0,
+            "CaseStatus": "0"
         }
     ],
     "twincn": [
         {
-            "BusinessAccountingNO": "81020420",
-            "CompanyName": "寬利電機有限公司",
-            "Lawsuit": "無資料",
+            "BusinessAccountingNO": "04231910",
+            "CompanyName": "國泰世華商業銀行股份有限公司",
+            "Lawsuit": "法院案號 臺灣雲林地方法院\n112年度司消債核字9號 案件類別 民事",
             "state": "營業中",
             "Use_unified_invoice": "有開統一發票",
-            "Change_money": ""
+            "Change_money": "登記資本額由:\n108,598,655,270\n變更為\n120,113,138,660; "
         }
     ]
 }

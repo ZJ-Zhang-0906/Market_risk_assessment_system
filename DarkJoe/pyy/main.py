@@ -19,24 +19,30 @@ def main():
     #=============================抓公司登記資料=====================
     time.sleep(1)
     threads.append(threading.Thread(target=fetch_data_and_insert_to_py_moea_input))
-    fetch_data_and_insert_to_py_moea_input()
     #==============================================================
     
     #=============================抓環境部汙染======================
-    fetch_data_and_insert_to_py_prtr_input()
+    threads.append(threading.Thread(target=fetch_data_and_insert_to_py_prtr_input))
     #==============================================================
     
     #=============================抓勞動部勞基法====================
-    fetch_data_and_insert_to_py_mol_input()
+    threads.append(threading.Thread(target=fetch_data_and_insert_to_py_mol_input))
     #==============================================================
     
     #============================抓動產資料=========================
-    fetch_data_and_insert_to_py_ppstrq_input()
+    threads.append(threading.Thread(target=fetch_data_and_insert_to_py_ppstrq_input))
     #==============================================================
     
     #===========================從台灣公司網抓訴訟===================
-    fetch_data_and_insert_to_twincn()
+    threads.append(threading.Thread(target=fetch_data_and_insert_to_twincn))
     #==============================================================
+    # 啟動所有線程
+    for thread in threads:
+        thread.start()
+    
+    # 等待所有線程完成
+    for thread in threads:
+        thread.join()
     
     #==========================抓所有table資料並轉成json並過濾autono===
     question=fetch_and_clean_data()
@@ -55,21 +61,3 @@ if __name__ == '__main__':
     main()
     
     
-    # threads = []
-    
-    # # 加入需要執行的線程
-    # threads.append(threading.Thread(target=fetch_data_and_insert_to_py_moea_input))
-    # threads.append(threading.Thread(target=fetch_data_and_insert_to_twincn))
-    # threads.append(threading.Thread(target=fetch_data_and_insert_to_py_ppstrq_input))
-    # threads.append(threading.Thread(target=fetch_data_and_insert_to_py_mol_input))
-    # threads.append(threading.Thread(target=fetch_data_and_insert_to_py_prtr_input))
-    # threads.append(threading.Thread(target=fetch_and_clean_data))
-    # threads.append(threading.Thread(target=fetch_openai_response))
-    
-    # # 啟動所有線程
-    # for thread in threads:
-    #     thread.start()
-    
-    # # 等待所有線程完成
-    # for thread in threads:
-    #     thread.join()

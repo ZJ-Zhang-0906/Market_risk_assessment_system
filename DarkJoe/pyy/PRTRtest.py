@@ -90,6 +90,8 @@ def fetch_data_and_insert_to_py_prtr_input():
         except:  # 有數據
             have_data = driver.find_element(By.CLASS_NAME, 'result_number')
             text = have_data.text
+            if any(char.isdigit() for char in text):
+                text = "有環境裁罰"
 
         # 插入數據到數據庫
         insert_query = "INSERT INTO py_prtr_input (NumberOfData) VALUES (%s);"
@@ -109,7 +111,7 @@ def fetch_data_and_insert_to_py_prtr_input():
 #=========================================================================================
 # 調用函數
 
-# fetch_data_and_insert_to_py_prtr_input()
+fetch_data_and_insert_to_py_prtr_input()
 
 
 

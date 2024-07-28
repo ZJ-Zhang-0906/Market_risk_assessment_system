@@ -1,52 +1,51 @@
 from openai import OpenAI
 import json 
 #==========================================openai 問答==================================
-def fetch_openai_response(api_key, questio):
+def fetch_openai_response(api_key, question):
     """
     使用OpenAI API发送聊天消息并获取回复。
     :param api_key: 用于身份验证的OpenAI API密钥。
     :param question: 用户的问题字符串。
     :return: 返回OpenAI聊天模型的回复内容。
     """
- 
- 
- 
- 
-    regular = """ 資本額變動：
-                    若近一年內增加，加一分。
-                    若近一年內減少，扣一分。
-                    地址變更：
-                    若變更，扣一分。
-                    若無變更，不加分也不扣分。
-                    負責人變更：
-                    若變更，扣一分。
-                    若無變更，不加分也不扣分。
-                    開發票狀況：
-                    若近一年內有開發票，加一分。
-                    若近一年內未開發票，扣一分。
-                    營業狀況：
-                    若近一年內有營業，加一分。
-                    若近一年內無營業，扣一分。
-                    訴訟狀況：
-                    若近三年內有訴訟，扣一分。
-                    若近三年內無訴訟，加一分。
-                    勞基法違規：
-                    若近三年內有罰款，扣一分。
-                    若近三年內無罰款，加一分。
-                    環保違規：
-                    若近一年內有裁罰，扣一分。
-                    若近一年內無裁罰，加一分。
-                    動產設定：
-                    若有動產設定，扣一分。
-                    若無動產設定，加一分。
-                    紀錄缺乏：
-                    無相關數據紀錄視為無記錄。
-                    風險分級：
-                    最高7分
-                    0分以下及1分：高風險。
-                    2分及3分：中高風險。
-                    4分及5分：中低風階。
-                    6分及7分：低風險。"""   #TODO 不知道有沒有淦用 20240601 zj
+    regular = """基本原則
+初始分數為0分。
+各項目根據情況加分或扣分。
+無資料視為無紀錄。
+用繁體中文回答並簡短回答
+評分規則
+資本額（近一年）:
+增加: +1分
+減少: -1分
+地址變更:
+有變更: -1分
+無變更: 不加不減
+負責人變更:
+有變更: -1分
+無變更: 不加不減
+發票開立（近一年）:
+有開立: +1分
+未開立: -1分
+營業狀態（近一年）:
+營業中: +1分
+非營業中: -1分
+訴訟（近三年）:
+有訴訟: -1分
+無訴訟: +1分
+勞基法罰款（近三年）:
+有罰款: -1分
+無罰款: +1分
+環保裁罰（近一年）:
+有裁罰: -1分
+無裁罰: +1分
+動產設定:
+有設定: -1分
+無設定: +1分
+風險等級判定
+0分以下及1分: 高風險
+2分及3分: 中高風險
+4分及5分: 中低風險
+6分及7分: 低風險""" #TODO 不知道有沒有淦用 20240601 zj
     # regular = """資本額若有增加就加分若減少就扣一分（近一年）
     #             地址變更就扣一分若沒變更就不扣分也不加分
     #             負責人變更就扣一分若沒變更就不扣分也不加分
@@ -66,10 +65,10 @@ def fetch_openai_response(api_key, questio):
     
     client = OpenAI(api_key=api_key)
     completion = client.chat.completions.create(
-         model="gpt-4-turbo",
+         model="gpt-4o",
          messages=[
                     {"role": "system", "content": regular},
-                    {"role": "user", "content": questio}
+                    {"role": "user", "content": question}
                 ]
                                                 )
 
@@ -85,7 +84,7 @@ def fetch_openai_response(api_key, questio):
 
 #=============================================================================
 
-# print(fetch_openai_response('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','你好'))
+# print(fetch_openai_response('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','你好')) test用
 
 
 
