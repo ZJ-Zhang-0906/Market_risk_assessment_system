@@ -10,7 +10,7 @@ import os
 import time
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"]='your_api_key'
 
 
 def main():
@@ -55,8 +55,6 @@ def main():
     # print(fetch_openai_response(OPENAI_API_KEY,question))
     #==============================================================
 if __name__ == '__main__':
-
-    
     # 呼叫主函數
     main()
     

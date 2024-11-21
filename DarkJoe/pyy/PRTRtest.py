@@ -111,7 +111,7 @@ def fetch_data_and_insert_to_py_prtr_input():
 #=========================================================================================
 # 調用函數
 
-fetch_data_and_insert_to_py_prtr_input()
+# fetch_data_and_insert_to_py_prtr_input()
 
 
 

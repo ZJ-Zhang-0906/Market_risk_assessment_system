@@ -1,3 +1,4 @@
+# 測試chrome driver 版本是否能支援瀏覽器
 import pymysql
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -104,10 +105,12 @@ def fetch_data_and_insert_to_twincn():
     except Exception as e:
         print(f"An error occurred: {e}")
     finally:
-        driver.quit()
+        driver.quit()   
         cursor.close()
         conn.close()
+fetch_data_and_insert_to_twincn() #test調用
 
+# ==========================================上面測試chrome driver 版本是否能支援瀏覽器============================================
 
 #==========================================環境部爬汙染======================================== 
 def fetch_data_and_insert_to_py_prtr_input():
@@ -175,4 +178,4 @@ def fetch_data_and_insert_to_py_prtr_input():
 #=========================================================================================
 # 調用函數
 
-fetch_data_and_insert_to_py_prtr_input()
+# fetch_data_and_insert_to_py_prtr_input()

@@ -122,7 +122,7 @@ if (file_exists($jsonFilePath)) {
     <section id="services" class="service-area">
         <div class="container">
             <div class="row" id="END">
-            <div id="warning">請注意:風險評估結果可能會出錯。請考慮核對重要資訊。</div>
+                <div id="warning">請注意:風險評估結果可能會出錯。請考慮核對重要資訊。</div>
                 <div id="riskResult">
                     <div id="companyInfo"></div>
                     <div class="line"></div>
@@ -136,7 +136,7 @@ if (file_exists($jsonFilePath)) {
                                         ?></div>
                 </div>
 
-                
+
             </div>
         </div>
         </div>
@@ -197,10 +197,14 @@ if (file_exists($jsonFilePath)) {
                 // 從 JSON 數據中提取各部分的第一條記錄
                 const pyMoeaInput = data.py_moea_input[0];
                 const prtrData = data.py_prtr_input[0];
-                const molInput = data.py_mol_input.find(item => item.SerialNumber === "1");
-                const ppstrqInput = data.py_ppstrq_input.find(item => item.SerialNumber === 1);
+                // 查找 SerialNumber 为数字的记录
+                const molInput = data.py_mol_input.find(item => !isNaN(parseInt(item.SerialNumber, 10)));
+                const ppstrqInput = data.py_ppstrq_input.find(item => !isNaN(parseInt(item.SerialNumber, 10)));
+
+                // const molInput = data.py_mol_input.find(item => item.SerialNumber === "1");
+                // const ppstrqInput = data.py_ppstrq_input.find(item => item.SerialNumber === 1);
                 const twincnData = data.twincn[0];
-                // // 建立一個變量來儲存將要顯示在網頁上的資訊
+
                 let content =
                     '統編號碼: ' + pyMoeaInput.BusinessAccountingNO + '<br>' +
                     '<span class="companyInfo"> 公司名稱: ' + pyMoeaInput.CompanyName + '</span>' +
@@ -211,14 +215,15 @@ if (file_exists($jsonFilePath)) {
                     '<span class="companyInfo"> 環保是否有裁罰: ' + prtrData.NumberOfData + '</span>' +
                     '<span class="companyInfo"> 司法是否有裁罰: ' + twincnData.Lawsuit + '</span>';
                 // 檢查勞動違規裁罰信息
-                if (molInput) {
-                    content += '<span class="companyInfo">勞動違規裁罰: 有，罰鍰字號為 ' + molInput.PenaltyFontSize + '</span>';
+                // 检查劳动违规裁罚信息
+                if (molInput && parseInt(molInput.SerialNumber, 10) !== 0) {
+                    content += '<span class="companyInfo">勞動違規裁罰: 有，罰鍰字號為 ' + molInput.PenaltyFontSize + '違規內容: ' + molInput.IllegalLawsAndRegulations + '</span>';
                 } else {
                     content += '<span class="companyInfo">無勞動違規裁罰</span>';
                 }
 
-                // 檢查動產抵押信息
-                if (ppstrqInput) {
+                // 检查动产抵押信息
+                if (ppstrqInput && parseInt(ppstrqInput.SerialNumber, 10) !== 0) {
                     content += '<span class="companyInfo">動產抵押: 有，狀態為 ' + ppstrqInput.CaseStatus + '</span>';
                 } else {
                     content += '<span class="companyInfo">無動產抵押</span>';

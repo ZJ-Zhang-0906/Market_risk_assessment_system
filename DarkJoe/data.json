@@ -1,30 +1,30 @@
 {
     "py_prtr_input": [
         {
-            "NumberOfData": "1"
+            "NumberOfData": "找不到符合搜尋條件的裁處資訊\n建議您：\n1. 請檢查有無錯別字\n2. 請換用不同的查詢字詞\n3. 請減少查詢字詞"
         }
     ],
     "py_moea_input": [
         {
-            "BusinessAccountingNO": "04231910",
+            "BusinessAccountingNO": "22099131",
             "CompanyStatusDesc": "核准設立",
-            "CompanyName": "國泰世華商業銀行股份有限公司",
-            "CapitalStockAmount": "120113138660",
-            "PaidInCapitalAmount": "108598655270",
-            "ResponsibleName": "郭明鑑",
-            "CompanyLocation": "臺北市信義區松仁路7號1樓"
+            "CompanyName": "台灣積體電路製造股份有限公司",
+            "CapitalStockAmount": "280500000000",
+            "PaidInCapitalAmount": "259336292420",
+            "ResponsibleName": "魏哲家",
+            "CompanyLocation": "新竹科學園區新竹市力行六路8號"
         }
     ],
     "py_mol_input": [
         {
-            "SerialNumber": "0",
-            "CompetentAuthority": "0",
-            "AnnouncementDate": "0",
-            "DisposalDate": "0",
-            "PenaltyFontSize": "0",
-            "BusinessUnitName": "0",
-            "IllegalLawsAndRegulations": "0",
-            "ViolationOfLawsAndRegulations": "0"
+            "SerialNumber": "5",
+            "CompetentAuthority": "國家科學及技術委員會新竹科學園區",
+            "AnnouncementDate": "112/09/01",
+            "DisposalDate": "112/08/18",
+            "PenaltyFontSize": "竹環字第1120028249號",
+            "BusinessUnitName": "台灣積體電路製造股份有限公司(劉德音)",
+            "IllegalLawsAndRegulations": "勞動基準法第32條第2項",
+            "ViolationOfLawsAndRegulations": "延長之工作時間超過法令規定"
         }
     ],
     "py_ppstrq_input": [
@@ -40,12 +40,12 @@
     ],
     "twincn": [
         {
-            "BusinessAccountingNO": "04231910",
-            "CompanyName": "國泰世華商業銀行股份有限公司",
-            "Lawsuit": "法院案號 臺灣雲林地方法院\n112年度司消債核字9號 案件類別 民事",
+            "BusinessAccountingNO": "22099131",
+            "CompanyName": "台灣積體電路製造股份有限公司",
+            "Lawsuit": "法院案號 臺灣高等法院 臺南分院\n112年度上字213號 案件類別 民事",
             "state": "營業中",
             "Use_unified_invoice": "有開統一發票",
-            "Change_money": "登記資本額由:\n108,598,655,270\n變更為\n120,113,138,660; "
+            "Change_money": "新增董監事:\n董事 劉鏡清 (行政院國家發展基金管理會)\n獨立董事 烏蘇拉‧伯恩斯\n獨立董事 琳恩‧埃爾森漢斯\n獨立董事 林全; 離職董監事:\n董事長 LIU TE-YIN MARK(劉德音)\n董事 龔明鑫 (行政院國家發展基金管理會)\n獨立董事 陳國慈\n獨立董事 海英俊; 實收資本額由:\n259,350,309,920\n變更為\n259,336,292,420; 負責人 LIU TE-YIN MARK(劉德音) 變更為 魏哲家。; 變更持股:\nLIU TE-YIN MARK(劉德音) 的持股\n12,961,878 變更 12,966,722; 實收資本額由:\n259,320,709,920\n變更為\n259,350,309,920; "
         }
     ]
 }
