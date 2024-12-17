@@ -23,7 +23,7 @@ def fetch_openai_response(api_key, question):
                 2分及3分為中高風險
                 4分及5分為中低風險
                 6分及7分為低風險
-                用繁體中文回答並簡短回答""" #TODO 不知道有沒有淦用 20240601 zj
+                用繁體中文回答顯示計算過程並簡短回答""" #TODO 不知道有沒有淦用 20240601 zj
     
     
     client = OpenAI(api_key=api_key)

@@ -290,7 +290,7 @@
                                 </button>Q3. 甚麼是財務分析?
                             </a>
                             <div class="inner_block">
-                                A3. <br> 由使用者提供損益表(PDF檔)資產負債表(PDF檔)給財務分析系統，系統在收到PDF檔後會利用AI進行讀取與運算，之後再將計算結果產生一個XML檔回傳給使用者
+                                A3. <br> 由使用者提供損益表(PDF檔)資產負債表(PDF檔)給財務分析系統，系統在收到PDF檔後會利用AI進行讀取與運算，之後再將計算結果產生一個回饋回傳給使用者
                                 </p>
                                 <br>
                                 <a class="btn btn-success" style="background-color: #44c5d7;color: black; border-radius: 15%;  width: auto; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);" href="Financial.php" target="_blank" type="bottom">預測</a>

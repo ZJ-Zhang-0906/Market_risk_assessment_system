@@ -128,7 +128,7 @@ if (file_exists($jsonFilePath)) {
                     <div class="line"></div>
                     <div id="result"> <?php
                                         // 讀取 JSON 檔案
-                                        $json = file_get_contents('C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\respon.json');
+                                        $json = file_get_contents('C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\respon.json'); //需要更改json檔案位置
                                         $data = json_decode($json, true);
                                         // 將內容以 HTML 格式顯示
                                         $response = nl2br($data['response']); // 將換行符號轉換為 <br>
@@ -142,19 +142,87 @@ if (file_exists($jsonFilePath)) {
         </div>
 
     </section>
+    <br>
+    <div class="row mt-5">
+        <section id="risk_rule_table" class="portfolio-area">
+            <h2 class="text-center">以下為我們的風險評分規則及風險等級</h2>
+            <table id="assetLiabilityTable" class="table table-bordered ">
+                <thead class="thead-dark fs-2 text-center">
+                    <tr>
+                        <th scope="col">項目</th>
+                        <th scope="col">情況</th>
+                    </tr>
+                </thead>
+                <tbody class="fs-2 text-center">
+                    <tr>
+                        <td>資本額</td>
+                        <td>增加+1分<br>減少-1分</td>
+                    </tr>
+                    <tr>
+                        <td>負責人</td>
+                        <td>變更-1分<br>不變更+0分</td>
+                    </tr>
+                    <tr>
+                        <td>地址</td>
+                        <td>變更-1分<br>不變更+0分</td>
+                    </tr>
+                    <tr>
+                        <td>開發票</td>
+                        <td>有開+1分<br>沒開-1分</td>
+                    </tr>
+                    <tr>
+                        <td>是否營業</td>
+                        <td>營業中+1分<br>沒營業-1分</td>
+                    </tr>
+                    <tr>
+                        <td>訴訟</td>
+                        <td>沒訴訟+1分<br>有訴訟-1分</td>
+                    </tr>
+                    <tr>
+                        <td>勞基法</td>
+                        <td>沒違法+1分<br>有違法-1分</td>
+                    </tr>
+                    <tr>
+                        <td>環保法</td>
+                        <td>沒違法+1分<br>有違法-1分</td>
+                    </tr>
+                    <tr>
+                        <td>是否有動產</td>
+                        <td>沒有+1分<br>有-1分</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-bordered fs-2">
+                <tr>
+                    <th>風險評分標準</th>
+                    <th>0分以下</th>
+                    <th>1分</th>
+                    <th>2分</th>
+                    <th>3分</th>
+                    <th>4分</th>
+                    <th>5分</th>
+                    <th>6分</th>
+                    <th>7分</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>高風險</td>
+                    <td>高風險</td>
+                    <td>中高風險</td>
+                    <td>中高風險</td>
+                    <td>中低風險</td>
+                    <td>中低風險</td>
+                    <td>低風險</td>
+                    <td>低風險</td>
+                </tr>
+            </table>
+        </section>
 
-    <section id="portfolio" class="portfolio-area">
-        <div class="container" style="display: flex;text-align: center;">
-            <div class="row port cs-style-3">
-                <div class="col-md-4 col-sm-6 col-xs-12 item-space">
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
 
 
 
-
+  
 
 
 
@@ -180,6 +248,7 @@ if (file_exists($jsonFilePath)) {
     <script src="assets/js/smooth-scroll.js"></script>
     <script src="assets/js/owl.carousel.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
     <script>
         // 在页面加载后自动滚动到指定位置
         window.onload = function() {

@@ -1,26 +1,26 @@
 <?php
 $terms = [
-    "銀行借款對淨值比率" => "請幫我計算出銀行借款對淨值比率，他的公式是:銀行借款/淨值",
-    "權益總額" => "請幫我計算出權益總額，他的公式是:銀行借款/淨值",
-    "長期銀行借款對淨值比率" => "請幫我計算出長期銀行借款對淨值比率，他的公式是:長期銀行借款/淨值",
-    "槓桿比率" => "請幫我計算出槓桿比率，他的公式是:負債總額/淨值",
-    "流動比率" => "請幫我計算出流動比率，他的公式是:(流動資產/流動負債)*100",
-    "速動比率" => "請幫我計算出速動比率，他的公式是:(速動資產/流動負債)*100",
-    "存貨週轉率" => "請幫我計算出存貨週轉率，他的公式是:營業成本/存貨",
-    "營運資金週轉率" => "請幫我計算出營運資金週轉率，他的公式是:營業收入/營運資金淨額",
-    "純益率(稅後)" => "請幫我計算出純益率(稅後)，他的公式是:稅後損益/營業收入",
-    "淨值報酬率(稅後)" => "請幫我計算出淨值報酬率(稅後)，他的公式是:稅後損益/淨值",
-    "營業活動之淨現金流量對短期銀行借款比率" => "請幫我計算出營業活動之淨現金流量對短期銀行借款比率，他的公式是:營業活動之淨現金流量/短期銀行借款",
-    "資本支出對固定資產淨額比率" => "請幫我計算出資本支出對固定資產淨額比率，他的公式是:資本支出/固定資產淨額",
-    "現金流量比率" => "請幫我計算出現金流量比率，他的公式是:營業活動之淨現金流量/流動負債",
-    "債本比(信保之負債比率)" => "請幫我計算出債本比(信保之負債比率)，他的公式是:(負債/淨值)*100",
-    "固定長期適合率" => "請幫我計算出固定長期適合率，他的公式是:((固定資產+長投)/(淨值+長負))*100",
-    "存货週轉天數" => "請幫我計算出存货週轉天數，他的公式是:365/(銷貨成本/平均存貨)",
-    "應收款週轉天數" => "請幫我計算出應收款週轉天數，他的公式是:365/(銷貨收入淨額/平均應收帳款)",
-    "應付款週轉天數" => "請幫我計算出應付款週轉天數，他的公式是:365/(銷貨成本/平均應付款)",
-    "現金循環天數" => "請幫我計算出現金循環天數，他的公式是:(存货週轉天數)+(應收款週轉天數)-(應付款週轉天數)",
-    "利息保障倍數" => "請幫我計算出利息保障倍數，他的公式是:(稅前損益+利息費用+折舊費用+攤銷費用)/利息費用",
-    "銷貨成長率" => "請幫我計算出銷貨成長率，他的公式是:(本期銷貨/上期銷貨-1)*100",
+    "銀行借款對淨值比率" => "請幫我計算出銀行借款對淨值比率，他的公式是:銀行借款/淨利,盡量簡短回覆",
+    "權益總額" => "請幫我計算出權益總額，他的公式是:全部資產減全部負債後的凈資產,盡量簡短回覆",
+    "長期銀行借款對淨值比率" => "請幫我計算出長期銀行借款對淨值比率，他的公式是:長期銀行借款/淨利,盡量簡短回覆",
+    "槓桿比率" => "請幫我計算出槓桿比率，他的公式是:負債總額/權益總額,盡量簡短回覆",
+    "流動比率" => "請幫我計算出流動比率，他的公式是:(流動資產總計/流動負債總計)*100,盡量簡短回覆",
+    "速動比率" => "請幫我計算出速動比率，他的公式是:(速動資產總計/流動負債總計)*100,盡量簡短回覆",
+    "存貨週轉率" => "請幫我計算出存貨週轉率，他的公式是:營業成本/存貨,盡量簡短回覆",
+    "營運資金週轉率" => "請幫我計算出營運資金週轉率，他的公式是:營業收入/營運資金淨額,盡量簡短回覆",
+    "純益率(稅後)" => "請幫我計算出純益率(稅後)，他的公式是:稅後損益/營業收入,盡量簡短回覆",
+    "淨值報酬率(稅後)" => "請幫我計算出淨值報酬率(稅後)，他的公式是:稅後損益/淨利,盡量簡短回覆",
+    "營業活動之淨現金流量對短期銀行借款比率" => "請幫我計算出營業活動之淨現金流量對短期銀行借款比率，他的公式是:營業活動之淨現金流量/短期銀行借款,盡量簡短回覆",
+    "資本支出對固定資產淨額比率" => "請幫我計算出資本支出對固定資產淨額比率，他的公式是:資本支出/固定資產淨額,盡量簡短回覆",
+    "現金流量比率" => "請幫我計算出現金流量比率，他的公式是:營業活動之淨現金流量/流動負債總計,盡量簡短回覆",
+    "債本比(信保之負債比率)" => "請幫我計算出債本比(信保之負債比率)，他的公式是:(負債/淨利)*100,盡量簡短回覆",
+    "固定長期適合率" => "請幫我計算出固定長期適合率，他的公式是:((固定資產+長投)/(淨利+長負))*100,盡量簡短回覆",
+    "存货週轉天數" => "請幫我計算出存货週轉天數，他的公式是:365/(銷貨成本/平均存貨),盡量簡短回覆",
+    "應收款週轉天數" => "請幫我計算出應收款週轉天數，他的公式是:365/(銷貨收入淨額/平均應收帳款),盡量簡短回覆",
+    "應付款週轉天數" => "請幫我計算出應付款週轉天數，他的公式是:365/(銷貨成本/平均應付款),盡量簡短回覆",
+    "現金循環天數" => "請幫我計算出現金循環天數，他的公式是:(存货週轉天數)+(應收款週轉天數)-(應付款週轉天數),盡量簡短回覆",
+    "利息保障倍數" => "請幫我計算出利息保障倍數，他的公式是:(稅前損益+利息費用+折舊費用+攤銷費用)/利息費用,盡量簡短回覆",
+    "銷貨成長率" => "請幫我計算出銷貨成長率，他的公式是:(本期銷貨/上期銷貨-1)*100,盡量簡短回覆",
 ];
 
 ?>
@@ -48,6 +48,7 @@ $terms = [
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.15.0/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -179,6 +180,7 @@ $terms = [
     <script src="assets/js/owl.carousel.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/modernizr.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.15.0/dist/sweetalert2.all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
     <script>
@@ -187,11 +189,22 @@ $terms = [
         const chatZone = document.querySelector('#chat-zone');
         let messages = [];
         const messageDom = document.querySelector("#message");
-        messageDom.addEventListener("keyup", function(event) {
+        messageDom.addEventListener("keydown", function(event) {
             if (event.key === "Enter") {
+                event.preventDefault();
                 chat();
             }
         });
+
+        function call_alert(message, icon, timer, showConfirmButton) {
+            Swal.fire({
+                icon: icon,
+                title: message,
+                showConfirmButton: showConfirmButton,
+                timer: timer
+            })
+        }
+
 
         // Helper function to display upload status
         function displayStatus(message, isSuccess) {
@@ -218,15 +231,22 @@ $terms = [
                 if (res.ok) {
                     alert("成功");
                     sourceId = response.sourceId;
-                    displayStatus('PDF上传成功', true); // Display success message
+                    displayStatus('PDF上傳成功', true); // Display success message
                 } else {
                     alert("失敗");
-                    throw new Error(`上传失败: ${res.status} ${res.statusText}`);
+                    throw new Error(`上傳失败: ${res.status} ${res.statusText}`);
                 }
             }).catch(error => {
                 console.error("Error:", error);
                 displayStatus(error.message, false); // Display error message
             });
+        }
+
+        function getstatus() {
+            if (!sourceId) {
+                alert("sourceId 未設定，請重新上傳檔案。");
+                return;
+            }
         }
 
         function chat() {
@@ -245,11 +265,12 @@ $terms = [
             });
 
             chatZone.innerHTML += `user: ${message}<br><br>`;
+
             const data = {
                 sourceId: sourceId,
                 messages: messages
             };
-
+            getstatus();
             messageDom.value = "";
             axios.post("https://api.chatpdf.com/v1/chats/message", data, {
                     headers: {
@@ -266,7 +287,15 @@ $terms = [
                 })
                 .catch((error) => {
                     console.error("Error:", error);
-                    displayStatus('Error: ' + error.message, false); // Display error message
+                    // 更詳細的錯誤處理
+                    if (error.response) {
+                        console.error("伺服器返回:", error.response.data);
+                        alert(`伺服器返回錯誤: ${error.response.data.message || error.response.status}`);
+                    } else if (error.request) {
+                        console.error("網絡錯誤，未收到回應:", error.request);
+                    } else {
+                        console.error("錯誤發送請求:", error.message);
+                    } //Display error message
                 });
         }
 

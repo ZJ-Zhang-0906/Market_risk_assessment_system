@@ -6,25 +6,25 @@
     ],
     "py_moea_input": [
         {
-            "BusinessAccountingNO": "22099131",
+            "BusinessAccountingNO": "42852207",
             "CompanyStatusDesc": "核准設立",
-            "CompanyName": "台灣積體電路製造股份有限公司",
-            "CapitalStockAmount": "280500000000",
-            "PaidInCapitalAmount": "259336292420",
-            "ResponsibleName": "魏哲家",
-            "CompanyLocation": "新竹科學園區新竹市力行六路8號"
+            "CompanyName": "雲豹能源科技股份有限公司",
+            "CapitalStockAmount": "2000000000",
+            "PaidInCapitalAmount": "1378300410",
+            "ResponsibleName": "廖福生",
+            "CompanyLocation": "臺北市內湖區基湖路1號4樓之1"
         }
     ],
     "py_mol_input": [
         {
-            "SerialNumber": "5",
-            "CompetentAuthority": "國家科學及技術委員會新竹科學園區",
-            "AnnouncementDate": "112/09/01",
-            "DisposalDate": "112/08/18",
-            "PenaltyFontSize": "竹環字第1120028249號",
-            "BusinessUnitName": "台灣積體電路製造股份有限公司(劉德音)",
-            "IllegalLawsAndRegulations": "勞動基準法第32條第2項",
-            "ViolationOfLawsAndRegulations": "延長之工作時間超過法令規定"
+            "SerialNumber": "0",
+            "CompetentAuthority": "0",
+            "AnnouncementDate": "0",
+            "DisposalDate": "0",
+            "PenaltyFontSize": "0",
+            "BusinessUnitName": "0",
+            "IllegalLawsAndRegulations": "0",
+            "ViolationOfLawsAndRegulations": "0"
         }
     ],
     "py_ppstrq_input": [
@@ -40,12 +40,12 @@
     ],
     "twincn": [
         {
-            "BusinessAccountingNO": "22099131",
-            "CompanyName": "台灣積體電路製造股份有限公司",
-            "Lawsuit": "法院案號 臺灣高等法院 臺南分院\n112年度上字213號 案件類別 民事",
+            "BusinessAccountingNO": "42852207",
+            "CompanyName": "雲豹能源科技股份有限公司",
+            "Lawsuit": "法院案號 臺灣臺北地方法院\n112年度建字206號 案件類別 民事",
             "state": "營業中",
             "Use_unified_invoice": "有開統一發票",
-            "Change_money": "新增董監事:\n董事 劉鏡清 (行政院國家發展基金管理會)\n獨立董事 烏蘇拉‧伯恩斯\n獨立董事 琳恩‧埃爾森漢斯\n獨立董事 林全; 離職董監事:\n董事長 LIU TE-YIN MARK(劉德音)\n董事 龔明鑫 (行政院國家發展基金管理會)\n獨立董事 陳國慈\n獨立董事 海英俊; 實收資本額由:\n259,350,309,920\n變更為\n259,336,292,420; 負責人 LIU TE-YIN MARK(劉德音) 變更為 魏哲家。; 變更持股:\nLIU TE-YIN MARK(劉德音) 的持股\n12,961,878 變更 12,966,722; 實收資本額由:\n259,320,709,920\n變更為\n259,350,309,920; "
+            "Change_money": "變更持股:\n趙書閔 的持股\n1,234,953 變更 1,225,953; 實收資本額由:\n1,296,039,440\n變更為\n1,324,215,750; 變更持股:\n趙書閔 的持股\n1,249,953 變更 1,234,953; 實收資本額由:\n1,176,039,440\n變更為\n1,296,039,440; 實收資本額由:\n1,162,090,780\n變更為\n1,176,039,440; 變更持股:\n趙書閔 的持股\n1,254,953 變更 1,249,953; 新增董監事:\n董事 趙書閔 (亞洲電力股份有限公司)\n獨立董事 陳啓昌; "
         }
     ]
 }
