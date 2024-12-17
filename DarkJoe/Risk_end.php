@@ -128,7 +128,7 @@ if (file_exists($jsonFilePath)) {
                     <div class="line"></div>
                     <div id="result"> <?php
                                         // 讀取 JSON 檔案
-                                        $json = file_get_contents('C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\respon.json'); //需要更改json檔案位置
+                                        $json = file_get_contents('C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\respon.json'); //這是openai 回傳的檔案替换为你想要保存的路径
                                         $data = json_decode($json, true);
                                         // 將內容以 HTML 格式顯示
                                         $response = nl2br($data['response']); // 將換行符號轉換為 <br>
@@ -222,7 +222,7 @@ if (file_exists($jsonFilePath)) {
 
 
 
-  
+
 
 
 

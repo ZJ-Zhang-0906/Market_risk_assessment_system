@@ -40,7 +40,7 @@ def fetch_openai_response(api_key, question):
         "response": respon
     }
     # print(respon)
-    with open (r'C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\respon.json', 'w', encoding='utf-8') as f: #json 更換檔案儲存位置
+    with open (r'C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\respon.json', 'w', encoding='utf-8') as f: #這是opeai 回傳的檔案 替换为你想要保存的路径
         json.dump(response_json, f, ensure_ascii=False, indent=4)
 
     return respon

@@ -3,7 +3,7 @@
 $host = 'localhost';
 $dbuser = 'root';
 $dbpassword = '';
-$dbname = 'fmras_sql';
+$dbname = 'fmras_sql'; //dbname 有更換就要換 替换为你想要保存的路径
 
 $response = [
     "success" => false,
@@ -14,7 +14,7 @@ $response = [
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     header('Content-Type: application/json'); // 确保在输出之前设置
 
-    $logFilePath = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/python_script.log'; //錯誤日誌
+    $logFilePath = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/python_script.log'; //錯誤日誌主要用來看main.py執行是否有錯物 替换为你想要保存的路径
 
     // 初始化日志文件
     file_put_contents($logFilePath, "Script started\n", FILE_APPEND);
@@ -57,8 +57,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $conn->close();
 
         // 删除旧的 JSON 文件（如果存在）
-        $jsonFilePath1 = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/data.json';
-        $jsonFilePath2 = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/respon.json';
+        $jsonFilePath1 = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/data.json';//爬蟲爬回來的資料 替换为你想要保存的路径
+        $jsonFilePath2 = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/respon.json';//openai回傳的資料 替换为你想要保存的路径
 
         if (file_exists($jsonFilePath1)) {
             unlink($jsonFilePath1);
@@ -70,8 +70,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         // 执行 Python 脚本
-        $scriptPath = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py';
-        $pythonPath = 'C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe';
+        $scriptPath = 'C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py'; //執行主要py檔案 替换为你想要保存的路径
+        $pythonPath = 'C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe'; //python 環境 替换为你想要保存的路径
 
         $command = "$pythonPath $scriptPath 2>&1";
         file_put_contents($logFilePath, "执行命令: $command\n", FILE_APPEND);

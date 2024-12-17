@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 #======================================連線db、設置chromedriver位址===========================
 def connect():
     # 设置 Chrome 驱动器路径
-    driver_path = r'C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\chromedriver-win64\chromedriver.exe'
+    driver_path = r'C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\chromedriver-win64\chromedriver.exe' # 這是Chrome driver 絕對路徑 替换为你想要保存的路径
     service = Service(executable_path=driver_path)
     driver = webdriver.Chrome(service=service)
     

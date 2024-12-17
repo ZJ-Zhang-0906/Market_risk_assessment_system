@@ -35,7 +35,7 @@ def fetch_and_clean_data():
         json_data = json.dumps(all_data, ensure_ascii=False, indent=4)
 
         # 写入JSON文件
-        file_path = r'C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\data.json'  # 替换为你想要保存的路径
+        file_path = r'C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\data.json'  #這是爬蟲所爬回來的資料 替换为你想要保存的路径
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(json_data)
 
@@ -64,7 +64,7 @@ def fetch_data_and_insert_to_py_prtr_input():
             print("No business accounting number found.")
             return
 
-        driver_path = r'C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\chromedriver-win64\chromedriver.exe'
+        driver_path = r'C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\chromedriver-win64\chromedriver.exe' #這是chrome driver 的絕對路徑 替换为你想要保存的路径
         service = Service(executable_path=driver_path)
         driver = webdriver.Chrome(service=service)
         driver.get("https://prtr.moenv.gov.tw/deal.html")
