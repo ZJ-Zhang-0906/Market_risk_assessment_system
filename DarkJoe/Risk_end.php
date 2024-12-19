@@ -122,7 +122,7 @@ if (file_exists($jsonFilePath)) {
     <section id="services" class="service-area">
         <div class="container">
             <div class="row" id="END">
-                <div id="warning">請注意:風險評估結果可能會出錯。請考慮核對重要資訊。</div>
+                <div id="warning">請注意:風險評估結果可能會出錯。請考慮核對重要資訊。<br>底部會有我們的風險評分規則及等級。</div>
                 <div id="riskResult">
                     <div id="companyInfo"></div>
                     <div class="line"></div>
