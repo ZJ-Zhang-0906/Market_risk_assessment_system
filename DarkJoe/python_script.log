@@ -219,3 +219,76 @@ An error occurred: 'cp950' codec can't encode character '\u5553' in position 471
 
 Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
 æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: ((194, '84336367', 'ÙÉ®õ°·±d¬ì§Ş'),)
+BusinessAccountingNO: 84336367
+84336367
+²Î¤@½s¸¹¡G84336367
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡GÙÉ®õ°·±d¬ì§ŞªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G85000000
+¹ê¦¬¸ê¥»ÃB(¤¸):85000000
+¥Nªí¤H©m¦W¡G¹Q¼C´H
+¤½¥q©Ò¦b¦a¡G°ª¶¯¥«¥ªÀç°Ï¥ß¤å¸ô77¸¹17¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+¬dµL²Å¦X®×¥ó!!
+Data inserted for BusinessAccountingNO 84336367 with Lawsuit: ªk°|®×¸¹ »OÆW·s¥_¦a¤èªk°|
+112¦~«×¦Û¦r35¸¹ ®×¥óÃş§O ¦D¨Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ÙÉ®õ°·±d¬ì§ŞªÑ¥÷¦³­­¤½¥q, Shareholder_info: 
+No data found, inserting 0 into database.
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: BusinessAccountingNO: 03077208
+((195, '03077208', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+03077208
+²Î¤@½s¸¹¡G03077208
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G180000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):158016512400
+¥Nªí¤H©m¦W¡G³¯¨Î¤å
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô166¡B168¡B170¡B186¡B188¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+An error occurred: Message: element click intercepted: Element is not clickable at point (755, 1000)
+  (Session info: chrome=133.0.6943.128)
+Stacktrace:
+	GetHandleVerifier [0x00007FF771FCC6A5+28789]
+	(No symbol) [0x00007FF771F35B20]
+	(No symbol) [0x00007FF771DC8F9A]
+	(No symbol) [0x00007FF771E271E9]
+	(No symbol) [0x00007FF771E24BA2]
+	(No symbol) [0x00007FF771E21C51]
+	(No symbol) [0x00007FF771E20B51]
+	(No symbol) [0x00007FF771E12314]
+	(No symbol) [0x00007FF771E4732A]
+	(No symbol) [0x00007FF771E11BC6]
+	(No symbol) [0x00007FF771E47540]
+	(No symbol) [0x00007FF771E6F7E3]
+	(No symbol) [0x00007FF771E47103]
+	(No symbol) [0x00007FF771E0FFC0]
+	(No symbol) [0x00007FF771E11273]
+	GetHandleVerifier [0x00007FF772311AED+3458237]
+	GetHandleVerifier [0x00007FF77232829C+3550316]
+	GetHandleVerifier [0x00007FF77231DB9D+3507565]
+	GetHandleVerifier [0x00007FF772092C6A+841274]
+	(No symbol) [0x00007FF771F409EF]
+	(No symbol) [0x00007FF771F3CB34]
+	(No symbol) [0x00007FF771F3CCD6]
+	(No symbol) [0x00007FF771F2C119]
+	BaseThreadInitThunk [0x00007FFEEEA87374+20]
+	RtlUserThreadStart [0x00007FFEF03BCC91+33]
+
+['1', '·s¥_¥«¬F©²¸gÀÙµo®i§½', '°Ê²£©è©ã', '¦N¸t¤u·~ªÑ¥÷¦³­­¤½¥q', '¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q«°¤¤', '¤u(¤¤)°Ê¦r²Ä066323¸¹', '¤w¹L®Ä´Á¥¼µù¾P']
+An error occurred: 'cp950' codec can't encode character '\u732e' in position 711: illegal multibyte sequence
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
