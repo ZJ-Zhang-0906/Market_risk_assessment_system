@@ -99,7 +99,7 @@
 
 ------
 # 財務(研發中)
-## Financial.php
+## FinancialTest.php
 1. 使用者輸入頁面
 ## Financial-Result.php
 1. 使用者獲得openai畫面

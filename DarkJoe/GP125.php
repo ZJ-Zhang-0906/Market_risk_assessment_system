@@ -72,7 +72,7 @@
                                             style="font-size: 27px; padding-left: 85px;"></span>
                                     </li>
                                 </a>
-                                <a href="Financial.php">
+                                <a href="FinancialTest.php">
                                     <li class="menu-item"><i data-scroll>財務分析</i><span
                                             class="menu-effect pe-7s-news-paper"
                                             style="font-size: 27px; padding-left: 85px;"></span>

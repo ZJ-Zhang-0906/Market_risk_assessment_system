@@ -63,7 +63,7 @@
                                     <li class="menu-item"><i data-scroll>風險評估</i><span class="menu-effect pe-7s-search" style="font-size: 27px; padding-left: 85px;"></span>
                                     </li>
                                 </a>
-                                <a href="Financial.php">
+                                <a href="FinancialTest.php">
                                     <li class="menu-item"><i data-scroll>財務分析</i><span class="menu-effect pe-7s-news-paper" style="font-size: 27px; padding-left: 85px;"></span>
                                     </li>
                                 </a>
@@ -111,7 +111,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="services">
                         <div class="service-wrap">
-                            <a class="A1" href="Financial.php">
+                            <a class="A1" href="FinancialTest.php">
                                 <i class="pe-7s-news-paper pe-dj pe-va"></i>
                                 <h3>財務分析</h3>
                                 <p>預測該公司未來的經濟走向</p>
@@ -293,7 +293,7 @@
                                 A3. <br> 由使用者提供損益表(PDF檔)資產負債表(PDF檔)給財務分析系統，系統在收到PDF檔後會利用AI進行讀取與運算，之後再將計算結果產生一個回饋回傳給使用者
                                 </p>
                                 <br>
-                                <a class="btn btn-success" style="background-color: #44c5d7;color: black; border-radius: 15%;  width: auto; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);" href="Financial.php" target="_blank" type="bottom">預測</a>
+                                <a class="btn btn-success" style="background-color: #44c5d7;color: black; border-radius: 15%;  width: auto; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);" href="FinancialTest.php" target="_blank" type="bottom">預測</a>
                                 <br>
 
 

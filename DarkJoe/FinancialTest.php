@@ -85,7 +85,7 @@ $terms = [
                                     <li class="menu-item"><i data-scroll>風險評估</i><span class="menu-effect pe-7s-search" style="font-size: 27px; padding-left: 85px;"></span>
                                     </li>
                                 </a>
-                                <a href="Financial.php">
+                                <a href="FinancialTest.php">
                                     <li class="menu-item"><i data-scroll>財務分析</i><span class="menu-effect pe-7s-news-paper" style="font-size: 27px; padding-left: 85px;"></span>
                                     </li>
                                 </a>
@@ -173,16 +173,105 @@ $terms = [
     <!-- Necessery scripts -->
     <script src="assets/js/jquery-2.1.3.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    <script type="module" src="assets/js/chat.js"></script>
     <script src="assets/js/jquery.actual.min.js"></script>
     <script src="assets/js/smooth-scroll.js"></script>
     <script src="assets/js/owl.carousel.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/modernizr.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
     <script>
-        // getApiKey();
+        let vectorStoreId = null;
+
+        // 儲存點擊提示字填入問題欄
+        function fillInput(elm) {
+            document.getElementById('message').value = elm.dataset.formula;
+        }
+
+        async function uploadFile() {
+            const fileInput = document.getElementById('pdf');
+            const statusDiv = document.getElementById('upload-status');
+
+            if (!fileInput.files.length) return Swal.fire('請選擇檔案', '', 'warning');
+
+            const formData = new FormData();
+            formData.append('pdf', fileInput.files[0]);
+
+            statusDiv.style.display = 'none';
+
+            // 🔄 顯示上傳提示
+            Swal.fire({
+                title: '正在上傳檔案',
+                text: '請稍候...',
+                allowOutsideClick: false,
+                didOpen: () => Swal.showLoading()
+            });
+
+            try {
+                const response = await fetch('upload.php', {
+                    method: 'POST',
+                    body: formData
+                });
+                const data = await response.json();
+                console.log('上傳回應:', data);
+                Swal.close(); // 關閉 loading
+
+                if (data.status === 'uploaded') {
+                    vectorStoreId = data.vector_id;
+                    statusDiv.innerHTML = '✅ 檔案上傳成功，AI 已準備好！';
+                    statusDiv.style.display = 'block';
+                    Swal.fire('上傳成功', 'AI 已準備好處理你的提問', 'success');
+                } else {
+                    Swal.fire('上傳失敗', data.message, 'error');
+                }
+            } catch (err) {
+                Swal.fire('上傳錯誤', err.message, 'error');
+            }
+        }
+
+        async function chat() {
+            const msg = document.getElementById('message').value;
+            const chatZone = document.getElementById('chat-zone');
+
+            if (!vectorStoreId) return Swal.fire('請先上傳 PDF 檔案', '', 'warning');
+            if (!msg.trim()) return Swal.fire('請輸入問題', '', 'warning');
+
+            chatZone.innerHTML = '';
+
+            // 🔄 顯示 AI 正在思考
+            Swal.fire({
+                title: 'AI 回覆中',
+                text: '請稍候...',
+                allowOutsideClick: false,
+                didOpen: () => Swal.showLoading()
+            });
+
+            try {
+                const response = await fetch('ask.php', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
+                    },
+                    body: new URLSearchParams({
+                        question: msg,
+                        vector_id: vectorStoreId
+                    })
+                });
+
+                const data = await response.json();
+                Swal.close(); // 關閉 loading
+
+                if (data.status === 'answered') {
+                    chatZone.innerHTML = `<div class="alert alert-success"><strong>AI 回覆：</strong><br>${data.reply}</div>`;
+                } else {
+                    Swal.fire('回覆失敗', data.message, 'error');
+                }
+            } catch (err) {
+                Swal.close();
+                Swal.fire('發生錯誤', err.message, 'error');
+            }
+        }
     </script>
 
 </body>

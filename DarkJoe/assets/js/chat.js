@@ -1,4 +1,4 @@
-export async function getApiKey() {
+ async function getApiKey() {
     try {
         const response = await fetch('../DarkJoe/getapikey.php'); // 請求 PHP 文件
         console.log(response);
@@ -16,21 +16,23 @@ export async function getApiKey() {
 }
 
 // 上傳檔案的 JavaScript 函數
-export function uploadFile() {
+function uploadFile() {
     const fileInput = document.getElementById('pdf');
     const formData = new FormData();
     formData.append('pdf', fileInput.files[0]);  // 將檔案添加到 FormData
-
+    console.log(formData);  // 修正拼寫錯誤
+    
     const statusDiv = document.getElementById('upload-status');
     statusDiv.style.display = 'none';  // 重置顯示
 
     // 發送檔案上傳請求
-    fetch('../DarkJoe/upload.php', {
+    fetch('upload.php', {
         method: 'POST',
         body: formData
     })
-    .then(response => response.json())
+    .then(response => response.json())  // 修正回傳值問題
     .then(data => {
+        console.log(data);
         if (data.status === 'success') {
             statusDiv.innerHTML = '檔案上傳成功！';
             statusDiv.style.display = 'block';
@@ -44,4 +46,5 @@ export function uploadFile() {
         statusDiv.innerHTML = '檔案上傳過程中出現錯誤。';
         statusDiv.style.display = 'block';
     });
+
 }

@@ -9,7 +9,6 @@ from moea import fetch_data_and_insert_to_py_moea_input
 import os
 import time
 
-
 def main():
     threads = []
     
@@ -43,7 +42,7 @@ def main():
     
     #==========================抓所有table資料並轉成json並過濾autono===
     question=fetch_and_clean_data()
-    OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
+    OPENAI_API_KEY='your api key'
     # print(question)     #測試 是否有把json傳入
     #==============================================================
   

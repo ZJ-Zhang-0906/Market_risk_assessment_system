@@ -292,3 +292,456 @@ An error occurred: 'cp950' codec can't encode character '\u732e' in position 711
 
 Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
 æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: ((196, '03077208', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+03077208
+BusinessAccountingNO: 03077208
+²Î¤@½s¸¹¡G03077208
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G180000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):158016512400
+¥Nªí¤H©m¦W¡G³¯¨Î¤å
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô166¡B168¡B170¡B186¡B188¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+An error occurred: Message: element click intercepted: Element is not clickable at point (757, 1046)
+  (Session info: chrome=137.0.7151.105)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff62198fe75+79173]
+	GetHandleVerifier [0x0x7ff62198fed0+79264]
+	(No symbol) [0x0x7ff621749e5a]
+	(No symbol) [0x0x7ff6217a8599]
+	(No symbol) [0x0x7ff6217a5f32]
+	(No symbol) [0x0x7ff6217a2f71]
+	(No symbol) [0x0x7ff6217a1e61]
+	(No symbol) [0x0x7ff621793464]
+	(No symbol) [0x0x7ff6217c896a]
+	(No symbol) [0x0x7ff621792d16]
+	(No symbol) [0x0x7ff6217c8b80]
+	(No symbol) [0x0x7ff6217f100d]
+	(No symbol) [0x0x7ff6217c8743]
+	(No symbol) [0x0x7ff6217914c1]
+	(No symbol) [0x0x7ff621792253]
+	GetHandleVerifier [0x0x7ff621c5a2ad+3004797]
+	GetHandleVerifier [0x0x7ff621c546fd+2981325]
+	GetHandleVerifier [0x0x7ff621c73350+3107360]
+	GetHandleVerifier [0x0x7ff6219aa9fe+188622]
+	GetHandleVerifier [0x0x7ff6219b228f+219487]
+	GetHandleVerifier [0x0x7ff621998dc4+115860]
+	GetHandleVerifier [0x0x7ff621998f79+116297]
+	GetHandleVerifier [0x0x7ff62197f528+11256]
+	BaseThreadInitThunk [0x0x7ffd14047374+20]
+	RtlUserThreadStart [0x0x7ffd1517cc91+33]
+
+['1', '·s¥_¥«¬F©²¸gÀÙµo®i§½', '°Ê²£©è©ã', '¦N¸t¤u·~ªÑ¥÷¦³­­¤½¥q', '¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q«°¤¤', '¤u(¤¤)°Ê¦r²Ä066323¸¹', '¤w¹L®Ä´Á¥¼µù¾P']
+An error occurred:  Message: element click intercepted: Element <button type="button" class="search_submit" aria-label="...">¶}©l¬d¸ß</button> is not clickable at point (464, 568). Other element would receive the click: <div id="turnstile-container" style="">...</div>
+  (Session info: chrome=137.0.7151.105)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff62198fe75+79173]
+	GetHandleVerifier [0x0x7ff62198fed0+79264]
+	(No symbol) [0x0x7ff621749e5a]
+	(No symbol) [0x0x7ff6217a8599]
+	(No symbol) [0x0x7ff6217a5f32]
+	(No symbol) [0x0x7ff6217a2f71]
+	(No symbol) [0x0x7ff6217a1e61]
+	(No symbol) [0x0x7ff621793464]
+	(No symbol) [0x0x7ff6217c896a]
+	(No symbol) [0x0x7ff621792d16]
+	(No symbol) [0x0x7ff6217c8b80]
+	(No symbol) [0x0x7ff6217f100d]
+	(No symbol) [0x0x7ff6217c8743]
+	(No symbol) [0x0x7ff6217914c1]
+	(No symbol) [0x0x7ff621792253]
+	GetHandleVerifier [0x0x7ff621c5a2ad+3004797]
+	GetHandleVerifier [0x0x7ff621c546fd+2981325]
+	GetHandleVerifier [0x0x7ff621c73350+3107360]
+	GetHandleVerifier [0x0x7ff6219aa9fe+188622]
+	GetHandleVerifier [0x0x7ff6219b228f+219487]
+	GetHandleVerifier [0x0x7ff621998dc4+115860]
+	GetHandleVerifier [0x0x7ff621998f79+116297]
+	GetHandleVerifier [0x0x7ff62197f528+11256]
+	BaseThreadInitThunk [0x0x7ffd14047374+20]
+	RtlUserThreadStart [0x0x7ffd1517cc91+33]
+
+Data inserted for BusinessAccountingNO 03077208 with Lawsuit: ªk°|®×¸¹ »OÆW»O«n¦a¤èªk°|
+114¦~«×¥qÄ~¦r36¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q, Shareholder_info: ÅÜ§ó«ùªÑ:
+³¯¨Î¤å ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¸â®xºÕ ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¬I­ZªL ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+³\§®ÀR ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+·¨ºa©v ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¬I¥ú°V ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+·¨Án«i ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¼Bªø¬K ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+©u±R¼z ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+147,962,185,950
+ÅÜ§ó¬°
+158,016,512,400; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æªø ³¯¨Î¤å (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q); ­t³d¤H ¯ÊÃB ÅÜ§ó¬° ³¯¨Î¤å¡C; 
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 56, in <module>
+    main()
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 46, in main
+    OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 679, in __getitem__
+KeyError: 'OPENAI_API_KEY'
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+Pythonè„šæœ¬æœªç”Ÿæˆé¢„æœŸçš„è¾“å‡ºæ–‡ä»¶
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: BusinessAccountingNO: 03077208
+((197, '03077208', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+03077208
+²Î¤@½s¸¹¡G03077208
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G180000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):158016512400
+¥Nªí¤H©m¦W¡G³¯¨Î¤å
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô166¡B168¡B170¡B186¡B188¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+An error occurred: Message: element click intercepted: Element is not clickable at point (757, 1046)
+  (Session info: chrome=137.0.7151.105)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff62198fe75+79173]
+	GetHandleVerifier [0x0x7ff62198fed0+79264]
+	(No symbol) [0x0x7ff621749e5a]
+	(No symbol) [0x0x7ff6217a8599]
+	(No symbol) [0x0x7ff6217a5f32]
+	(No symbol) [0x0x7ff6217a2f71]
+	(No symbol) [0x0x7ff6217a1e61]
+	(No symbol) [0x0x7ff621793464]
+	(No symbol) [0x0x7ff6217c896a]
+	(No symbol) [0x0x7ff621792d16]
+	(No symbol) [0x0x7ff6217c8b80]
+	(No symbol) [0x0x7ff6217f100d]
+	(No symbol) [0x0x7ff6217c8743]
+	(No symbol) [0x0x7ff6217914c1]
+	(No symbol) [0x0x7ff621792253]
+	GetHandleVerifier [0x0x7ff621c5a2ad+3004797]
+	GetHandleVerifier [0x0x7ff621c546fd+2981325]
+	GetHandleVerifier [0x0x7ff621c73350+3107360]
+	GetHandleVerifier [0x0x7ff6219aa9fe+188622]
+	GetHandleVerifier [0x0x7ff6219b228f+219487]
+	GetHandleVerifier [0x0x7ff621998dc4+115860]
+	GetHandleVerifier [0x0x7ff621998f79+116297]
+	GetHandleVerifier [0x0x7ff62197f528+11256]
+	BaseThreadInitThunk [0x0x7ffd14047374+20]
+	RtlUserThreadStart [0x0x7ffd1517cc91+33]
+
+['1', '·s¥_¥«¬F©²¸gÀÙµo®i§½', '°Ê²£©è©ã', '¦N¸t¤u·~ªÑ¥÷¦³­­¤½¥q', '¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q«°¤¤', '¤u(¤¤)°Ê¦r²Ä066323¸¹', '¤w¹L®Ä´Á¥¼µù¾P']
+An error occurred:  Message: element click intercepted: Element <button type="button" class="search_submit" aria-label="...">¶}©l¬d¸ß</button> is not clickable at point (464, 568). Other element would receive the click: <div id="turnstile-container" style="">...</div>
+  (Session info: chrome=137.0.7151.105)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff62198fe75+79173]
+	GetHandleVerifier [0x0x7ff62198fed0+79264]
+	(No symbol) [0x0x7ff621749e5a]
+	(No symbol) [0x0x7ff6217a8599]
+	(No symbol) [0x0x7ff6217a5f32]
+	(No symbol) [0x0x7ff6217a2f71]
+	(No symbol) [0x0x7ff6217a1e61]
+	(No symbol) [0x0x7ff621793464]
+	(No symbol) [0x0x7ff6217c896a]
+	(No symbol) [0x0x7ff621792d16]
+	(No symbol) [0x0x7ff6217c8b80]
+	(No symbol) [0x0x7ff6217f100d]
+	(No symbol) [0x0x7ff6217c8743]
+	(No symbol) [0x0x7ff6217914c1]
+	(No symbol) [0x0x7ff621792253]
+	GetHandleVerifier [0x0x7ff621c5a2ad+3004797]
+	GetHandleVerifier [0x0x7ff621c546fd+2981325]
+	GetHandleVerifier [0x0x7ff621c73350+3107360]
+	GetHandleVerifier [0x0x7ff6219aa9fe+188622]
+	GetHandleVerifier [0x0x7ff6219b228f+219487]
+	GetHandleVerifier [0x0x7ff621998dc4+115860]
+	GetHandleVerifier [0x0x7ff621998f79+116297]
+	GetHandleVerifier [0x0x7ff62197f528+11256]
+	BaseThreadInitThunk [0x0x7ffd14047374+20]
+	RtlUserThreadStart [0x0x7ffd1517cc91+33]
+
+Data inserted for BusinessAccountingNO 03077208 with Lawsuit: ªk°|®×¸¹ »OÆW»O«n¦a¤èªk°|
+114¦~«×¥qÄ~¦r36¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q, Shareholder_info: ÅÜ§ó«ùªÑ:
+³¯¨Î¤å ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¸â®xºÕ ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¬I­ZªL ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+³\§®ÀR ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+·¨ºa©v ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¬I¥ú°V ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+·¨Án«i ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¼Bªø¬K ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+©u±R¼z ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+147,962,185,950
+ÅÜ§ó¬°
+158,016,512,400; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æªø ³¯¨Î¤å (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q); ­t³d¤H ¯ÊÃB ÅÜ§ó¬° ³¯¨Î¤å¡C; 
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 56, in <module>
+    main()
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 46, in main
+    OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 679, in __getitem__
+KeyError: 'OPENAI_API_KEY'
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+Pythonè„šæœ¬æœªç”Ÿæˆé¢„æœŸçš„è¾“å‡ºæ–‡ä»¶
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+No data found, inserting 0 into database.
+BusinessAccountingNO: 03077208
+((198, '03077208', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+03077208
+²Î¤@½s¸¹¡G03077208
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G180000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):158016512400
+¥Nªí¤H©m¦W¡G³¯¨Î¤å
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô166¡B168¡B170¡B186¡B188¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+No data found, inserting 0 into database.
+['1', '·s¥_¥«¬F©²¸gÀÙµo®i§½', '°Ê²£©è©ã', '¦N¸t¤u·~ªÑ¥÷¦³­­¤½¥q', '¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q«°¤¤', '¤u(¤¤)°Ê¦r²Ä066323¸¹', '¤w¹L®Ä´Á¥¼µù¾P']
+Data inserted for BusinessAccountingNO 03077208 with Lawsuit: µL¸ê®Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q, Shareholder_info: ÅÜ§ó«ùªÑ:
+³¯¨Î¤å ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¸â®xºÕ ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¬I­ZªL ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+³\§®ÀR ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+·¨ºa©v ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¬I¥ú°V ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+·¨Án«i ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¼Bªø¬K ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+©u±R¼z ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+147,962,185,950
+ÅÜ§ó¬°
+158,016,512,400; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æªø ³¯¨Î¤å (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q); ­t³d¤H ¯ÊÃB ÅÜ§ó¬° ³¯¨Î¤å¡C; 
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 56, in <module>
+    main()
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 46, in main
+    OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 679, in __getitem__
+KeyError: 'OPENAI_API_KEY'
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+Pythonè„šæœ¬æœªç”Ÿæˆé¢„æœŸçš„è¾“å‡ºæ–‡ä»¶
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+BusinessAccountingNO: 03077208
+((199, '03077208', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+03077208
+²Î¤@½s¸¹¡G03077208
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G180000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):158016512400
+¥Nªí¤H©m¦W¡G³¯¨Î¤å
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô166¡B168¡B170¡B186¡B188¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+No data found, inserting 0 into database.
+['1', '·s¥_¥«¬F©²¸gÀÙµo®i§½', '°Ê²£©è©ã', '¦N¸t¤u·~ªÑ¥÷¦³­­¤½¥q', '¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q«°¤¤', '¤u(¤¤)°Ê¦r²Ä066323¸¹', '¤w¹L®Ä´Á¥¼µù¾P']
+Data inserted for BusinessAccountingNO 03077208 with Lawsuit: µL¸ê®Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q, Shareholder_info: ÅÜ§ó«ùªÑ:
+³¯¨Î¤å ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¸â®xºÕ ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¬I­ZªL ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+³\§®ÀR ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+·¨ºa©v ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¬I¥ú°V ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+·¨Án«i ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¼Bªø¬K ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+©u±R¼z ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+147,962,185,950
+ÅÜ§ó¬°
+158,016,512,400; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æªø ³¯¨Î¤å (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q); ­t³d¤H ¯ÊÃB ÅÜ§ó¬° ³¯¨Î¤å¡C; 
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 56, in <module>
+    main()
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 46, in main
+    OPENAI_API_KEY=os.environ["OPENAI_API_KEY"]
+                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "<frozen os>", line 679, in __getitem__
+KeyError: 'OPENAI_API_KEY'
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+Pythonè„šæœ¬æœªç”Ÿæˆé¢„æœŸçš„è¾“å‡ºæ–‡ä»¶
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+BusinessAccountingNO: 03077208
+((200, '03077208', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+03077208
+²Î¤@½s¸¹¡G03077208
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G180000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):158016512400
+¥Nªí¤H©m¦W¡G³¯¨Î¤å
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô166¡B168¡B170¡B186¡B188¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+No data found, inserting 0 into database.
+['1', '·s¥_¥«¬F©²¸gÀÙµo®i§½', '°Ê²£©è©ã', '¦N¸t¤u·~ªÑ¥÷¦³­­¤½¥q', '¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q«°¤¤', '¤u(¤¤)°Ê¦r²Ä066323¸¹', '¤w¹L®Ä´Á¥¼µù¾P']
+Data inserted for BusinessAccountingNO 03077208 with Lawsuit: µL¸ê®Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q, Shareholder_info: ÅÜ§ó«ùªÑ:
+³¯¨Î¤å ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¸â®xºÕ ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¬I­ZªL ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+³\§®ÀR ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+·¨ºa©v ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¬I¥ú°V ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+·¨Án«i ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+¼Bªø¬K ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240
+
+©u±R¼z ªº«ùªÑ
+14,796,218,595 ÅÜ§ó 15,801,651,240; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+147,962,185,950
+ÅÜ§ó¬°
+158,016,512,400; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æªø ³¯¨Î¤å (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q); ­t³d¤H ¯ÊÃB ÅÜ§ó¬° ³¯¨Î¤å¡C; 
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
