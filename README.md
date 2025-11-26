@@ -98,19 +98,17 @@
 3. 如果文件不存在，顯示錯誤消息。
 
 ------
-# 財務(研發中)
+# 財務
 ## FinancialTest.php
 1. 使用者輸入頁面
-## Financial-Result.php
-1. 使用者獲得openai畫面
+## chat.py
+1. 主要串接 OpenAI Files / Vector Store / Responses API，建立可對自有文件進行語意搜尋與問答的知識庫系統。
 ------
 # 炭權
 ## carbon_rights.php
-1. 介紹炭權(須補充更多)
-
+1. 介紹炭權
 ## count_CR.php
 1. 計算炭權
-
 ------
 # 綠能
 ## GP125.php
