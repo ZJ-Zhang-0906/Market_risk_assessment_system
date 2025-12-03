@@ -1,3 +1,5 @@
+![这是图片](螢幕擷取畫面 2025-11-26 133130.png "Magic Gardens")
+
 # 安裝
 1. 安裝xampp [下載頁面](https://www.apachefriends.org/zh_tw/download.html)
 2. 安裝 ChromeDriver 最新版本 [下載頁面](https://googlechromelabs.github.io/chrome-for-testing/)
