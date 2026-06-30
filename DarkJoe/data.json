@@ -6,13 +6,13 @@
     ],
     "py_moea_input": [
         {
-            "BusinessAccountingNO": "03077208",
+            "BusinessAccountingNO": "22099131",
             "CompanyStatusDesc": "核准設立",
-            "CompanyName": "中國信託商業銀行股份有限公司",
-            "CapitalStockAmount": "180000000000",
-            "PaidInCapitalAmount": "158016512400",
-            "ResponsibleName": "陳佳文",
-            "CompanyLocation": "臺北市南港區經貿二路166、168、170、186、188號"
+            "CompanyName": "台灣積體電路製造股份有限公司",
+            "CapitalStockAmount": "280500000000",
+            "PaidInCapitalAmount": "259325245210",
+            "ResponsibleName": "魏哲家",
+            "CompanyLocation": "新竹科學園區新竹市力行六路8號"
         }
     ],
     "py_mol_input": [
@@ -29,23 +29,23 @@
     ],
     "py_ppstrq_input": [
         {
-            "SerialNumber": 1,
-            "RegistrationAuthority": "新北市政府經濟發展局",
-            "CaseCategory": "動產抵押",
-            "DebtorName": "吉聖工業股份有限公司",
-            "NameOfMortgagee": "中國信託商業銀行股份有限公司城中",
+            "SerialNumber": 0,
+            "RegistrationAuthority": "0",
+            "CaseCategory": "0",
+            "DebtorName": "0",
+            "NameOfMortgagee": "0",
             "RegistrationNumber": 0,
-            "CaseStatus": "已過效期未註銷"
+            "CaseStatus": "0"
         }
     ],
     "twincn": [
         {
-            "BusinessAccountingNO": "03077208",
-            "CompanyName": "中國信託商業銀行股份有限公司",
-            "Lawsuit": "無資料",
+            "BusinessAccountingNO": "22099131",
+            "CompanyName": "台灣積體電路製造股份有限公司",
+            "Lawsuit": "法院案號 臺灣高等法院 臺中分院\n114年度聲字82號 案件類別 民事",
             "state": "營業中",
             "Use_unified_invoice": "有開統一發票",
-            "Change_money": "變更持股:\n陳佳文 的持股\n14,796,218,595 變更 15,801,651,240\n\n詹庭禎 的持股\n14,796,218,595 變更 15,801,651,240\n\n施茂林 的持股\n14,796,218,595 變更 15,801,651,240\n\n許妙靜 的持股\n14,796,218,595 變更 15,801,651,240\n\n楊榮宗 的持股\n14,796,218,595 變更 15,801,651,240\n\n施光訓 的持股\n14,796,218,595 變更 15,801,651,240\n\n楊聲勇 的持股\n14,796,218,595 變更 15,801,651,240\n\n劉長春 的持股\n14,796,218,595 變更 15,801,651,240\n\n季崇慧 的持股\n14,796,218,595 變更 15,801,651,240; 實收資本額由:\n147,962,185,950\n變更為\n158,016,512,400; 新增董監事:\n董事長 陳佳文 (中國信託金融控股股份有限公司); 負責人 缺額 變更為 陳佳文。; "
+            "Change_money": "新增董監事:\n董事 葉俊顯 (行政院國家發展基金管理會); 離職董監事:\n董事 劉鏡清 (行政院國家發展基金管理會); 離職經理人:\n羅唯仁 (093年08月10日); 離職經理人:\nRICHARD B. CASSIDY II (097年11月11日)\n余振華 (105年11月08日)\n李文如 (113年08月13日); 離職經理人:\n林錦坤 (099年08月10日); 變更持股:\n魏哲家 的持股\n6,392,834 變更 6,825,134; 實收資本額由:\n259,327,332,420\n變更為\n259,326,155,210; 新增經理人:\n陳培宏 (114年02月12日); "
         }
     ]
 }

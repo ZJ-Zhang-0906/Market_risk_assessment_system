@@ -98,3 +98,197 @@ file-AcggrP2VojMM8RR6d9QJZA|vs_685369c09fa88191ae987e9897b706b6
 檢查狀態（第1次）: completed
 向量存儲已準備就緒！
 file-AcggrP2VojMM8RR6d9QJZA, vector_store_id=vs_685369c09fa88191ae987e9897b706b6
+[2025-11-24 04:39:10] 檔案成功上傳至：uploads/20251124043910_test_unlocked.pdf
+[2025-11-24 04:39:11] 執行命令：chcp 65001 >nul & C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe pyy/chat.py upload "uploads/20251124043910_test_unlocked.pdf" 2>&1
+[2025-11-24 04:39:37] Python 回傳：已上傳檔案: 20251124043910_test_unlocked.pdf (ID: file-46RxqQ7xv9XvbrbBuk1JVu)
+檔案 ID: file-46RxqQ7xv9XvbrbBuk1JVu
+向量儲存建立成功，Vector Store ID: vs_6923d365c8208191ac5649d91b8a12c9
+檔案加入向量儲存結果： VectorStoreFile(id='file-46RxqQ7xv9XvbrbBuk1JVu', created_at=1763955558, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_6923d365c8208191ac5649d91b8a12c9', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: completed
+向量存儲已準備就緒！
+file-46RxqQ7xv9XvbrbBuk1JVu|vs_6923d365c8208191ac5649d91b8a12c9
+
+[2025-11-24 04:39:37] 建檔成功：file_id=已上傳檔案: 20251124043910_test_unlocked.pdf (ID: file-46RxqQ7xv9XvbrbBuk1JVu)
+檔案 ID: file-46RxqQ7xv9XvbrbBuk1JVu
+向量儲存建立成功，Vector Store ID: vs_6923d365c8208191ac5649d91b8a12c9
+檔案加入向量儲存結果： VectorStoreFile(id='file-46RxqQ7xv9XvbrbBuk1JVu', created_at=1763955558, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_6923d365c8208191ac5649d91b8a12c9', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: completed
+向量存儲已準備就緒！
+file-46RxqQ7xv9XvbrbBuk1JVu, vector_store_id=vs_6923d365c8208191ac5649d91b8a12c9
+[2025-11-26 07:24:19] 檔案成功上傳至：uploads/20251126072419_test_unlocked.pdf
+[2025-11-26 07:24:19] 執行命令：chcp 65001 >nul & C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe pyy/chat.py upload "uploads/20251126072419_test_unlocked.pdf" 2>&1
+[2025-11-26 07:24:48] Python 回傳：已上傳檔案: 20251126072419_test_unlocked.pdf (ID: file-5RhGbZovFAUdXhJpCTRm1f)
+檔案 ID: file-5RhGbZovFAUdXhJpCTRm1f
+向量儲存建立成功，Vector Store ID: vs_69269d1c8a988191b97a8a53b312aa51
+檔案加入向量儲存結果： VectorStoreFile(id='file-5RhGbZovFAUdXhJpCTRm1f', created_at=1764138269, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_69269d1c8a988191b97a8a53b312aa51', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第1次）: in_progress
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: completed
+向量存儲已準備就緒！
+file-5RhGbZovFAUdXhJpCTRm1f|vs_69269d1c8a988191b97a8a53b312aa51
+
+[2025-11-26 07:24:48] 建檔成功：file_id=已上傳檔案: 20251126072419_test_unlocked.pdf (ID: file-5RhGbZovFAUdXhJpCTRm1f)
+檔案 ID: file-5RhGbZovFAUdXhJpCTRm1f
+向量儲存建立成功，Vector Store ID: vs_69269d1c8a988191b97a8a53b312aa51
+檔案加入向量儲存結果： VectorStoreFile(id='file-5RhGbZovFAUdXhJpCTRm1f', created_at=1764138269, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_69269d1c8a988191b97a8a53b312aa51', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第1次）: in_progress
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: completed
+向量存儲已準備就緒！
+file-5RhGbZovFAUdXhJpCTRm1f, vector_store_id=vs_69269d1c8a988191b97a8a53b312aa51
+[2025-11-27 06:34:20] 檔案成功上傳至：uploads/20251127063420_test_unlocked.pdf
+[2025-11-27 06:34:20] 執行命令：chcp 65001 >nul & C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe pyy/chat.py upload "uploads/20251127063420_test_unlocked.pdf" 2>&1
+[2025-11-30 06:47:10] 檔案成功上傳至：uploads/20251130064710_test_unlocked.pdf
+[2025-11-30 06:47:10] 執行命令：chcp 65001 >nul & C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe pyy/chat.py upload "uploads/20251130064710_test_unlocked.pdf" 2>&1
+[2025-11-30 06:47:31] Python 回傳：已上傳檔案: 20251130064710_test_unlocked.pdf (ID: file-NCX3Pwz7BSLsN4cqSH9jZG)
+檔案 ID: file-NCX3Pwz7BSLsN4cqSH9jZG
+向量儲存建立成功，Vector Store ID: vs_692bda6459d08191aa9df280b5fd3643
+檔案加入向量儲存結果： VectorStoreFile(id='file-NCX3Pwz7BSLsN4cqSH9jZG', created_at=1764481638, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_692bda6459d08191aa9df280b5fd3643', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第2次）: completed
+向量存儲已準備就緒！
+file-NCX3Pwz7BSLsN4cqSH9jZG|vs_692bda6459d08191aa9df280b5fd3643
+
+[2025-11-30 06:47:31] 建檔成功：file_id=已上傳檔案: 20251130064710_test_unlocked.pdf (ID: file-NCX3Pwz7BSLsN4cqSH9jZG)
+檔案 ID: file-NCX3Pwz7BSLsN4cqSH9jZG
+向量儲存建立成功，Vector Store ID: vs_692bda6459d08191aa9df280b5fd3643
+檔案加入向量儲存結果： VectorStoreFile(id='file-NCX3Pwz7BSLsN4cqSH9jZG', created_at=1764481638, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_692bda6459d08191aa9df280b5fd3643', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第2次）: completed
+向量存儲已準備就緒！
+file-NCX3Pwz7BSLsN4cqSH9jZG, vector_store_id=vs_692bda6459d08191aa9df280b5fd3643
+[2025-12-02 03:51:21] 檔案成功上傳至：uploads/20251202035121_test_unlocked.pdf
+[2025-12-02 03:51:21] 執行命令：chcp 65001 >nul & C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe pyy/chat.py upload "uploads/20251202035121_test_unlocked.pdf" 2>&1
+[2025-12-02 03:51:49] Python 回傳：已上傳檔案: 20251202035121_test_unlocked.pdf (ID: file-Teg2uEGmVdhWfGZDZmsQ8R)
+檔案 ID: file-Teg2uEGmVdhWfGZDZmsQ8R
+向量儲存建立成功，Vector Store ID: vs_692e543174fc8191859f76fb81d0fc3a
+檔案加入向量儲存結果： VectorStoreFile(id='file-Teg2uEGmVdhWfGZDZmsQ8R', created_at=1764643891, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_692e543174fc8191859f76fb81d0fc3a', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第1次）: in_progress
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: completed
+向量存儲已準備就緒！
+file-Teg2uEGmVdhWfGZDZmsQ8R|vs_692e543174fc8191859f76fb81d0fc3a
+
+[2025-12-02 03:51:49] 建檔成功：file_id=已上傳檔案: 20251202035121_test_unlocked.pdf (ID: file-Teg2uEGmVdhWfGZDZmsQ8R)
+檔案 ID: file-Teg2uEGmVdhWfGZDZmsQ8R
+向量儲存建立成功，Vector Store ID: vs_692e543174fc8191859f76fb81d0fc3a
+檔案加入向量儲存結果： VectorStoreFile(id='file-Teg2uEGmVdhWfGZDZmsQ8R', created_at=1764643891, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_692e543174fc8191859f76fb81d0fc3a', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第1次）: in_progress
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: completed
+向量存儲已準備就緒！
+file-Teg2uEGmVdhWfGZDZmsQ8R, vector_store_id=vs_692e543174fc8191859f76fb81d0fc3a
+[2025-12-02 10:17:13] 檔案成功上傳至：uploads/20251202101713_test_unlocked.pdf
+[2025-12-02 10:17:13] 執行命令：chcp 65001 >nul & C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe pyy/chat.py upload "uploads/20251202101713_test_unlocked.pdf" 2>&1
+[2025-12-02 10:17:34] Python 回傳：已上傳檔案: 20251202101713_test_unlocked.pdf (ID: file-MSdQeQRBESCmaTswvmYyqH)
+檔案 ID: file-MSdQeQRBESCmaTswvmYyqH
+向量儲存建立成功，Vector Store ID: vs_692eae9ff71c8191acf0ed00a7ac0254
+檔案加入向量儲存結果： VectorStoreFile(id='file-MSdQeQRBESCmaTswvmYyqH', created_at=1764667042, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_692eae9ff71c8191acf0ed00a7ac0254', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第2次）: completed
+向量存儲已準備就緒！
+file-MSdQeQRBESCmaTswvmYyqH|vs_692eae9ff71c8191acf0ed00a7ac0254
+
+[2025-12-02 10:17:34] 建檔成功：file_id=已上傳檔案: 20251202101713_test_unlocked.pdf (ID: file-MSdQeQRBESCmaTswvmYyqH)
+檔案 ID: file-MSdQeQRBESCmaTswvmYyqH
+向量儲存建立成功，Vector Store ID: vs_692eae9ff71c8191acf0ed00a7ac0254
+檔案加入向量儲存結果： VectorStoreFile(id='file-MSdQeQRBESCmaTswvmYyqH', created_at=1764667042, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_692eae9ff71c8191acf0ed00a7ac0254', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第2次）: completed
+向量存儲已準備就緒！
+file-MSdQeQRBESCmaTswvmYyqH, vector_store_id=vs_692eae9ff71c8191acf0ed00a7ac0254
+[2025-12-04 04:08:30] 檔案成功上傳至：uploads/20251204040830_test_unlocked.pdf
+[2025-12-04 04:08:30] 執行命令：chcp 65001 >nul & C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe pyy/chat.py upload "uploads/20251204040830_test_unlocked.pdf" 2>&1
+[2025-12-04 04:09:53] Python 回傳：已上傳檔案: 20251204040830_test_unlocked.pdf (ID: file-5ZzfJwKJceK93unAeZZVgG)
+檔案 ID: file-5ZzfJwKJceK93unAeZZVgG
+向量儲存建立成功，Vector Store ID: vs_6930fb38ebec81918860261201fd3b1a
+檔案加入向量儲存結果： VectorStoreFile(id='file-5ZzfJwKJceK93unAeZZVgG', created_at=1764817722, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_6930fb38ebec81918860261201fd3b1a', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第1次）: in_progress
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: in_progress
+檢查狀態（第4次）: in_progress
+檢查狀態（第5次）: in_progress
+檢查狀態（第6次）: in_progress
+檢查狀態（第7次）: in_progress
+檢查狀態（第8次）: in_progress
+檢查狀態（第9次）: in_progress
+檢查狀態（第10次）: in_progress
+檢查狀態（第11次）: in_progress
+檢查狀態（第12次）: completed
+向量存儲已準備就緒！
+file-5ZzfJwKJceK93unAeZZVgG|vs_6930fb38ebec81918860261201fd3b1a
+
+[2025-12-04 04:09:53] 建檔成功：file_id=已上傳檔案: 20251204040830_test_unlocked.pdf (ID: file-5ZzfJwKJceK93unAeZZVgG)
+檔案 ID: file-5ZzfJwKJceK93unAeZZVgG
+向量儲存建立成功，Vector Store ID: vs_6930fb38ebec81918860261201fd3b1a
+檔案加入向量儲存結果： VectorStoreFile(id='file-5ZzfJwKJceK93unAeZZVgG', created_at=1764817722, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_6930fb38ebec81918860261201fd3b1a', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第1次）: in_progress
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: in_progress
+檢查狀態（第4次）: in_progress
+檢查狀態（第5次）: in_progress
+檢查狀態（第6次）: in_progress
+檢查狀態（第7次）: in_progress
+檢查狀態（第8次）: in_progress
+檢查狀態（第9次）: in_progress
+檢查狀態（第10次）: in_progress
+檢查狀態（第11次）: in_progress
+檢查狀態（第12次）: completed
+向量存儲已準備就緒！
+file-5ZzfJwKJceK93unAeZZVgG, vector_store_id=vs_6930fb38ebec81918860261201fd3b1a
+[2025-12-04 04:27:17] 檔案成功上傳至：uploads/20251204042717_test_unlocked.pdf
+[2025-12-04 04:27:17] 執行命令：chcp 65001 >nul & C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe pyy/chat.py upload "uploads/20251204042717_test_unlocked.pdf" 2>&1
+[2025-12-04 04:27:44] Python 回傳：已上傳檔案: 20251204042717_test_unlocked.pdf (ID: file-1k5wVH7Z9JV9NhXv3xLHaH)
+檔案 ID: file-1k5wVH7Z9JV9NhXv3xLHaH
+向量儲存建立成功，Vector Store ID: vs_6930ff9b53208191a30435e804e8d933
+檔案加入向量儲存結果： VectorStoreFile(id='file-1k5wVH7Z9JV9NhXv3xLHaH', created_at=1764818844, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_6930ff9b53208191a30435e804e8d933', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第1次）: in_progress
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: completed
+向量存儲已準備就緒！
+file-1k5wVH7Z9JV9NhXv3xLHaH|vs_6930ff9b53208191a30435e804e8d933
+
+[2025-12-04 04:27:44] 建檔成功：file_id=已上傳檔案: 20251204042717_test_unlocked.pdf (ID: file-1k5wVH7Z9JV9NhXv3xLHaH)
+檔案 ID: file-1k5wVH7Z9JV9NhXv3xLHaH
+向量儲存建立成功，Vector Store ID: vs_6930ff9b53208191a30435e804e8d933
+檔案加入向量儲存結果： VectorStoreFile(id='file-1k5wVH7Z9JV9NhXv3xLHaH', created_at=1764818844, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_6930ff9b53208191a30435e804e8d933', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第1次）: in_progress
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: completed
+向量存儲已準備就緒！
+file-1k5wVH7Z9JV9NhXv3xLHaH, vector_store_id=vs_6930ff9b53208191a30435e804e8d933
+[2025-12-05 02:51:43] 檔案成功上傳至：uploads/20251205025143_test_unlocked.pdf
+[2025-12-05 02:51:43] 執行命令：chcp 65001 >nul & C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe pyy/chat.py upload "uploads/20251205025143_test_unlocked.pdf" 2>&1
+[2025-12-05 02:52:11] Python 回傳：已上傳檔案: 20251205025143_test_unlocked.pdf (ID: file-Je2Xx5K2exBBtrC443TmhL)
+檔案 ID: file-Je2Xx5K2exBBtrC443TmhL
+向量儲存建立成功，Vector Store ID: vs_69323ab75c788191b20dffd0da66bda3
+檔案加入向量儲存結果： VectorStoreFile(id='file-Je2Xx5K2exBBtrC443TmhL', created_at=1764899512, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_69323ab75c788191b20dffd0da66bda3', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: completed
+向量存儲已準備就緒！
+file-Je2Xx5K2exBBtrC443TmhL|vs_69323ab75c788191b20dffd0da66bda3
+
+[2025-12-05 02:52:11] 建檔成功：file_id=已上傳檔案: 20251205025143_test_unlocked.pdf (ID: file-Je2Xx5K2exBBtrC443TmhL)
+檔案 ID: file-Je2Xx5K2exBBtrC443TmhL
+向量儲存建立成功，Vector Store ID: vs_69323ab75c788191b20dffd0da66bda3
+檔案加入向量儲存結果： VectorStoreFile(id='file-Je2Xx5K2exBBtrC443TmhL', created_at=1764899512, last_error=None, object='vector_store.file', status='in_progress', usage_bytes=0, vector_store_id='vs_69323ab75c788191b20dffd0da66bda3', attributes={}, chunking_strategy=StaticFileChunkingStrategyObject(static=StaticFileChunkingStrategy(chunk_overlap_tokens=400, max_chunk_size_tokens=800), type='static'))
+等待檔案處理完成...
+檢查狀態（第2次）: in_progress
+檢查狀態（第3次）: completed
+向量存儲已準備就緒！
+file-Je2Xx5K2exBBtrC443TmhL, vector_store_id=vs_69323ab75c788191b20dffd0da66bda3
+[2025-12-09 03:03:43] 檔案成功上傳至：uploads/20251209030343_test_unlocked.pdf
+[2025-12-09 03:03:43] 執行命令：chcp 65001 >nul & C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe pyy/chat.py upload "uploads/20251209030343_test_unlocked.pdf" 2>&1

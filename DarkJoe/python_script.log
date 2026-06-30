@@ -745,3 +745,946 @@ Data inserted for BusinessAccountingNO 03077208 with Lawsuit: µL¸ê®Æ, state: Àç·
 
 Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
 æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+BusinessAccountingNO: 86517510
+((201, '86517510', '¥É¤s°Ó·~»È¦æ'),)
+86517510
+²Î¤@½s¸¹¡G86517510
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¥É¤s°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G146320000000
+¹ê¦¬¸ê¥»ÃB(¤¸):146320000000
+¥Nªí¤H©m¦W¡G¶À¨k¦{
+¤½¥q©Ò¦b¦a¡G»O¥_¥«ªQ¤s°Ï¥Á¥ÍªF¸ô¤T¬q115¸¹¤Î117¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+Data inserted for BusinessAccountingNO 86517510 with Lawsuit: ªk°|®×¸¹ ®ç¶éÂ²©ö®x
+113¦~«×®ç¤p¦r2035¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ¥É¤s°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q, Shareholder_info: ÅÜ§ó«ùªÑ:
+¶À¨k¦{ ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+³Á¼e¦¨ ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+±i¤éª¢ ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+¶À«T³ó ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+½²­^ªY ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+¥C§»©÷ ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+¿½·çÅï ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+³¯«Â¿« ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+§d«Ø¥ß ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+³¯¬üº¡ ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+³¯­Z´Ü ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000
+
+ªL¶©¬F ªº«ùªÑ
+12,992,900,000 ÅÜ§ó 14,632,000,000; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+129,929,000,000
+ÅÜ§ó¬°
+146,320,000,000; µn°O¸ê¥»ÃB¥Ñ:
+129,929,000,000
+ÅÜ§ó¬°
+146,320,000,000; 
+¬dµL²Å¦X®×¥ó!!
+No data found, inserting 0 into database.
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 55, in <module>
+    main()
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 50, in main
+    fetch_openai_response(OPENAI_API_KEY,question)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\openaitest.py", line 30, in fetch_openai_response
+    completion = client.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_utils\_utils.py", line 287, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\resources\chat\completions\completions.py", line 925, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1239, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\openai\_base_client.py", line 1034, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.RateLimitError: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+Pythonè„šæœ¬æœªç”Ÿæˆé¢„æœŸçš„è¾“å‡ºæ–‡ä»¶
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-5 (fetch_data_and_insert_to_twincn):
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+Exception in thread Thread-3 (fetch_data_and_insert_to_py_mol_input):
+Exception in thread Thread-4 (fetch_data_and_insert_to_py_ppstrq_input):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+Exception in thread Thread-1 (fetch_data_and_insert_to_py_moea_input):
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\MOL_SQL.py", line 104, in fetch_data_and_insert_to_py_mol_input
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\fetch.py", line 23, in fetch_data_and_insert_to_twincn
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\propertyQuery.py", line 11, in fetch_data_and_insert_to_py_ppstrq_input
+    conn, driver = connect()  # ¨Ï¥Îconnect¨ç\u6570\u6765\u83b7¨ú\u8fde±µ©M\u9a71\u52a8¾¹
+                   ^^^^^^^^^
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\connet_db.py", line 12, in connect
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\moea.py", line 11, in fetch_data_and_insert_to_py_moea_input
+    conn, driver = connect()
+                   ^^^^^^^^^
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\connet_db.py", line 12, in connect
+    driver = webdriver.Chrome(service=service)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    self._target(*self._args, **self._kwargs)
+    conn, driver = connect()
+    conn, driver = connect()
+    driver = webdriver.Chrome(service=service)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 210, in fetch_data_and_insert_to_py_prtr_input
+                   ^^^^^^^^^
+                   ^^^^^^^^^
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\connet_db.py", line 12, in connect
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\connet_db.py", line 12, in connect
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    driver = webdriver.Chrome(service=service)
+    driver = webdriver.Chrome(service=service)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    conn, driver = connect()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+                   ^^^^^^^^^
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\connet_db.py", line 12, in connect
+    driver = webdriver.Chrome(service=service)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 61, in __init__
+    super().__init__(
+    super().__init__(
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 61, in __init__
+    super().__init__(
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 61, in __init__
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 61, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    self.start_session(capabilities)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    self.start_session(capabilities)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    self.start_session(capabilities)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.start_session(capabilities)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    self.error_handler.check_response(response)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    self.error_handler.check_response(response)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    self.error_handler.check_response(response)
+    self.error_handler.check_response(response)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 142.0.7444.176 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff66e4efe75+79173]
+	GetHandleVerifier [0x0x7ff66e4efed0+79264]
+	(No symbol) [0x0x7ff66e2a9e5a]
+	(No symbol) [0x0x7ff66e2ee26f]
+	(No symbol) [0x0x7ff66e2ed2bb]
+	(No symbol) [0x0x7ff66e2e68ed]
+	(No symbol) [0x0x7ff66e2e2b1d]
+	(No symbol) [0x0x7ff66e3367de]
+	(No symbol) [0x0x7ff66e335f70]
+	(No symbol) [0x0x7ff66e328743]
+	(No symbol) [0x0x7ff66e2f14c1]
+	(No symbol) [0x0x7ff66e2f2253]
+	GetHandleVerifier [0x0x7ff66e7ba2ad+3004797]
+	GetHandleVerifier [0x0x7ff66e7b46fd+2981325]
+	GetHandleVerifier [0x0x7ff66e7d3350+3107360]
+	GetHandleVerifier [0x0x7ff66e50a9fe+188622]
+	GetHandleVerifier [0x0x7ff66e51228f+219487]
+	GetHandleVerifier [0x0x7ff66e4f8dc4+115860]
+	GetHandleVerifier [0x0x7ff66e4f8f79+116297]
+	GetHandleVerifier [0x0x7ff66e4df528+11256]
+	BaseThreadInitThunk [0x0x7ff9be667374+20]
+	RtlUserThreadStart [0x0x7ff9bf17cc91+33]
+
+    raise exception_class(message, screen, stacktrace)
+    raise exception_class(message, screen, stacktrace)
+    raise exception_class(message, screen, stacktrace)
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 142.0.7444.176 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff66e4efe75+79173]
+	GetHandleVerifier [0x0x7ff66e4efed0+79264]
+	(No symbol) [0x0x7ff66e2a9e5a]
+	(No symbol) [0x0x7ff66e2ee26f]
+	(No symbol) [0x0x7ff66e2ed2bb]
+	(No symbol) [0x0x7ff66e2e68ed]
+	(No symbol) [0x0x7ff66e2e2b1d]
+	(No symbol) [0x0x7ff66e3367de]
+	(No symbol) [0x0x7ff66e335f70]
+	(No symbol) [0x0x7ff66e328743]
+	(No symbol) [0x0x7ff66e2f14c1]
+	(No symbol) [0x0x7ff66e2f2253]
+	GetHandleVerifier [0x0x7ff66e7ba2ad+3004797]
+	GetHandleVerifier [0x0x7ff66e7b46fd+2981325]
+	GetHandleVerifier [0x0x7ff66e7d3350+3107360]
+	GetHandleVerifier [0x0x7ff66e50a9fe+188622]
+	GetHandleVerifier [0x0x7ff66e51228f+219487]
+	GetHandleVerifier [0x0x7ff66e4f8dc4+115860]
+	GetHandleVerifier [0x0x7ff66e4f8f79+116297]
+	GetHandleVerifier [0x0x7ff66e4df528+11256]
+	BaseThreadInitThunk [0x0x7ff9be667374+20]
+	RtlUserThreadStart [0x0x7ff9bf17cc91+33]
+
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 142.0.7444.176 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff66e4efe75+79173]
+	GetHandleVerifier [0x0x7ff66e4efed0+79264]
+	(No symbol) [0x0x7ff66e2a9e5a]
+	(No symbol) [0x0x7ff66e2ee26f]
+	(No symbol) [0x0x7ff66e2ed2bb]
+	(No symbol) [0x0x7ff66e2e68ed]
+	(No symbol) [0x0x7ff66e2e2b1d]
+	(No symbol) [0x0x7ff66e3367de]
+	(No symbol) [0x0x7ff66e335f70]
+	(No symbol) [0x0x7ff66e328743]
+	(No symbol) [0x0x7ff66e2f14c1]
+	(No symbol) [0x0x7ff66e2f2253]
+	GetHandleVerifier [0x0x7ff66e7ba2ad+3004797]
+	GetHandleVerifier [0x0x7ff66e7b46fd+2981325]
+	GetHandleVerifier [0x0x7ff66e7d3350+3107360]
+	GetHandleVerifier [0x0x7ff66e50a9fe+188622]
+	GetHandleVerifier [0x0x7ff66e51228f+219487]
+	GetHandleVerifier [0x0x7ff66e4f8dc4+115860]
+	GetHandleVerifier [0x0x7ff66e4f8f79+116297]
+	GetHandleVerifier [0x0x7ff66e4df528+11256]
+	BaseThreadInitThunk [0x0x7ff9be667374+20]
+	RtlUserThreadStart [0x0x7ff9bf17cc91+33]
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 142.0.7444.176 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff66e4efe75+79173]
+	GetHandleVerifier [0x0x7ff66e4efed0+79264]
+	(No symbol) [0x0x7ff66e2a9e5a]
+	(No symbol) [0x0x7ff66e2ee26f]
+	(No symbol) [0x0x7ff66e2ed2bb]
+	(No symbol) [0x0x7ff66e2e68ed]
+	(No symbol) [0x0x7ff66e2e2b1d]
+	(No symbol) [0x0x7ff66e3367de]
+	(No symbol) [0x0x7ff66e335f70]
+	(No symbol) [0x0x7ff66e328743]
+	(No symbol) [0x0x7ff66e2f14c1]
+	(No symbol) [0x0x7ff66e2f2253]
+	GetHandleVerifier [0x0x7ff66e7ba2ad+3004797]
+	GetHandleVerifier [0x0x7ff66e7b46fd+2981325]
+	GetHandleVerifier [0x0x7ff66e7d3350+3107360]
+	GetHandleVerifier [0x0x7ff66e50a9fe+188622]
+	GetHandleVerifier [0x0x7ff66e51228f+219487]
+	GetHandleVerifier [0x0x7ff66e4f8dc4+115860]
+	GetHandleVerifier [0x0x7ff66e4f8f79+116297]
+	GetHandleVerifier [0x0x7ff66e4df528+11256]
+	BaseThreadInitThunk [0x0x7ff9be667374+20]
+	RtlUserThreadStart [0x0x7ff9bf17cc91+33]
+
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 142.0.7444.176 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff66e4efe75+79173]
+	GetHandleVerifier [0x0x7ff66e4efed0+79264]
+	(No symbol) [0x0x7ff66e2a9e5a]
+	(No symbol) [0x0x7ff66e2ee26f]
+	(No symbol) [0x0x7ff66e2ed2bb]
+	(No symbol) [0x0x7ff66e2e68ed]
+	(No symbol) [0x0x7ff66e2e2b1d]
+	(No symbol) [0x0x7ff66e3367de]
+	(No symbol) [0x0x7ff66e335f70]
+	(No symbol) [0x0x7ff66e328743]
+	(No symbol) [0x0x7ff66e2f14c1]
+	(No symbol) [0x0x7ff66e2f2253]
+	GetHandleVerifier [0x0x7ff66e7ba2ad+3004797]
+	GetHandleVerifier [0x0x7ff66e7b46fd+2981325]
+	GetHandleVerifier [0x0x7ff66e7d3350+3107360]
+	GetHandleVerifier [0x0x7ff66e50a9fe+188622]
+	GetHandleVerifier [0x0x7ff66e51228f+219487]
+	GetHandleVerifier [0x0x7ff66e4f8dc4+115860]
+	GetHandleVerifier [0x0x7ff66e4f8f79+116297]
+	GetHandleVerifier [0x0x7ff66e4df528+11256]
+	BaseThreadInitThunk [0x0x7ff9be667374+20]
+	RtlUserThreadStart [0x0x7ff9bf17cc91+33]
+
+
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 55, in <module>
+    main()
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\main.py", line 44, in main
+    question=fetch_and_clean_data()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 15, in fetch_and_clean_data
+    conn, driver = connect()
+                   ^^^^^^^^^
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\connet_db.py", line 12, in connect
+    driver = webdriver.Chrome(service=service)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chrome\webdriver.py", line 45, in __init__
+    super().__init__(
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\chromium\webdriver.py", line 61, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 208, in __init__
+    self.start_session(capabilities)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 292, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.SessionNotCreatedException: Message: session not created: This version of ChromeDriver only supports Chrome version 137
+Current browser version is 142.0.7444.176 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Stacktrace:
+	GetHandleVerifier [0x0x7ff66e4efe75+79173]
+	GetHandleVerifier [0x0x7ff66e4efed0+79264]
+	(No symbol) [0x0x7ff66e2a9e5a]
+	(No symbol) [0x0x7ff66e2ee26f]
+	(No symbol) [0x0x7ff66e2ed2bb]
+	(No symbol) [0x0x7ff66e2e68ed]
+	(No symbol) [0x0x7ff66e2e2b1d]
+	(No symbol) [0x0x7ff66e3367de]
+	(No symbol) [0x0x7ff66e335f70]
+	(No symbol) [0x0x7ff66e328743]
+	(No symbol) [0x0x7ff66e2f14c1]
+	(No symbol) [0x0x7ff66e2f2253]
+	GetHandleVerifier [0x0x7ff66e7ba2ad+3004797]
+	GetHandleVerifier [0x0x7ff66e7b46fd+2981325]
+	GetHandleVerifier [0x0x7ff66e7d3350+3107360]
+	GetHandleVerifier [0x0x7ff66e50a9fe+188622]
+	GetHandleVerifier [0x0x7ff66e51228f+219487]
+	GetHandleVerifier [0x0x7ff66e4f8dc4+115860]
+	GetHandleVerifier [0x0x7ff66e4f8f79+116297]
+	GetHandleVerifier [0x0x7ff66e4df528+11256]
+	BaseThreadInitThunk [0x0x7ff9be667374+20]
+	RtlUserThreadStart [0x0x7ff9bf17cc91+33]
+
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+Pythonè„šæœ¬æœªç”Ÿæˆé¢„æœŸçš„è¾“å‡ºæ–‡ä»¶
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+No data found, inserting 0 into database.
+((203, '03077208', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+03077208
+²Î¤@½s¸¹¡G03077208
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G180000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):171284526880
+¥Nªí¤H©m¦W¡G³¯¨Î¤å
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô166¡B168¡B170¡B186¡B188¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+BusinessAccountingNO: 03077208
+['1', '·s¥_¥«¬F©²¸gÀÙµo®i§½', '°Ê²£©è©ã', '¦N¸t¤u·~ªÑ¥÷¦³­­¤½¥q', '¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q«°¤¤', '¤u(¤¤)°Ê¦r²Ä066323¸¹', '¤w¹L®Ä´Á¥¼µù¾P']
+Data inserted for BusinessAccountingNO 03077208 with Lawsuit: ªk°|®×¸¹ »OÆW¹ü¤Æ¦a¤èªk°|
+114¦~«×®ø¶Å§Ü¦r12¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q, Shareholder_info: ·s¼W¸³ºÊ¨Æ:
+¸³¨Æ ¾G®õ§J (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q)
+¸³¨Æ ¤ı¥¿·s (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q)
+¸³¨Æ »¯°ê«Ó (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q); ÅÜ§ó«ùªÑ:
+³¯¨Î¤å ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688
+
+·¨ºa©v ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688
+
+¬I¥ú°V ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688
+
+·¨Án«i ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688
+
+¼Bªø¬K ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688
+
+©u±R¼z ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688; Â÷Â¾¸³ºÊ¨Æ:
+°Æ¸³¨Æªø ¸â®xºÕ (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q)
+¸³¨Æ ¬I­ZªL (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q)
+¸³¨Æ ³\§®ÀR (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q); ¹ê¦¬¸ê¥»ÃB¥Ñ:
+158,016,512,400
+ÅÜ§ó¬°
+171,284,526,880; 
+No data found, inserting 0 into database.
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+BusinessAccountingNO: 03077208
+((204, '03077208', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+03077208
+²Î¤@½s¸¹¡G03077208
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G180000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):171284526880
+¥Nªí¤H©m¦W¡G³¯¨Î¤å
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô166¡B168¡B170¡B186¡B188¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+['1', '·s¥_¥«¬F©²¸gÀÙµo®i§½', '°Ê²£©è©ã', '¦N¸t¤u·~ªÑ¥÷¦³­­¤½¥q', '¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q«°¤¤', '¤u(¤¤)°Ê¦r²Ä066323¸¹', '¤w¹L®Ä´Á¥¼µù¾P']
+No data found, inserting 0 into database.
+Data inserted for BusinessAccountingNO 03077208 with Lawsuit: ªk°|®×¸¹ »OÆW¹ü¤Æ¦a¤èªk°|
+114¦~«×®ø¶Å§Ü¦r12¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°U°Ó·~»È¦æªÑ¥÷¦³­­¤½¥q, Shareholder_info: ·s¼W¸³ºÊ¨Æ:
+¸³¨Æ ¾G®õ§J (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q)
+¸³¨Æ ¤ı¥¿·s (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q)
+¸³¨Æ »¯°ê«Ó (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q); ÅÜ§ó«ùªÑ:
+³¯¨Î¤å ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688
+
+·¨ºa©v ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688
+
+¬I¥ú°V ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688
+
+·¨Án«i ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688
+
+¼Bªø¬K ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688
+
+©u±R¼z ªº«ùªÑ
+15,801,651,240 ÅÜ§ó 17,128,452,688; Â÷Â¾¸³ºÊ¨Æ:
+°Æ¸³¨Æªø ¸â®xºÕ (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q)
+¸³¨Æ ¬I­ZªL (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q)
+¸³¨Æ ³\§®ÀR (¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q); ¹ê¦¬¸ê¥»ÃB¥Ñ:
+158,016,512,400
+ÅÜ§ó¬°
+171,284,526,880; 
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+((205, '80333992', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+80333992
+BusinessAccountingNO: 80333992
+²Î¤@½s¸¹¡G80333992
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G320000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):201497561140
+¥Nªí¤H©m¦W¡GÃC¤å¶©
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô168¸¹27¼Ó¡B29¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+Data inserted for BusinessAccountingNO 80333992 with Lawsuit: ªk°|®×¸¹ »OÆW»O¤¤¦a¤èªk°|
+113¦~«×®aÄ~¶D¦r235¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: µL¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q, Shareholder_info: ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,503,708,350
+ÅÜ§ó¬°
+201,497,561,140; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æ ³¯¨Î¤å (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); Â÷Â¾¸³ºÊ¨Æ:
+¸³¨Æ ¶d¥ò½Ì (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,532,667,300
+ÅÜ§ó¬°
+201,503,708,350; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,203,058,630
+ÅÜ§ó¬°
+201,532,667,300; 
+¬dµL²Å¦X®×¥ó!!
+No data found, inserting 0 into database.
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+((206, '80333992', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+80333992
+BusinessAccountingNO: 80333992
+²Î¤@½s¸¹¡G80333992
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G320000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):201497561140
+¥Nªí¤H©m¦W¡GÃC¤å¶©
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô168¸¹27¼Ó¡B29¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+No data found, inserting 0 into database.
+Data inserted for BusinessAccountingNO 80333992 with Lawsuit: ªk°|®×¸¹ »OÆW»O¤¤¦a¤èªk°|
+113¦~«×®aÄ~¶D¦r235¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: µL¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q, Shareholder_info: ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,503,708,350
+ÅÜ§ó¬°
+201,497,561,140; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æ ³¯¨Î¤å (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); Â÷Â¾¸³ºÊ¨Æ:
+¸³¨Æ ¶d¥ò½Ì (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,532,667,300
+ÅÜ§ó¬°
+201,503,708,350; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,203,058,630
+ÅÜ§ó¬°
+201,532,667,300; 
+¬dµL²Å¦X®×¥ó!!
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+BusinessAccountingNO: 80333992
+((207, '80333992', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+80333992
+²Î¤@½s¸¹¡G80333992
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G320000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):201497561140
+¥Nªí¤H©m¦W¡GÃC¤å¶©
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô168¸¹27¼Ó¡B29¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+¬dµL²Å¦X®×¥ó!!
+Data inserted for BusinessAccountingNO 80333992 with Lawsuit: ªk°|®×¸¹ »OÆW»O¤¤¦a¤èªk°|
+113¦~«×®aÄ~¶D¦r235¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: µL¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q, Shareholder_info: ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,503,708,350
+ÅÜ§ó¬°
+201,497,561,140; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æ ³¯¨Î¤å (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); Â÷Â¾¸³ºÊ¨Æ:
+¸³¨Æ ¶d¥ò½Ì (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,532,667,300
+ÅÜ§ó¬°
+201,503,708,350; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,203,058,630
+ÅÜ§ó¬°
+201,532,667,300; 
+No data found, inserting 0 into database.
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+BusinessAccountingNO: 80333992
+((208, '80333992', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+80333992
+²Î¤@½s¸¹¡G80333992
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G320000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):201497561140
+¥Nªí¤H©m¦W¡GÃC¤å¶©
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô168¸¹27¼Ó¡B29¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+¬dµL²Å¦X®×¥ó!!
+Data inserted for BusinessAccountingNO 80333992 with Lawsuit: ªk°|®×¸¹ »OÆW»O¤¤¦a¤èªk°|
+113¦~«×®aÄ~¶D¦r235¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: µL¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q, Shareholder_info: ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,503,708,350
+ÅÜ§ó¬°
+201,497,561,140; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æ ³¯¨Î¤å (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); Â÷Â¾¸³ºÊ¨Æ:
+¸³¨Æ ¶d¥ò½Ì (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,532,667,300
+ÅÜ§ó¬°
+201,503,708,350; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,203,058,630
+ÅÜ§ó¬°
+201,532,667,300; 
+No data found, inserting 0 into database.
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+BusinessAccountingNO: 80333992
+((209, '80333992', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+80333992
+²Î¤@½s¸¹¡G80333992
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G320000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):201497561140
+¥Nªí¤H©m¦W¡GÃC¤å¶©
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô168¸¹27¼Ó¡B29¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+¬dµL²Å¦X®×¥ó!!
+Data inserted for BusinessAccountingNO 80333992 with Lawsuit: ªk°|®×¸¹ »OÆW»O¤¤¦a¤èªk°|
+113¦~«×®aÄ~¶D¦r235¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: µL¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q, Shareholder_info: ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,503,708,350
+ÅÜ§ó¬°
+201,497,561,140; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æ ³¯¨Î¤å (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); Â÷Â¾¸³ºÊ¨Æ:
+¸³¨Æ ¶d¥ò½Ì (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,532,667,300
+ÅÜ§ó¬°
+201,503,708,350; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,203,058,630
+ÅÜ§ó¬°
+201,532,667,300; 
+No data found, inserting 0 into database.
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+BusinessAccountingNO: 80333992
+((210, '80333992', '¤¤°ê«H°U°Ó·~»È¦æ'),)
+80333992
+²Î¤@½s¸¹¡G80333992
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G320000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):201497561140
+¥Nªí¤H©m¦W¡GÃC¤å¶©
+¤½¥q©Ò¦b¦a¡G»O¥_¥««n´ä°Ï¸g¶T¤G¸ô168¸¹27¼Ó¡B29¼Ó
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+¬dµL²Å¦X®×¥ó!!
+Data inserted for BusinessAccountingNO 80333992 with Lawsuit: ªk°|®×¸¹ »OÆW»O¤¤¦a¤èªk°|
+113¦~«×®aÄ~¶D¦r235¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: µL¶}²Î¤@µo²¼, CompanyName: ¤¤°ê«H°Uª÷¿Ä±±ªÑªÑ¥÷¦³­­¤½¥q, Shareholder_info: ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,503,708,350
+ÅÜ§ó¬°
+201,497,561,140; ·s¼W¸³ºÊ¨Æ:
+¸³¨Æ ³¯¨Î¤å (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); Â÷Â¾¸³ºÊ¨Æ:
+¸³¨Æ ¶d¥ò½Ì (¥ò»·§ë¸êªÑ¥÷¦³­­¤½¥q); ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,532,667,300
+ÅÜ§ó¬°
+201,503,708,350; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+201,203,058,630
+ÅÜ§ó¬°
+201,532,667,300; 
+No data found, inserting 0 into database.
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+BusinessAccountingNO: 16347324
+((211, '16347324', '¥x°p¬ì§ŞªÑ¥÷¦³­­¤½¥q'),)
+16347324
+²Î¤@½s¸¹¡G16347324
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¥x°p¬ì§ŞªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G6000000000
+¹ê¦¬¸ê¥»ÃB(¤¸):3231314810
+¥Nªí¤H©m¦W¡G¾G©ú´¼
+¤½¥q©Ò¦b¦a¡G°ª¶¯¥«¤j¼d°Ï©Mµo²£·~¶é°Ï¤Wµo¤­¸ô1¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+['1', '°ª¶¯¥«¬F©²¸gÀÙµo®i§½', 'ªş±ø¥ó¶R½æ', '¥x°p¬ì§ŞªÑ¥÷¦³­­¤½¥q', '¤j²î¬ì§ŞªÑ¥÷¦³­­¤½¥q', '¤u(¤¤)ªş¦r²Ä038371¸¹', '¤w¹L®Ä´Á¥¼µù¾P']
+Data inserted for BusinessAccountingNO 16347324 with Lawsuit: ªk°|®×¸¹ »OÆW°ª¶¯¦a¤èªk°|
+113¦~«×­«¶D¦r211¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ¥x°p¬ì§ŞªÑ¥÷¦³­­¤½¥q, Shareholder_info: ·s¼W¸g²z¤H:
+CHENG DAVID (114¦~06¤ë01¤é); Â÷Â¾¸g²z¤H:
+¾G©ú´¼ (095¦~06¤ë23¤é); ·s¼W¸³ºÊ¨Æ:
+¸³¨Æ ³¯±`­× (´¼Áp§ë¸êªÑ¥÷¦³­­¤½¥q)
+¿W¥ß¸³¨Æ ±iª÷¶î; Â÷Â¾¸³ºÊ¨Æ:
+¿W¥ß¸³¨Æ ´¿¬f¿Ù
+¸³¨Æ ³¯¥Ã©÷ (´¼Áp§ë¸êªÑ¥÷¦³­­¤½¥q); ¹ê¦¬¸ê¥»ÃB¥Ñ:
+3,232,009,810
+ÅÜ§ó¬°
+3,231,679,810; 
+No data found, inserting 0 into database.
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
+Script started
+æ•°æ®æ’å…¥æˆåŠŸ
+æ—§çš„data.jsonæ–‡ä»¶å·²åˆ é™¤
+æ—§çš„respon.jsonæ–‡ä»¶å·²åˆ é™¤
+æ‰§è¡Œå‘½ä»¤: C:/Users/ZJ/AppData/Local/Programs/Python/Python311/python.exe C:/xampp/htdocs/Market_risk_assessment_system/DarkJoe/pyy/main.py 2>&1
+å‘½ä»¤è¾“å‡º: Exception in thread Thread-2 (fetch_data_and_insert_to_py_prtr_input):
+Traceback (most recent call last):
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 223, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\U0001f4cc ¬d¸ß¤½¥q¡G{company_name}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\U0001f4cc' in position 0: illegal multibyte sequence
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 1038, in _bootstrap_inner
+    self.run()
+  File "C:\Users\ZJ\AppData\Local\Programs\Python\Python311\Lib\threading.py", line 975, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\xampp\htdocs\Market_risk_assessment_system\DarkJoe\pyy\PRTRtest.py", line 291, in fetch_data_and_insert_to_py_prtr_input
+    print(f"\u274c µo¥Í¿ù»~¡G{e}")
+UnicodeEncodeError: 'cp950' codec can't encode character '\u274c' in position 0: illegal multibyte sequence
+BusinessAccountingNO: 22099131
+((212, '22099131', '¥x¿n¹q'),)
+22099131
+²Î¤@½s¸¹¡G22099131
+¤½¥qª¬ªp¡G®Ö­ã³]¥ß
+¤½¥q¦WºÙ¡G¥xÆW¿nÅé¹q¸ô»s³yªÑ¥÷¦³­­¤½¥q
+¸ê¥»Á`ÃB(¤¸)¡G280500000000
+¹ê¦¬¸ê¥»ÃB(¤¸):259325245210
+¥Nªí¤H©m¦W¡GÃQ­õ®a
+¤½¥q©Ò¦b¦a¡G·s¦Ë¬ì¾Ç¶é°Ï·s¦Ë¥«¤O¦æ¤»¸ô8¸¹
+¸ê®Æ¤w¦¨¥\´¡¤J¨ì¸ê®Æ®w¡A¨Ã¬° web_input ªí²K¥[¤F¯Á¤Ş¡C
+Data inserted for BusinessAccountingNO 22099131 with Lawsuit: ªk°|®×¸¹ »OÆW°ªµ¥ªk°| »O¤¤¤À°|
+114¦~«×Án¦r82¸¹ ®×¥óÃş§O ¥Á¨Æ, state: Àç·~¤¤, Use_unified_invoice: ¦³¶}²Î¤@µo²¼, CompanyName: ¥xÆW¿nÅé¹q¸ô»s³yªÑ¥÷¦³­­¤½¥q, Shareholder_info: ·s¼W¸³ºÊ¨Æ:
+¸³¨Æ ¸­«TÅã (¦æ¬F°|°ê®aµo®i°òª÷ºŞ²z·|); Â÷Â¾¸³ºÊ¨Æ:
+¸³¨Æ ¼BÃè²M (¦æ¬F°|°ê®aµo®i°òª÷ºŞ²z·|); Â÷Â¾¸g²z¤H:
+Ã¹°ß¤¯ (093¦~08¤ë10¤é); Â÷Â¾¸g²z¤H:
+RICHARD B. CASSIDY II (097¦~11¤ë11¤é)
+§E®¶µØ (105¦~11¤ë08¤é)
+§õ¤å¦p (113¦~08¤ë13¤é); Â÷Â¾¸g²z¤H:
+ªLÀA©[ (099¦~08¤ë10¤é); ÅÜ§ó«ùªÑ:
+ÃQ­õ®a ªº«ùªÑ
+6,392,834 ÅÜ§ó 6,825,134; ¹ê¦¬¸ê¥»ÃB¥Ñ:
+259,327,332,420
+ÅÜ§ó¬°
+259,326,155,210; ·s¼W¸g²z¤H:
+³¯°ö§» (114¦~02¤ë12¤é); 
+No data found, inserting 0 into database.
+¬dµL²Å¦X®×¥ó!!
+
+Pythonè„šæœ¬è¾“å‡ºå·²å†™å…¥æ—¥å¿—æ–‡ä»¶
+æ–°çš„JSONæ–‡ä»¶å·²ç”Ÿæˆ
